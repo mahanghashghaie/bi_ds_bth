@@ -1,0 +1,17 @@
+SELECT ?cid (STR(SAMPLE(?year)) AS ?year)?month (COUNT(*) AS ?count) ?cause WHERE {
+  ?pid wdt:P31 wd:Q5.
+  ?pid wdt:P509 ?cid.
+  ?pid wdt:P570 ?_date_of_death.
+  ?cid wdt:P279* wd:Q12136.
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en".
+    ?cid rdfs:label ?cause.
+  }
+  BIND(YEAR(?_date_of_death) AS ?year)
+  BIND(MONTH(?_date_of_death) AS ?month)
+  FILTER(?year > 2005)
+  FILTER(?year < 2007)
+  FILTER(?month < 06)
+  FILTER(?month > 02)
+}
+GROUP BY ?cid ?cause ?year ?month
