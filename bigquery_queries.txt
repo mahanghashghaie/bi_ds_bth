@@ -1,4 +1,9 @@
-Zika mentions
-SELECT * FROM [gdelt-bq:gdeltv2.eventmentions]
+#Zika mentions
+
+
+
+
+#Zika mentions per month without limit
+
+SELECT MentionSourceName , MentionType, MentionIdentifier, SUBSTR(CAST(MentionTimeDate as STRING),1,4) as Year,SUBSTR(CAST(MentionTimeDate as STRING),5,2) as Month FROM [gdelt-bq:gdeltv2.eventmentions]
 where MentionIdentifier like '%zika%'
-LIMIT 1000
