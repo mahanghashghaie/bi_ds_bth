@@ -1,0 +1,4 @@
+Zika mentions
+SELECT * FROM [gdelt-bq:gdeltv2.eventmentions]
+where MentionIdentifier like '%zika%'
+LIMIT 1000
