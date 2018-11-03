@@ -1,4 +1,21 @@
--- find all the queries containing either of the mentioned words
+-- users who queried for lgbtq related terms
+select distinct anon.ANONID, QUERY, facts.IRANK, facts.CLICK
+from (select distinct ID, query
+      from AOL_SCHEMA.QUERYDIM
+      where lower(QUERY) like '%lgbt%' or
+            lower(QUERY) like '%pride%' or
+            lower(QUERY) like '%pride%parade%' or
+            lower(QUERY) like '%gay%' or
+            lower(QUERY) like '%lesbian%' or
+            lower(QUERY) like '%transgender%') query
+       inner join AOL_SCHEMA.FACTS facts
+         on query.ID = facts.QUERYID
+       inner join AOL_SCHEMA.ANONIDDIM anon
+         on facts.ANONID = anon.ID
+order by anon.ANONID, QUERY;
+
+
+-- users who queried for std related terms
 select distinct anon.ANONID, QUERY, facts.IRANK, facts.CLICK
 from (select distinct ID, query
       from AOL_SCHEMA.QUERYDIM
@@ -15,3 +32,47 @@ from (select distinct ID, query
        inner join AOL_SCHEMA.ANONIDDIM anon
          on facts.ANONID = anon.ID
 order by anon.ANONID, QUERY;
+
+
+-- users who queried for lgbtq related terms if they also queried for std related terms
+with cte as (
+            select distinct anon.ANONID, QUERY, facts.IRANK, facts.CLICK
+            from (select distinct ID, query
+                  from AOL_SCHEMA.QUERYDIM
+                  where lower(QUERY) like '%lgbt%' or
+                        lower(QUERY) like '%pride%' or
+                        lower(QUERY) like '%pride%parade%' or
+                        lower(QUERY) like '%gay%' or
+                        lower(QUERY) like '%lesbian%' or
+                        lower(QUERY) like '%transgender%'
+                  ) query
+                   inner join AOL_SCHEMA.FACTS facts
+                     on query.ID = facts.QUERYID
+                   inner join AOL_SCHEMA.ANONIDDIM anon
+                     on facts.ANONID = anon.ID
+            ),
+     cte1 as
+    (
+    select distinct times."month", anon1.ANONID, QUERY, facts1.IRANK, facts1.CLICK
+    from (select distinct id, query
+          from AOL_SCHEMA.QUERYDIM
+          where lower(QUERY) like '% std %' or
+                lower(QUERY) like '% sti %' or
+                lower(QUERY) like '%std-sti%' or lower(QUERY) like '%sti-std%' or
+                lower(QUERY) like '%herpes%' or
+                lower(QUERY) like '%syphilis' or
+                lower(QUERY) like '%gonorrhea%' or
+                lower(QUERY) like '%condom%' or
+                lower(QUERY) like '%prevention%'
+          ) query1
+           inner join AOL_SCHEMA.FACTS facts1
+             on query1.ID = facts1.QUERYID
+           inner join AOL_SCHEMA.ANONIDDIM anon1
+             on facts1.ANONID = anon1.ID
+           inner join AOL_SCHEMA.TIMEDIM times
+             on facts1.TIMEID = times.ID
+    where times."year" = '2006' and anon1.ANONID in (select distinct ANONID from cte)
+    )
+select cte1."month", cte1.ANONID, cte.query, cte1.QUERY as query1, cte.IRANK, cte1.IRANK as irank1, cte.CLICK, cte1.CLICK as click1
+from cte inner join cte1 on cte.ANONID = cte1.ANONID
+order by cte1."month", cte1.ANONID, cte.query, cte1.QUERY;
