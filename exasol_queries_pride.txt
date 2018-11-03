@@ -1,0 +1,17 @@
+-- find all the queries containing either of the mentioned words
+select distinct anon.ANONID, QUERY, facts.IRANK, facts.CLICK
+from (select distinct ID, query
+      from AOL_SCHEMA.QUERYDIM
+      where lower(QUERY) like '% std %' or
+            lower(QUERY) like '% sti %' or
+            lower(QUERY) like '%std-sti%' or lower(QUERY) like '%sti-std%' or
+            lower(QUERY) like '%herpes%' or
+            lower(QUERY) like '%syphilis' or
+            lower(QUERY) like '%gonorrhea%' or
+            lower(QUERY) like '%condom%' or
+            lower(QUERY) like '%prevention%') query
+       inner join AOL_SCHEMA.FACTS facts
+         on query.ID = facts.QUERYID
+       inner join AOL_SCHEMA.ANONIDDIM anon
+         on facts.ANONID = anon.ID
+order by anon.ANONID, QUERY;
