@@ -21,6 +21,15 @@ group by eventtimedate
 
 #h5n1 mentions
 
+#h5n1/infleunza mentions per months/year
+
 SELECT MentionSourceName , MentionType, MentionIdentifier, SUBSTR(CAST(MentionTimeDate as STRING),1,4) as Year,SUBSTR(CAST(MentionTimeDate as STRING),5,2) as Month 
 FROM [gdelt-bq:gdeltv2.eventmentions]
 where MentionIdentifier like '%h5n1%' or MentionIdentifier like '%influenza%';
+
+# events table and eventmentions tables joined 
+
+Select mentions.eventtimedate, mentions.mentiontimedate, mentions.mentiontype, mentions.mentionidentifier, events.monthyear, events.sourceurl, events.nummentions, events.numsources, events.numarticles,
+events.eventcode, events.Actor1Name, events.Actor1CountryCode, events.Actor2Name, events.Actor2CountryCode
+from [gdelt-bq:gdeltv2.eventmentions] mentions inner join[gdelt-bq:gdeltv2.events] events on mentions.globaleventid=events.globaleventid
+where mentions.mentionidentifier like '%h5n1%' or mentions.mentionidentifier like '%influenza%';
