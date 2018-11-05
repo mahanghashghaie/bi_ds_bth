@@ -1,3 +1,11 @@
+## Row_number queries
+select * 
+from (SELECT row_number() over(order by mentions_eventtimedate, mentions_mentiontimedate) as rn, * 
+FROM `biprojectdiseases1.h5n1.h5n1_events_joins`)
+where rn > 32000
+order by mentions_eventtimedate, mentions_mentiontimedate
+
+
 #Zika mentions
 
 #Zika mentions per month without limit
