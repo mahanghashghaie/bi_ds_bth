@@ -1,8 +1,5 @@
 #Zika mentions
 
-
-
-
 #Zika mentions per month without limit
 
 SELECT MentionSourceName , MentionType, MentionIdentifier, SUBSTR(CAST(MentionTimeDate as STRING),1,4) as Year,SUBSTR(CAST(MentionTimeDate as STRING),5,2) as Month FROM [gdelt-bq:gdeltv2.eventmentions]
@@ -21,3 +18,9 @@ from [gdelt-bq:gdeltv2.eventmentions]
 group by eventtimedate
 
 
+
+#h5n1 mentions
+
+SELECT MentionSourceName , MentionType, MentionIdentifier, SUBSTR(CAST(MentionTimeDate as STRING),1,4) as Year,SUBSTR(CAST(MentionTimeDate as STRING),5,2) as Month 
+FROM [gdelt-bq:gdeltv2.eventmentions]
+where MentionIdentifier like '%h5n1%' or MentionIdentifier like '%influenza%';
