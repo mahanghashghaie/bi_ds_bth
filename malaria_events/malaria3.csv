@@ -1,0 +1,394 @@
+RowNum,sourceurl,monthyear,sqldate,nummentions,numsources,numarticles,eventcode,actor1name,actor1countrycode,actor2name,actor2countrycode
+31999,https://www.univision.com/noticias/malaria/un-hito-para-el-continente-americano-paraguay-esta-libre-de-malaria,201806,20180617,10,1,10,010,DOCTOR,,MINIST OF HEALTH,
+32000,https://www.univision.com/noticias/malaria/un-hito-para-el-continente-americano-paraguay-esta-libre-de-malaria,201806,20180617,10,1,10,130,DELEGATE,,POPULATION,
+32001,https://www.upi.com/Dogs-may-be-able-to-sniff-out-malaria-study-says/4301540843949/,201810,20181030,3,1,3,084,UNITED KINGDOM,GBR,UNIVERSITY,
+32002,https://www.upi.com/Health_News/2017/07/14/Efforts-to-combat-malaria-undermined-due-to-decline-in-financing/2421500046735/,201707,20170714,10,1,10,071,CALIFORNIA,USA,SAN FRANCISCO,USA
+32003,https://www.upi.com/Health_News/2017/09/22/Super-malaria-spreads-in-South-East-Asia/8511506101772/,201709,20170922,10,1,10,013,WORLD HEALTH ORGANIZATION,,,
+32004,https://www.upi.com/Science_News/2018/09/24/Scientists-eradicate-malaria-carrying-mosquitoes-in-lab-tests/3921537804217/,201809,20180924,10,1,10,084,SCIENTIST,,,
+32005,https://www.upi.com/Super-malaria-spreads-in-South-East-Asia/8511506101772/,201709,20170924,10,1,10,013,WORLD HEALTH ORGANIZATION,,,
+32006,https://www.upi.com/Top_News/World-News/2018/06/14/Ugandan-inventor-wins-Africa-Prize-for-bloodless-malaria-test/9671528995279/,201806,20180614,4,1,4,010,,,UGANDA,UGA
+32007,https://www.urmc.rochester.edu/research/blog/october-2017/birbeck-honored-for-work-combating-malaria-in-afri.aspx,201710,20171025,4,1,4,190,AFRICA,AFR,AFRICA,AFR
+32008,https://www.urmc.rochester.edu/research/blog/october-2017/birbeck-honored-for-work-combating-malaria-in-afri.aspx,201710,20171025,6,1,6,190,AFRICA,AFR,AFRICA,AFR
+32009,https://www.urmc.rochester.edu/research/blog/october-2017/birbeck-honored-for-work-combating-malaria-in-afri.aspx,201710,20171025,10,1,10,1712,AFRICA,AFR,ROCHESTER,USA
+32010,https://www.usaid.gov/global-health/fact-sheets/malaria-announcement-february-2016,201602,20160222,5,1,5,071,OBAMA,USA,CONGRESS,
+32011,https://www.veb.it/malaria-due-fratelli-sudanesi-contagiati-a-chivasso-65323,201801,20180102,10,1,10,010,SUDANESE,SDN,,
+32012,https://www.veb.it/malaria-due-fratelli-sudanesi-contagiati-a-chivasso-65323/amp,201801,20180103,10,1,10,010,SUDANESE,SDN,,
+32013,https://www.veb.it/malaria-il-ceppo-che-ha-ucciso-sofia-forse-diverso-di-quello-dei-bimbi-ricoverati-61095,201709,20170907,10,1,10,012,HOSPITAL,,,
+32014,https://www.veb.it/malaria-il-ceppo-che-ha-ucciso-sofia-forse-diverso-di-quello-dei-bimbi-ricoverati-61095,201709,20170907,10,1,10,042,BURKINA FASO,BFA,,
+32015,https://www.verkkouutiset.fi/supermalaria-leviaa-aasiassa-laakkeilla-ei-tehoa/,201712,20171209,10,1,10,071,CONGRESS,,,
+32016,https://www.verlagshaus-jaumann.de/inhalt.international-who-kampf-gegen-malaria-geraet-ins-stocken.58d8bd90-95fc-4c62-824f-2f21b2b60751.html,201711,20171129,2,1,2,043,JAPANESE,JPN,SOUTH KOREAN,KOR
+32017,https://www.verlagshaus-jaumann.de/inhalt.international-who-kampf-gegen-malaria-geraet-ins-stocken.58d8bd90-95fc-4c62-824f-2f21b2b60751.html,201711,20171129,4,1,4,042,SOUTH KOREAN,KOR,JAPANESE,JPN
+32018,https://www.verlagshaus-jaumann.de/inhalt.international-who-kampf-gegen-malaria-geraet-ins-stocken.58d8bd90-95fc-4c62-824f-2f21b2b60751.html,201711,20171129,6,1,6,042,SOUTH KOREAN,KOR,JAPANESE,JPN
+32019,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,2,1,2,042,UNITED STATES,USA,EQUATORIAL GUINEA,GNQ
+32020,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,2,1,2,060,UNITED STATES,USA,TEODORO OBIANG NGUEMA MBASOGO,GNQ
+32021,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,2,1,2,060,UNITED STATES,USA,TEODORO OBIANG NGUEMA MBASOGO,GNQ
+32022,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,2,1,2,042,UNITED STATES,USA,EQUATORIAL GUINEA,GNQ
+32023,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,2,1,2,043,EQUATORIAL GUINEA,GNQ,UNITED STATES,USA
+32024,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,2,1,2,043,EQUATORIAL GUINEA,GNQ,UNITED STATES,USA
+32025,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,4,1,4,010,ATTORNEY,,VICTORIA,AUS
+32026,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,6,1,6,010,ATTORNEY,,VICTORIA,AUS
+32027,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,6,1,6,043,EQUATORIAL GUINEA,GNQ,TEODORO OBIANG NGUEMA MBASOGO,GNQ
+32028,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,6,1,6,042,TEODORO OBIANG NGUEMA MBASOGO,GNQ,EQUATORIAL GUINEA,GNQ
+32029,https://www.victoriaadvocate.com/news/2017/aug/15/attorneys-dispute-whether-malaria-caused-victoria-/,201708,20170816,6,1,6,060,TEODORO OBIANG NGUEMA MBASOGO,GNQ,EQUATORIAL GUINEA,GNQ
+32030,https://www.voacambodia.com/a/malaria-mekong-region-skirt-superbug-status/4072041.html,201710,20171017,2,1,2,012,VILLAGE,,AFRICA,AFR
+32031,https://www.voacambodia.com/a/malaria-mekong-region-skirt-superbug-status/4072041.html,201710,20171017,5,1,5,012,,,CAMBODIA,KHM
+32032,https://www.voacambodia.com/a/malaria-mekong-region-skirt-superbug-status/4072041.html,201710,20171017,5,1,5,013,CAMBODIA,KHM,,
+32033,https://www.voacambodia.com/a/malaria-mekong-region-skirt-superbug-status/4072041.html,201710,20171017,5,1,5,010,GOVERNMENT,,VIETNAMESE,VNM
+32034,https://www.voacambodia.com/a/malaria-mekong-region-skirt-superbug-status/4072041.html,201710,20171017,8,1,8,012,VILLAGE,,AFRICA,AFR
+32035,https://www.voacambodia.com/a/malaria-mekong-region-skirt-superbug-status/4072041.html,201709,20170917,10,1,10,012,SCIENTIST,,,
+32036,https://www.voacambodia.com/a/malaria-mekong-region-skirt-superbug-status/4072041.html,201710,20171017,10,1,10,070,VIETNAMESE,VNM,KHMER,
+32037,https://www.voanews.com/a/as-warming-brings-more-malaria-kenya-moves-treatment-closer-to-home-/3968810.html,201708,20170802,2,1,2,043,,,KENYA,KEN
+32038,https://www.voanews.com/a/as-warming-brings-more-malaria-kenya-moves-treatment-closer-to-home-/3968810.html,201708,20170802,2,1,2,010,KENYA,KEN,COMMUNITY,
+32039,https://www.voanews.com/a/as-warming-brings-more-malaria-kenya-moves-treatment-closer-to-home-/3968810.html,201708,20170802,2,1,2,010,KENYA,KEN,THOMSON REUTERS,CAN
+32040,https://www.voanews.com/a/as-warming-brings-more-malaria-kenya-moves-treatment-closer-to-home-/3968810.html,201708,20170802,2,1,2,042,KENYA,KEN,,
+32041,https://www.voanews.com/a/as-warming-brings-more-malaria-kenya-moves-treatment-closer-to-home-/3968810.html,201708,20170802,3,1,3,051,AMREF,AFR,COMMUNITY,
+32042,https://www.voanews.com/a/as-warming-brings-more-malaria-kenya-moves-treatment-closer-to-home-/3968810.html,201708,20170802,3,1,3,020,KENYA,KEN,,
+32043,https://www.voanews.com/a/as-warming-brings-more-malaria-kenya-moves-treatment-closer-to-home-/3968810.html,201708,20170802,3,1,3,010,COMMUNITY,,,
+32044,https://www.voanews.com/a/as-warming-brings-more-malaria-kenya-moves-treatment-closer-to-home-/3968810.html,201708,20170802,5,1,5,010,AFRICA,AFR,THOMSON REUTERS,CAN
+32045,https://www.voanews.com/a/as-warming-brings-more-malaria-kenya-moves-treatment-closer-to-home-/3968810.html,201708,20170802,10,1,10,090,HEALTH DEPARTMENT,,,
+32046,https://www.voanews.com/a/bloodless-test-detects-malaria-with-light-wins-prize/4452179.html,201806,20180624,2,1,2,020,WORKER,,DOMINICAN REPUBLIC,DOM
+32047,https://www.voanews.com/a/bloodless-test-detects-malaria-with-light-wins-prize/4452179.html,201806,20180624,8,1,8,020,WORKER,,HAITI,HTI
+32048,https://www.voanews.com/a/bloodless-test-detects-malaria-with-light-wins-prize/4452179.html,201806,20180624,10,1,10,190,AFRICA,AFR,NIGERIA,NGA
+32049,https://www.voanews.com/a/fears-grow-over-malaria-resurgence-as-london-summit-urges-global-action/4364095.html,201804,20180425,10,1,10,020,LONDON,GBR,DELEGATE,
+32050,https://www.voanews.com/a/fears-grow-over-malaria-resurgence-as-london-summit-urges-global-action/4364095.html,201804,20180425,10,1,10,071,LONDON,GBR,DELEGATE,
+32051,https://www.voanews.com/a/gambia-funding-drive-aim-first-sub-saharan-nation-free-malaria/3941682.html,201707,20170712,4,1,4,013,GAMBIA,GMB,REUTERS,USA
+32052,https://www.voanews.com/a/kafatos-distinguished-greek-biologist-malaria-researcher-dies/4124783.html,201711,20171119,2,1,2,071,EUROPEAN,EUR,,
+32053,https://www.voanews.com/a/kafatos-distinguished-greek-biologist-malaria-researcher-dies/4124783.html,201711,20171119,3,1,3,071,EUROPEAN,EUR,,
+32054,https://www.voanews.com/a/malaria-drug-children-pregnant-women/4435861.html,201806,20180612,10,1,10,020,SCIENTIST,,,
+32055,https://www.voanews.com/a/malaria-genome-study-reveals-savvy-parasite/3943412.html,201707,20170714,10,1,10,042,,,SCIENTIST,
+32056,https://www.voanews.com/a/malaria-genome-study-reveals-savvy-parasite/3943412.html,201707,20170714,10,1,10,043,SCIENTIST,,,
+32057,https://www.voanews.com/a/malaria-mekong-region-skirt-superbug-status/4068069.html,201710,20171012,2,1,2,012,VILLAGE,,AFRICA,AFR
+32058,https://www.voanews.com/a/malaria-mekong-region-skirt-superbug-status/4068069.html,201710,20171012,5,1,5,012,,,CAMBODIA,KHM
+32059,https://www.voanews.com/a/malaria-mekong-region-skirt-superbug-status/4068069.html,201710,20171012,5,1,5,013,CAMBODIA,KHM,,
+32060,https://www.voanews.com/a/malaria-mekong-region-skirt-superbug-status/4068069.html,201710,20171012,5,1,5,010,GOVERNMENT,,VIETNAMESE,VNM
+32061,https://www.voanews.com/a/malaria-mekong-region-skirt-superbug-status/4068069.html,201710,20171012,8,1,8,012,VILLAGE,,AFRICA,AFR
+32062,https://www.voanews.com/a/malaria-mekong-region-skirt-superbug-status/4068069.html,201709,20170912,10,1,10,012,SCIENTIST,,,
+32063,https://www.voanews.com/a/malaria-mekong-region-skirt-superbug-status/4068069.html,201710,20171012,10,1,10,070,VIETNAMESE,VNM,KHMER,
+32064,https://www.voanews.com/a/malaria-resugence-london-summit/4355527.html,201804,20180419,10,1,10,071,LONDON,GBR,DELEGATE,
+32065,https://www.voanews.com/a/paraguay-declared-malaria-free-amid-concerns-disease-rising-again/4434147.html,201806,20180611,5,1,5,046,PARAGUAY,PRY,,
+32066,https://www.voanews.com/a/possible-malaria-vaccine-poisons-anopheles-mosquito/4365461.html,201804,20180426,10,1,10,190,KENYA,KEN,,
+32067,https://www.voanews.com/a/scientist-antimalarials-for-mosquitoes-fight-killer-disease/4359304.html,201804,20180422,2,1,2,020,SCIENTIST,,UNITED KINGDOM,GBR
+32068,https://www.voanews.com/a/scientist-antimalarials-for-mosquitoes-fight-killer-disease/4359304.html,201804,20180422,8,1,8,190,BRITISH,GBR,SCIENTIST,
+32069,https://www.voanews.com/a/scientist-antimalarials-for-mosquitoes-fight-killer-disease/4359304.html,201804,20180422,8,1,8,020,SCIENTIST,,AFRICA,AFR
+32070,https://www.voanews.com/a/simple-malaria-intervention-in-african-schools-big-improvement-in-student-performance/3922522.html,201706,20170630,10,1,10,020,AFRICA,AFR,AFRICA,AFR
+32071,https://www.voanews.com/a/study-mali-finds-simple-malaria-intervention-boosts-student-performance/3921720.html,201706,20170629,10,1,10,042,,,AFRICA,AFR
+32072,https://www.voanews.com/a/study-mali-finds-simple-malaria-intervention-boosts-student-performance/3921720.html,201706,20170629,10,1,10,043,AFRICA,AFR,,
+32073,https://www.voanews.com/a/summit-urges-global-response-malaria-resurgence/4354709.html,201804,20180418,7,1,7,100,LONDON,GBR,DELEGATE,
+32074,https://www.voanews.com/a/who-children-nigeria-anti-malaria-drugs/3972734.html,201708,20170804,10,1,10,190,NIGERIA,NGA,,
+32075,https://www.voanews.com/a/who-global-progress-malaria-at-risk-funding-stalls/4141361.html,201711,20171129,10,1,10,013,WORLD HEALTH ORGANIZATION,,,
+32076,https://www.voanews.com/a/who-joins-urgent-call-to-stop-malaria-resurgence/4363994.html,201804,20180425,10,1,10,013,WORLD HEALTH ORGANIZATION,,,
+32077,https://www.voanoticias.com/a/salud-latinoamerica-brasil-cdc-emite-alerta-de-viaje-por-malaria-a-brasil/4233597.html,201802,20180201,10,1,10,040,,,DOCTOR,
+32078,https://www.voanoticias.com/a/salud-latinoamerica-brasil-cdc-emite-alerta-de-viaje-por-malaria-a-brasil/4233597.html,201802,20180201,10,1,10,020,BRAZIL,BRA,TRAVELLER,
+32079,https://www.voanoticias.com/a/salud-latinoamerica-brasil-cdc-emite-alerta-de-viaje-por-malaria-a-brasil/4233597.html,201802,20180201,10,1,10,160,AUTHORITIES,,CITIZEN,
+32080,https://www.voaportugues.com/a/cabo-verde-malaria-epidemia/4029194.html,201709,20170915,4,1,4,190,CAPE VERDE,CPV,,
+32081,https://www.voaportugues.com/a/cabo-verde-malaria-epidemia/4029194.html,201709,20170915,10,1,10,061,,,AFRICA,AFR
+32082,https://www.voaportugues.com/a/cabo-verde-malaria/4029194.html,201709,20170914,4,1,4,190,CAPE VERDE,CPV,,
+32083,https://www.voaportugues.com/a/cabo-verde-regista-16-casos-autoctenes-malaria/3942704.html,201707,20170713,10,1,10,110,NEWS AGENCY,,NEIGHBORHOOD,
+32084,https://www.voaportugues.com/a/cabo-verde-regista-16-casos-autoctenes-malaria/3942704.html,201707,20170713,10,1,10,130,NEWS AGENCY,,INDIGENOUS,
+32085,https://www.voaportugues.com/a/casos-malaria-cabo-verde/4009791.html,201708,20170831,10,1,10,012,CAPE VERDE,CPV,CAPE VERDE,CPV
+32086,https://www.voaportugues.com/a/casos-malaria-cabo-verde/4009791.html,201708,20170831,10,1,10,190,CAPE VERDE,CPV,AUTHORITIES,
+32087,https://www.voaportugues.com/a/estados-unidos-ajudam-angola-malaria/4105960.html,201711,20171108,10,1,10,190,ANGOLA,AGO,,
+32088,https://www.voaportugues.com/a/governo-angolano-combate-colera-e-malaria/4262116.html,201802,20180220,4,1,4,190,ANGOLA,AGO,,
+32089,https://www.voaportugues.com/a/governo-angolano-combate-colera-e-malaria/4262116.html,201802,20180220,4,1,4,190,ANGOLA,AGO,,
+32090,https://www.voaportugues.com/a/governo-angolano-combate-colera-e-malaria/4262116.html,201802,20180220,10,1,10,036,,,GOVERNANCE,
+32091,https://www.voaportugues.com/a/governo-angolano-combate-colera-e-malaria/4262116.html,201802,20180220,22,1,10,190,ANGOLA,AGO,,
+32092,https://www.voaportugues.com/a/governo-angolano-combate-colera-e-malaria/4262116.html,201802,20180220,10,1,10,036,GOVERNANCE,,,
+32093,https://www.voaswahili.com/a/who-yasema-bado-malaria-ni-tishio-kwa-bara-la-afrika/4364526.html,201804,20180425,10,1,10,012,DOCTOR,,,
+32094,https://www.voaswahili.com/a/who-yasema-bado-malaria-ni-tishio-kwa-bara-la-afrika/4364526.html,201804,20180425,18,1,10,130,KENYAN,KEN,,
+32095,https://www.voaswahili.com/a/who-yasema-bado-malaria-ni-tishio-kwa-bara-la-afrika/4364526.html,201804,20180425,10,1,10,130,CITIZEN,,,
+32096,https://www.warwickdailynews.com.au/news/aussie-traveller-sick-with-severe-malaria-after-do/3351232/,201803,20180302,20,2,20,010,DOCTOR,,CAMBODIA,KHM
+32097,https://www.washingtonpost.com/news/early-lead/wp/2016/08/18/british-tv-host-is-on-life-support-in-rio-after-contracting-rare-form-of-malaria/,201608,20160818,2,1,2,010,REPRESENTATIVES,,PRESS ASSOCIATION,
+32098,https://www.washingtonpost.com/news/early-lead/wp/2016/08/18/british-tv-host-is-on-life-support-in-rio-after-contracting-rare-form-of-malaria/,201608,20160818,4,1,4,010,REPRESENTATIVES,,PRESS ASSOCIATION,
+32099,https://www.washingtonpost.com/news/early-lead/wp/2016/08/18/british-tv-host-is-on-life-support-in-rio-after-contracting-rare-form-of-malaria/,201608,20160818,4,1,4,010,REPRESENTATIVES,,PRESS ASSOCIATION,
+32100,https://www.washingtonpost.com/news/energy-environment/wp/2015/12/21/by-cutting-down-forests-humans-may-be-giving-themselves-malaria/,201512,20151221,6,1,4,090,MALAYSIA,MYS,,
+32101,https://www.washingtonpost.com/news/energy-environment/wp/2015/12/21/by-cutting-down-forests-humans-may-be-giving-themselves-malaria/,201512,20151221,10,1,10,012,SCIENTIST,,,
+32102,https://www.washingtonpost.com/news/in-theory/wp/2017/02/03/malaria-is-getting-bigger-and-badder-and-were-not-ready-for-it/,201702,20170203,4,1,4,190,,,SCIENTIST,
+32103,https://www.washingtonpost.com/news/morning-mix/wp/2015/11/24/with-controversial-gene-editing-technique-scientists-create-a-mutant-mosquito-that-could-help-eradicate-malaria/,201511,20151124,2,1,2,010,MEDIA,,UNITED STATES,USA
+32104,https://www.washingtonpost.com/news/morning-mix/wp/2015/11/24/with-controversial-gene-editing-technique-scientists-create-a-mutant-mosquito-that-could-help-eradicate-malaria/,201511,20151124,2,1,2,070,UNITED STATES,USA,,
+32105,https://www.washingtonpost.com/news/morning-mix/wp/2015/11/24/with-controversial-gene-editing-technique-scientists-create-a-mutant-mosquito-that-could-help-eradicate-malaria/,201511,20151124,2,1,2,010,UNITED STATES,USA,,
+32106,https://www.washingtonpost.com/opinions/the-malaria-fight-stalls-as-children-die-by-the-hundreds-of-thousands/2018/07/01/cb16c028-6dbf-11e8-bf86-a2351b5ece99_story.html,201807,20180702,4,1,4,010,VENEZUELA,VEN,,
+32107,https://www.washingtonpost.com/opinions/wiping-out-malaria-in-a-generation/2015/09/28/7e281310-6607-11e5-8325-a42b5a459b1e_story.html,201509,20150928,2,1,2,020,,,ZAMBIA,ZMB
+32108,https://www.weforum.org/agenda/2017/04/92-of-malaria-deaths-take-place-in-just-one-region-heres-how-we-can-change-that,201704,20170413,5,1,5,110,SENEGAL,SEN,GATES FOUNDATION,USA
+32109,https://www.westerncape.gov.za/general-publication/key-facts-about-malaria,201611,20161104,10,1,10,020,HEALTH OFFICIAL,,,
+32110,https://www.wgrz.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/71-548416881,201805,20180505,4,1,4,012,SOMALIA,SOM,MILITARY,
+32111,https://www.wgrz.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/71-548416881,201805,20180505,6,1,6,012,MILITARY,,,
+32112,https://www.wgrz.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/71-548416881,201805,20180505,10,1,10,114,GOVERNMENT,,,
+32113,https://www.wgrz.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/71-548416881,201805,20180505,10,1,10,015,GOVERNMENT,,,
+32114,https://www.wgrz.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/71-548416881,201805,20180505,10,1,10,010,WORLD HEALTH ORGANIZATION,,,
+32115,https://www.whitehouse.gov/blog/2016/02/22/mosquitoes-and-malaria-taking-big-step-against-small-deadly-foe,201602,20160222,10,1,10,174,COMMUNITY,,,
+32116,https://www.whitsundaytimes.com.au/news/aussie-traveller-sick-with-severe-malaria-after-do/3351232/,201803,20180303,4,1,4,050,,,AUSTRALIA,AUS
+32117,https://www.whitsundaytimes.com.au/news/aussie-traveller-sick-with-severe-malaria-after-do/3351232/,201803,20180303,10,1,10,010,DOCTOR,,CAMBODIA,KHM
+32118,https://www.whitsundaytimes.com.au/news/two-cases-of-malaria-reported-in-mackay/3312428/,201801,20180117,6,1,6,014,,,AUSTRALIA,AUS
+32119,https://www.wilx.com/content/news/Scientists-working-to-kill-off-malaria-carrying-mosquitoes-496452681.html,201810,20181010,10,1,10,020,SCIENTIST,,,
+32120,https://www.wired.com/story/a-malaria-breathalyzer-its-closer-than-you-think/,201711,20171106,2,1,2,090,DOCTOR,,,
+32121,https://www.wired.com/story/a-malaria-breathalyzer-its-closer-than-you-think/,201711,20171106,2,1,2,020,ENGINEER,,,
+32122,https://www.wired.com/story/a-malaria-breathalyzer-its-closer-than-you-think/,201711,20171106,3,1,3,090,DOCTOR,,,
+32123,https://www.wired.com/story/a-malaria-breathalyzer-its-closer-than-you-think/,201711,20171106,3,1,3,020,ENGINEER,,,
+32124,https://www.wired.com/story/heres-the-plan-to-end-malaria-with-crispr-edited-mosquitoes/,201809,20180924,2,1,2,084,MALE,MDV,,
+32125,https://www.wired.com/story/heres-the-plan-to-end-malaria-with-crispr-edited-mosquitoes/,201809,20180924,2,1,2,080,BURKINA FASO,BFA,SCIENTIST,
+32126,https://www.wired.com/story/heres-the-plan-to-end-malaria-with-crispr-edited-mosquitoes/,201809,20180924,8,1,8,084,MALE,MDV,,
+32127,https://www.wired.com/story/heres-the-plan-to-end-malaria-with-crispr-edited-mosquitoes/,201809,20180924,8,1,8,080,BURKINA FASO,BFA,SCIENTIST,
+32128,https://www.wired.com/story/heres-the-plan-to-end-malaria-with-crispr-edited-mosquitoes/,201809,20180924,10,1,10,084,BURKINA FASO,BFA,MALE,MDV
+32129,https://www.wired.it/scienza/medicina/2017/09/05/malaria-bambina-muore/,201709,20170905,10,1,10,036,HOSPITAL,,,
+32130,https://www.wired.it/scienza/medicina/2017/09/05/malaria-bambina-muore/,201709,20170905,10,1,10,040,HOSPITAL,,,
+32131,https://www.wired.it/scienza/medicina/2017/09/06/malaria-migranti-morte-bimba/,201709,20170906,10,1,10,010,AFRICA,AFR,,
+32132,https://www.wired.it/scienza/medicina/2017/09/06/malaria-migranti-morte-bimba/,201709,20170906,10,1,10,072,CARRIER,,ITALY,ITA
+32133,https://www.wltx.com/article/news/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/101-548622570,201805,20180504,4,1,4,012,SOMALIA,SOM,MILITARY,
+32134,https://www.wltx.com/article/news/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/101-548622570,201805,20180504,6,1,6,012,MILITARY,,,
+32135,https://www.wltx.com/article/news/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/101-548622570,201805,20180504,10,1,10,114,GOVERNMENT,,,
+32136,https://www.wltx.com/article/news/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/101-548622570,201805,20180504,10,1,10,015,GOVERNMENT,,,
+32137,https://www.wltx.com/article/news/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/101-548622570,201805,20180504,10,1,10,010,AFGHANISTAN,AFG,,
+32138,https://www.wltx.com/article/news/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/101-548622570,201805,20180504,10,1,10,010,WORLD HEALTH ORGANIZATION,,,
+32139,https://www.worldvision.org/health-news-stories/malaria-facts,201804,20180412,2,1,2,071,WORLD VISION,,MOZAMBIQUE,MOZ
+32140,https://www.worldvision.org/health-news-stories/malaria-facts,201804,20180412,2,1,2,071,WORLD VISION,,CENTRAL AFRICAN REPUBLIC,CAF
+32141,https://www.worldvision.org/health-news-stories/malaria-facts,201804,20180412,8,1,8,071,WORLD VISION,,CENTRAL AFRICAN REPUBLIC,CAF
+32142,https://www.worldvision.org/health-news-stories/malaria-facts,201804,20180412,8,1,8,071,WORLD VISION,,MOZAMBIQUE,MOZ
+32143,https://www.worldvision.org/health-news-stories/malaria-facts,201804,20180412,10,1,10,071,WORLD VISION,,MALAWI,MWI
+32144,https://www.worldvision.org/health-news-stories/malaria-facts,201804,20180412,10,1,10,120,WORLD VISION,,,
+32145,https://www.wral.com/in-a-rare-success-paraguay-conquers-malaria/17685296/,201807,20180709,5,1,5,070,VENEZUELA,VEN,PRESIDENT,
+32146,https://www.wral.com/in-a-rare-success-paraguay-conquers-malaria/17685296/,201807,20180709,5,1,5,120,VENEZUELA,VEN,PRESIDENT,
+32147,https://www.wsj.com/articles/how-long-till-the-final-world-malaria-day-1524611842,201804,20180425,10,1,10,070,AFRICA,AFR,,
+32148,https://www.wsj.com/articles/how-long-till-the-final-world-malaria-day-1524611842,201804,20180425,10,1,10,051,THE INTERNATIONAL COMMUNITY,,,
+32149,https://www.wuft.org/nation-world/2017/09/05/in-a-case-that-is-almost-impossible-girl-dies-of-malaria-in-italy/,201709,20170905,1,1,1,173,AFRICA,AFR,HOSPITAL,
+32150,https://www.wuft.org/nation-world/2017/09/05/in-a-case-that-is-almost-impossible-girl-dies-of-malaria-in-italy/,201709,20170905,1,1,1,010,HOSPITAL,,NEWSPAPER,
+32151,https://www.wuft.org/nation-world/2017/09/05/in-a-case-that-is-almost-impossible-girl-dies-of-malaria-in-italy/,201709,20170905,4,1,4,010,ITALY,ITA,NEWSPAPER,
+32152,https://www.wuft.org/nation-world/2017/09/05/in-a-case-that-is-almost-impossible-girl-dies-of-malaria-in-italy/,201709,20170905,4,1,4,013,ITALY,ITA,NEWSPAPER,
+32153,https://www.wusa9.com/article/news/health/anti-malaria-drug-blamed-for-massacre-by-army-sgt/65-552559845,201805,20180516,10,1,10,114,IRAQ,IRQ,,
+32154,https://www.wusa9.com/article/news/health/anti-malaria-drug-blamed-for-massacre-by-army-sgt/65-552559845,201805,20180516,20,1,20,112,LAWYER,,,
+32155,https://www.wusa9.com/article/news/health/anti-malaria-drug-blamed-for-massacre-by-army-sgt/65-552559845,201805,20180516,20,1,20,015,LAWYER,,,
+32156,https://www.wusa9.com/article/news/health/anti-malaria-drug-blamed-for-massacre-by-army-sgt/65-552559845,201805,20180516,20,1,20,193,VILLAGER,,,
+32157,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,0861,,,EAST TIMOR,TMP
+32158,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,0861,,,EAST TIMOR,TMP
+32159,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,042,,,COSTA RICA,CRI
+32160,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,114,IRAQ,IRQ,,
+32161,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,043,COSTA RICA,CRI,UNITED STATES,USA
+32162,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,043,COSTA RICA,CRI,,
+32163,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,043,COSTA RICA,CRI,UNITED STATES,USA
+32164,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,074,EAST TIMOR,TMP,,
+32165,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,074,EAST TIMOR,TMP,,
+32166,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,042,UNITED STATES,USA,COSTA RICA,CRI
+32167,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,042,UNITED STATES,USA,COSTA RICA,CRI
+32168,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,110,ADVISORY BOARD,,AUSTRALIA,AUS
+32169,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,110,ADVISORY BOARD,,AUSTRALIA,AUS
+32170,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,190,MILITARY PERSONNEL,,,
+32171,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,013,DEPARTMENT OF DEFENSE,,EUROPE,EUR
+32172,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,013,DEPARTMENT OF DEFENSE,,AFRICA,AFR
+32173,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,013,DEPARTMENT OF DEFENSE,,AFRICA,AFR
+32174,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,1,1,1,013,DEPARTMENT OF DEFENSE,,EUROPE,EUR
+32175,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,2,1,2,120,COMPANY,,UNITED STATES,USA
+32176,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,2,1,2,015,GOVERNMENT,,,
+32177,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,3,1,3,013,DEPARTMENT OF DEFENSE,,EUROPE,EUR
+32178,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,3,1,3,013,DEPARTMENT OF DEFENSE,,AFRICA,AFR
+32179,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,4,1,4,190,,,AFGHANISTAN,AFG
+32180,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,4,1,4,114,IRAQ,IRQ,,
+32181,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,4,1,4,112,LAWYER,,,
+32182,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,4,1,4,015,LAWYER,,,
+32183,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,4,1,4,012,SOMALIA,SOM,MILITARY,
+32184,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,4,1,4,190,MILITARY PERSONNEL,,,
+32185,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,6,1,6,112,LAWYER,,,
+32186,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,6,1,6,015,LAWYER,,,
+32187,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,6,1,6,012,MILITARY,,,
+32188,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,7,1,7,042,,,COSTA RICA,CRI
+32189,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,7,1,7,043,COSTA RICA,CRI,,
+32190,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,8,1,8,120,COMPANY,,UNITED STATES,USA
+32191,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,8,1,8,015,GOVERNMENT,,,
+32192,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,10,1,10,193,VILLAGER,,,
+32193,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,10,1,10,114,GOVERNMENT,,,
+32194,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,10,1,10,130,ADMINISTRATION,,,
+32195,https://www.wusa9.com/article/news/investigations/investigation-vets-say-anti-malaria-drugs-they-were-ordered-to-take-caused-devastating-side-effects/65-560790227,201806,20180603,10,1,10,010,WORLD HEALTH ORGANIZATION,,,
+32196,https://www.wusa9.com/article/news/investigations/retired-army-general-appeals-to-va-after-wusa9-investigation-into-antimalarial-drug/65-560357867,201806,20180601,1,1,1,013,DEPARTMENT OF DEFENSE,,EUROPE,EUR
+32197,https://www.wusa9.com/article/news/investigations/retired-army-general-appeals-to-va-after-wusa9-investigation-into-antimalarial-drug/65-560357867,201806,20180601,1,1,1,013,DEPARTMENT OF DEFENSE,,EUROPE,EUR
+32198,https://www.wusa9.com/article/news/investigations/retired-army-general-appeals-to-va-after-wusa9-investigation-into-antimalarial-drug/65-560357867,201806,20180601,3,1,3,013,DEPARTMENT OF DEFENSE,,EUROPE,EUR
+32199,https://www.wusa9.com/article/news/investigations/retired-army-general-appeals-to-va-after-wusa9-investigation-into-antimalarial-drug/65-560357867,201806,20180601,5,1,5,013,DEPARTMENT OF DEFENSE,,AFRICA,AFR
+32200,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,0861,,,EAST TIMOR,TMP
+32201,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,0861,,,EAST TIMOR,TMP
+32202,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,042,,,COSTA RICA,CRI
+32203,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,114,IRAQ,IRQ,,
+32204,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,043,COSTA RICA,CRI,UNITED STATES,USA
+32205,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,043,COSTA RICA,CRI,,
+32206,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,043,COSTA RICA,CRI,UNITED STATES,USA
+32207,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,074,EAST TIMOR,TMP,,
+32208,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,074,EAST TIMOR,TMP,,
+32209,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,042,UNITED STATES,USA,COSTA RICA,CRI
+32210,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,042,UNITED STATES,USA,COSTA RICA,CRI
+32211,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,110,ADVISORY BOARD,,AUSTRALIA,AUS
+32212,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,110,ADVISORY BOARD,,AUSTRALIA,AUS
+32213,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,190,MILITARY PERSONNEL,,,
+32214,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,013,DEPARTMENT OF DEFENSE,,EUROPE,EUR
+32215,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,013,DEPARTMENT OF DEFENSE,,AFRICA,AFR
+32216,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,013,DEPARTMENT OF DEFENSE,,AFRICA,AFR
+32217,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,1,1,1,013,DEPARTMENT OF DEFENSE,,EUROPE,EUR
+32218,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,2,1,2,015,LAWYER,,,
+32219,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,2,1,2,112,LAWYER,,,
+32220,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,2,1,2,112,LAWYER,,,
+32221,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,2,1,2,015,LAWYER,,,
+32222,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,2,1,2,120,COMPANY,,UNITED STATES,USA
+32223,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,2,1,2,015,GOVERNMENT,,,
+32224,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,3,1,3,013,DEPARTMENT OF DEFENSE,,AFRICA,AFR
+32225,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,3,1,3,013,DEPARTMENT OF DEFENSE,,EUROPE,EUR
+32226,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,4,1,4,190,,,AFGHANISTAN,AFG
+32227,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,4,1,4,114,IRAQ,IRQ,,
+32228,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,4,1,4,012,SOMALIA,SOM,MILITARY,
+32229,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,4,1,4,190,MILITARY PERSONNEL,,,
+32230,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,6,1,6,112,LAWYER,,,
+32231,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,6,1,6,015,LAWYER,,,
+32232,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,6,1,6,012,MILITARY,,,
+32233,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,7,1,7,042,,,COSTA RICA,CRI
+32234,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,7,1,7,043,COSTA RICA,CRI,,
+32235,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,8,1,8,120,COMPANY,,UNITED STATES,USA
+32236,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,8,1,8,015,GOVERNMENT,,,
+32237,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,10,1,10,193,VILLAGER,,,
+32238,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,10,1,10,114,GOVERNMENT,,,
+32239,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,10,1,10,130,ADMINISTRATION,,,
+32240,https://www.wusa9.com/article/news/investigations/veterans-say-anti-malaria-drugs-they-were-ordered-to-take-caused-life-shattering-side-effects/65-560790227,201806,20180602,10,1,10,010,WORLD HEALTH ORGANIZATION,,,
+32241,https://www.wusa9.com/article/news/local/concerns-over-new-anti-malaria-drug-fast-tracked-by-fda/65-553751590,201805,20180522,1,1,1,0861,,,EAST TIMOR,TMP
+32242,https://www.wusa9.com/article/news/local/concerns-over-new-anti-malaria-drug-fast-tracked-by-fda/65-553751590,201805,20180522,1,1,1,0861,,,EAST TIMOR,TMP
+32243,https://www.wusa9.com/article/news/local/concerns-over-new-anti-malaria-drug-fast-tracked-by-fda/65-553751590,201805,20180522,1,1,1,074,EAST TIMOR,TMP,,
+32244,https://www.wusa9.com/article/news/local/concerns-over-new-anti-malaria-drug-fast-tracked-by-fda/65-553751590,201805,20180522,1,1,1,074,EAST TIMOR,TMP,,
+32245,https://www.wusa9.com/article/news/local/concerns-over-new-anti-malaria-drug-fast-tracked-by-fda/65-553751590,201805,20180522,1,1,1,190,MILITARY PERSONNEL,,,
+32246,https://www.wusa9.com/article/news/local/concerns-over-new-anti-malaria-drug-fast-tracked-by-fda/65-553751590,201805,20180522,2,1,2,110,ADVISORY BOARD,,AUSTRALIA,AUS
+32247,https://www.wusa9.com/article/news/local/concerns-over-new-anti-malaria-drug-fast-tracked-by-fda/65-553751590,201805,20180522,4,1,4,190,MILITARY PERSONNEL,,,
+32248,https://www.wusa9.com/article/news/local/concerns-over-new-anti-malaria-drug-fast-tracked-by-fda/65-553751590,201805,20180522,10,1,10,120,COMPANY,,UNITED STATES,USA
+32249,https://www.wusa9.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/65-547252165,201805,20180501,4,1,4,012,SOMALIA,SOM,MILITARY,
+32250,https://www.wusa9.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/65-547252165,201805,20180501,6,1,6,012,MILITARY,,,
+32251,https://www.wusa9.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/65-547252165,201805,20180501,10,1,10,114,GOVERNMENT,,,
+32252,https://www.wusa9.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/65-547252165,201805,20180501,10,1,10,015,GOVERNMENT,,,
+32253,https://www.wusa9.com/article/news/local/veterans-allege-devastating-side-effects-from-anti-malaria-drug-they-were-ordered-to-take/65-547252165,201805,20180501,10,1,10,010,WORLD HEALTH ORGANIZATION,,,
+32254,https://www.wvi.org/article/malaria-remains-one-leading-causes-deaths-south-sudan,201804,20180422,4,1,4,051,SOUTH SUDAN,SSD,,
+32255,https://www.wvi.org/article/mothers-south-sudan-brace-malaria-and-other-diseases-rainy-season-starts,201804,20180423,5,1,5,060,DOCTOR,,,
+32256,https://www.yahoo.com/gma/scientists-release-genetically-engineered-mosquitoes-africa-fight-malaria-204031174.html,201809,20180914,2,1,2,013,VILLAGER,,BURKINA FASO,BFA
+32257,https://www.yahoo.com/gma/scientists-release-genetically-engineered-mosquitoes-africa-fight-malaria-204031174.html,201809,20180914,3,1,3,013,VILLAGER,,,
+32258,https://www.yahoo.com/gma/scientists-release-genetically-engineered-mosquitoes-africa-fight-malaria-204031174.html,201809,20180914,4,1,4,130,,,BURKINA FASO,BFA
+32259,https://www.yahoo.com/gma/scientists-release-genetically-engineered-mosquitoes-africa-fight-malaria-204031174.html,201809,20180914,10,1,10,084,SCIENTIST,,AFRICA,AFR
+32260,https://www.yahoo.com/gma/scientists-release-genetically-engineered-mosquitoes-africa-fight-malaria-204031174.html,201809,20180914,20,1,10,130,SCIENTIST,,AFRICA,AFR
+32261,https://www.yahoo.com/gma/scientists-release-genetically-engineered-mosquitoes-africa-fight-malaria-204031174.html,201809,20180914,10,1,10,084,SCIENTIST,,AFRICA,AFR
+32262,https://www.yahoo.com/news/comoros-cusp-eradicating-malaria-034802383.html,201611,20161122,4,1,4,190,,,MOZAMBIQUE,MOZ
+32263,https://www.yahoo.com/news/comoros-cusp-eradicating-malaria-034802383.html,201611,20161122,4,1,4,071,COMOROS,COM,,
+32264,https://www.yahoo.com/news/comoros-cusp-eradicating-malaria-034802383.html,201611,20161122,6,1,6,071,COMOROS,COM,,
+32265,https://www.yahoo.com/news/countries-verge-beating-malaria-face-threat-study-says-222100131.html,201604,20160421,5,1,5,071,NEW YORK,USA,,
+32266,https://www.yahoo.com/news/europe-celebrates-world-malaria-day-140721726.html,201604,20160425,20,1,10,051,EUROPE,EUR,,
+32267,https://www.yahoo.com/news/exclusive-malaria-champions-unnerved-trump-uncertainty-crucial-time-110457413.html,201701,20170120,2,2,2,143,SWITZERLAND,CHE,,
+32268,https://www.yahoo.com/news/exclusive-malaria-champions-unnerved-trump-uncertainty-crucial-time-110457413.html,201701,20170120,2,2,2,143,SWITZERLAND,CHE,,
+32269,https://www.yahoo.com/news/exclusive-malaria-champions-unnerved-trump-uncertainty-crucial-time-110457413.html,201701,20170120,4,2,4,013,SWITZERLAND,CHE,ADMINISTRATION,
+32270,https://www.yahoo.com/news/exclusive-malaria-champions-unnerved-trump-uncertainty-crucial-time-110457413.html,201701,20170120,4,2,4,035,SWITZERLAND,CHE,ADMINISTRATION,
+32271,https://www.yahoo.com/news/factbox-10-facts-malaria-drive-eradication-2040-032708409.html,201611,20161101,20,2,20,012,SCIENTIST,,AFRICA,AFR
+32272,https://www.yahoo.com/news/fears-complacency-progress-against-malaria-stalls-001348011.html,201711,20171129,2,1,2,071,LONDON,GBR,REUTERS,USA
+32273,https://www.yahoo.com/news/fight-against-malaria-hampered-flatlining-funds-000821303.html,201612,20161213,2,1,2,112,UNITED STATES,USA,,
+32274,https://www.yahoo.com/news/first-drug-resistant-malaria-parasite-detected-africa-221327151.html,201702,20170222,8,1,8,012,MIAMI,USA,AFRICA,AFR
+32275,https://www.yahoo.com/news/first-drug-resistant-malaria-parasite-detected-africa-221327151.html,201702,20170222,10,1,10,043,AFRICA,AFR,SOUTHEAST ASIA,SEA
+32276,https://www.yahoo.com/news/first-drug-resistant-malaria-parasite-detected-africa-221327151.html,201702,20170222,10,1,10,046,AFRICA,AFR,SOUTHEAST ASIA,SEA
+32277,https://www.yahoo.com/news/first-drug-resistant-malaria-parasite-detected-africa-221327151.html,201702,20170222,10,1,10,042,SOUTHEAST ASIA,SEA,AFRICA,AFR
+32278,https://www.yahoo.com/news/first-drug-resistant-malaria-parasite-detected-africa-221327151.html,201702,20170222,10,1,10,046,SOUTHEAST ASIA,SEA,AFRICA,AFR
+32279,https://www.yahoo.com/news/first-ever-malaria-vaccine-begin-162711377.html,201704,20170425,5,1,5,051,AFRICA,AFR,,
+32280,https://www.yahoo.com/news/lack-funds-threatens-malaria-progress-005417022.html,201612,20161213,5,1,5,071,UNITED STATES,USA,,
+32281,https://www.yahoo.com/news/malaria-control-congo-sick-children-dying-home-charity-114944069.html,201606,20160609,10,1,10,020,HOSPITAL,,,
+32282,https://www.yahoo.com/news/malaria-deaths-rising-angola-health-crisis-spreads-054923247.html,201604,20160426,5,1,5,010,REUTERS,USA,,
+32283,https://www.yahoo.com/news/malaria-wiped-u-still-plagues-american-travelers-153539244.html,201704,20170428,2,1,2,012,UNITED STATES,USA,,
+32284,https://www.yahoo.com/news/montreal-concert-aims-end-aids-malaria-tb-200514755.html,201608,20160817,2,1,2,043,,,CANADA,CAN
+32285,https://www.yahoo.com/news/montreal-concert-aims-end-aids-malaria-tb-200514755.html,201608,20160817,2,1,2,042,CANADA,CAN,,
+32286,https://www.yahoo.com/news/montreal-concert-aims-end-aids-malaria-tb-200514755.html,201608,20160817,2,1,2,043,CANADA,CAN,PRIME MINISTER,
+32287,https://www.yahoo.com/news/montreal-concert-aims-end-aids-malaria-tb-200514755.html,201608,20160817,2,1,2,042,PRIME MINISTER,,CANADA,CAN
+32288,https://www.yahoo.com/news/montreal-concert-aims-end-aids-malaria-tb-200514755.html,201608,20160817,4,1,4,042,,,CANADA,CAN
+32289,https://www.yahoo.com/news/montreal-concert-aims-end-aids-malaria-tb-200514755.html,201608,20160817,4,1,4,043,CANADA,CAN,,
+32290,https://www.yahoo.com/news/montreal-concert-aims-end-aids-malaria-tb-200514755.html,201608,20160817,6,1,6,043,,,PRIME MINISTER,
+32291,https://www.yahoo.com/news/montreal-concert-aims-end-aids-malaria-tb-200514755.html,201608,20160817,6,1,6,042,PRIME MINISTER,,,
+32292,https://www.yahoo.com/news/niger-kicks-aid-worker-over-false-malaria-toll-143426928.html,201810,20181003,20,2,20,174,NIAMEY,NER,DOCTORS WITHOUT BORDERS,
+32293,https://www.yahoo.com/news/niger-kicks-aid-worker-over-false-malaria-toll-143426928.html,201810,20181003,20,2,20,174,NIAMEY,NER,THE WEST AFRICAN COUNTRY,WAF
+32294,https://www.yahoo.com/news/scientists-release-genetically-engineered-mosquitoes-africa-fight-malaria-204031174.html,201809,20180913,10,1,10,084,SCIENTIST,,AFRICA,AFR
+32295,https://www.yahoo.com/news/timeline-seven-decades-efforts-eradicate-malaria-032631525.html,201611,20161101,30,2,30,036,,,AFRICA,AFR
+32296,https://www.yahoo.com/news/timeline-seven-decades-efforts-eradicate-malaria-032631525.html,201611,20161101,30,2,30,020,EUROPEAN UNION,EUR,REGULATOR,
+32297,https://www.yahoo.com/news/u-government-malaria-hotline-leads-joint-police-action-185600834.html,201609,20160902,1,1,1,010,POLICE,,USAID,USA
+32298,https://www.yahoo.com/news/u-government-malaria-hotline-leads-joint-police-action-185600834.html,201609,20160902,1,1,1,010,POLICE,,USAID,USA
+32299,https://www.yahoo.com/news/u-government-malaria-hotline-leads-joint-police-action-185600834.html,201609,20160902,4,1,4,060,PRESIDENT,,,
+32300,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,043,GHANA,GHA,MALAWI,MWI
+32301,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,042,GHANA,GHA,KENYA,KEN
+32302,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,042,GHANA,GHA,MALAWI,MWI
+32303,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,043,KENYA,KEN,MALAWI,MWI
+32304,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,043,KENYA,KEN,GHANA,GHA
+32305,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,042,KENYA,KEN,MALAWI,MWI
+32306,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,042,MALAWI,MWI,GHANA,GHA
+32307,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,042,MALAWI,MWI,KENYA,KEN
+32308,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,043,MALAWI,MWI,GHANA,GHA
+32309,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,2,1,2,043,MALAWI,MWI,KENYA,KEN
+32310,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,042,GHANA,GHA,KENYA,KEN
+32311,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,042,GHANA,GHA,MALAWI,MWI
+32312,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,043,GHANA,GHA,MALAWI,MWI
+32313,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,043,KENYA,KEN,GHANA,GHA
+32314,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,042,KENYA,KEN,MALAWI,MWI
+32315,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,043,KENYA,KEN,MALAWI,MWI
+32316,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,042,MALAWI,MWI,GHANA,GHA
+32317,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,043,MALAWI,MWI,GHANA,GHA
+32318,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,042,MALAWI,MWI,KENYA,KEN
+32319,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,8,1,8,043,MALAWI,MWI,KENYA,KEN
+32320,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,10,1,10,043,GHANA,GHA,KENYA,KEN
+32321,https://www.yahoo.com/news/worlds-first-malaria-vaccine-headed-kenya-ghana-malawi-203023108.html,201604,20160424,10,1,10,042,KENYA,KEN,GHANA,GHA
+32322,https://www.yahoo.com/tech/breakthrough-device-diagnose-malaria-5-seconds-flat-130429086.html,201606,20160630,4,1,4,190,UNITED STATES,USA,,
+32323,https://www.zazoom.it/2018-09-10/vaccini-contro-hiv-e-malaria-sempre-piu-lontani-i-fondi-per-la-ricerca-non-bastano/4644530/,201809,20180910,10,1,10,042,ITALY,ITA,SCHOOL,
+32324,https://www.zazoom.it/2018-09-10/vaccini-contro-hiv-e-malaria-sempre-piu-lontani-i-fondi-per-la-ricerca-non-bastano/4644530/,201809,20180910,10,1,10,043,SCHOOL,,ITALY,ITA
+32325,https://www.zimeye.net/2018/06/14/ugandan-wins-africa-prize-for-bloodless-malaria-test/,201806,20180615,5,1,5,013,UGANDA,UGA,AFRICA,AFR
+32326,https://www.zimeye.net/2018/06/14/ugandan-wins-africa-prize-for-bloodless-malaria-test/,201806,20180615,5,1,5,010,UGANDA,UGA,,
+32327,https://www.zimeye.net/over-20-malaria-deaths-in-the-masvingo-province/,201703,20170316,10,1,10,112,NON GOVERNMENTAL ORGANISATION,,GOVERNMENT,
+32328,https://www.zimeye.net/six-arrested-in-zambia-for-illicit-sale-of-hiv-and-antimalarial-products/,201711,20171130,1,1,1,173,PAKISTAN,PAK,ZAMBIA,ZMB
+32329,https://www.zimeye.net/six-arrested-in-zambia-for-illicit-sale-of-hiv-and-antimalarial-products/,201712,20171207,1,1,1,173,PAKISTAN,PAK,ZAMBIA,ZMB
+32330,https://www.zimeye.net/six-arrested-in-zambia-for-illicit-sale-of-hiv-and-antimalarial-products/,201712,20171207,4,1,4,084,ZAMBIAN,ZMB,ZAMBIA,ZMB
+32331,https://www.zimeye.net/six-arrested-in-zambia-for-illicit-sale-of-hiv-and-antimalarial-products/,201712,20171207,4,1,4,173,PAKISTAN,PAK,ZAMBIA,ZMB
+32332,https://www.zimeye.net/six-arrested-in-zambia-for-illicit-sale-of-hiv-and-antimalarial-products/,201711,20171130,4,1,4,173,PAKISTAN,PAK,ZAMBIA,ZMB
+32333,https://www.zimeye.net/six-arrested-in-zambia-for-illicit-sale-of-hiv-and-antimalarial-products/,201712,20171207,6,1,6,084,ZAMBIAN,ZMB,ZAMBIAN,ZMB
+32334,https://www.znbc.co.zm/malaria-deaths-down-by-50/,201810,20181002,2,1,2,030,JAPANESE,JPN,ZAMBIA,ZMB
+32335,https://www.znbc.co.zm/malaria-deaths-down-by-50/,201810,20181002,2,1,2,060,JAPANESE,JPN,ZAMBIA,ZMB
+32336,https://www.znbc.co.zm/malaria-deaths-down-by-50/,201810,20181002,2,1,2,030,JAPANESE,JPN,ZAMBIA,ZMB
+32337,https://www.znbc.co.zm/malaria-deaths-down-by-50/,201810,20181002,2,1,2,060,JAPANESE,JPN,ZAMBIA,ZMB
+32338,https://www.znbc.co.zm/malaria-deaths-down-by-50/,201810,20181002,3,1,3,030,JAPANESE,JPN,ZAMBIA,ZMB
+32339,https://www.znbc.co.zm/malaria-deaths-down-by-50/,201810,20181002,3,1,3,060,JAPANESE,JPN,ZAMBIA,ZMB
+32340,https://www.znbc.co.zm/malaria-deaths-down-by-50/,201810,20181002,6,1,6,013,COMPANY,,GOVERNMENT,
+32341,https://www.znbc.co.zm/malaria-ravaging-the-copperbelt/,201710,20171006,10,1,10,010,ZULU,,,
+32342,https://www.zoutnet.co.za/articles/news/44993/2017-11-24/malaria-outbreak-remains-concern,201711,20171124,2,1,2,062,SOUTH AFRICAN,ZAF,MINIST OF HEALTH,
+32343,https://www.zoutnet.co.za/articles/news/44993/2017-11-24/malaria-outbreak-remains-concern,201711,20171124,2,1,2,062,MINIST OF HEALTH,,SOUTH AFRICAN,ZAF
+32344,https://www.zoutnet.co.za/articles/news/44993/2017-11-24/malaria-outbreak-remains-concern,201711,20171124,4,1,4,042,AFRICA,AFR,MINIST OF HEALTH,
+32345,https://www.zoutnet.co.za/articles/news/44993/2017-11-24/malaria-outbreak-remains-concern,201711,20171124,4,1,4,043,MINIST OF HEALTH,,AFRICA,AFR
+32346,https://www.zoutnet.co.za/articles/news/44993/2017-11-24/malaria-outbreak-remains-concern,201711,20171124,6,1,6,042,SOUTH AFRICAN,ZAF,MINIST OF HEALTH,
+32347,https://www.zoutnet.co.za/articles/news/44993/2017-11-24/malaria-outbreak-remains-concern,201711,20171124,6,1,6,043,MINIST OF HEALTH,,SOUTH AFRICAN,ZAF
+32348,https://www.zoutnet.co.za/articles/news/44993/2017-11-24/malaria-outbreak-remains-concern,201711,20171124,8,1,8,062,AFRICA,AFR,MINIST OF HEALTH,
+32349,https://www.zoutnet.co.za/articles/news/44993/2017-11-24/malaria-outbreak-remains-concern,201711,20171124,8,1,8,062,MINIST OF HEALTH,,AFRICA,AFR
+32350,https://www.zz7.it/tag/malaria/,201709,20170905,10,1,10,073,EUROPEAN,EUR,,
+32351,https://www1.folha.uol.com.br/cotidiano/2018/03/casos-de-malaria-crescem-50-e-poem-regiao-norte-do-pais-em-alerta.shtml,201803,20180305,2,1,2,060,VENEZUELAN,VEN,,
+32352,https://www1.folha.uol.com.br/cotidiano/2018/03/casos-de-malaria-crescem-50-e-poem-regiao-norte-do-pais-em-alerta.shtml,201803,20180305,10,1,10,154,SECRETARIAT,,,
+32353,https://wwwnc.cdc.gov/travel/notices/alert/malaria-brazil,201801,20180131,2,1,2,020,BRAZIL,BRA,TRAVELER,
+32354,https://wwwnc.cdc.gov/travel/notices/alert/malaria-brazil,201801,20180131,2,1,2,046,DOCTOR,,TRAVELER,
+32355,https://wwwnc.cdc.gov/travel/notices/alert/malaria-brazil,201801,20180131,2,1,2,046,TRAVELER,,DOCTOR,
+32356,https://wwwnc.cdc.gov/travel/notices/alert/malaria-brazil,201801,20180131,2,1,2,046,TRAVELER,,DOCTOR,
+32357,https://wwwnc.cdc.gov/travel/notices/alert/malaria-brazil,201801,20180131,6,1,6,046,TRAVELER,,DOCTOR,
+32358,https://wwwnc.cdc.gov/travel/notices/alert/malaria-brazil,201801,20180131,8,1,8,020,BRAZIL,BRA,TRAVELER,
+32359,https://wwwnc.cdc.gov/travel/notices/alert/malaria-brazil,201801,20180131,8,1,8,046,DOCTOR,,TRAVELER,
+32360,https://wwwnc.cdc.gov/travel/notices/alert/malaria-cyprus,201709,20170928,2,1,2,043,CYPRUS,CYP,UNITED KINGDOM,GBR
+32361,https://wwwnc.cdc.gov/travel/notices/alert/malaria-cyprus,201709,20170928,2,1,2,043,CYPRUS,CYP,UNITED KINGDOM,GBR
+32362,https://wwwnc.cdc.gov/travel/notices/alert/malaria-cyprus,201709,20170928,2,1,2,043,CYPRUS,CYP,UNITED KINGDOM,GBR
+32363,https://wwwnc.cdc.gov/travel/notices/alert/malaria-cyprus,201709,20170928,4,1,4,043,CYPRUS,CYP,UNITED KINGDOM,GBR
+32364,https://wwwnc.cdc.gov/travel/notices/alert/malaria-cyprus,201709,20170928,10,1,10,042,UNITED KINGDOM,GBR,CYPRUS,CYP
+32365,https://wwwnc.cdc.gov/travel/notices/alert/malaria-south-africa,201703,20170327,5,1,5,020,TRAVELER,,HEALTH CARE PROVIDER,
+32366,https://xnewspress.com/2018/11/02/can-dogs-help-to-detect-malaria.html,201811,20181102,4,1,4,042,SCIENTIST,,GAMBIA,GMB
+32367,https://xnewspress.com/2018/11/02/can-dogs-help-to-detect-malaria.html,201811,20181102,6,1,6,042,SCIENTIST,,GAMBIA,GMB
+32368,https://xnewspress.com/2018/11/02/can-dogs-help-to-detect-malaria.html,201811,20181102,10,1,10,043,GAMBIA,GMB,SCIENTIST,
+32369,https://yourstory.com/2017/10/kolkata-researchers-malaria-test/,201710,20171024,5,1,5,014,HEALTH MINIST,,,
+32370,https://zm.usembassy.gov/u-s-global-coordinator-for-presidents-malaria-initiative-visits-zambia/,201603,20160310,5,1,5,190,ZAMBIA,ZMB,PRESIDENT,
+32371,https://zodiakmalawi.com/top-stories/world-vision-secures-us-40-million-malaria-grant,201802,20180209,16,1,10,010,BLANTYRE,MWI,,
+32372,https://zoutpansberger.co.za/articles/news/41946/2017-05-05/streek-se-inwoners-moet-versigtig-wees-vir-malaria,201705,20170505,10,1,10,130,,,AFRICA,AFR
+32373,https://zoutpansberger.co.za/articles/news/41946/2017-05-05/streek-se-inwoners-moet-versigtig-wees-vir-malaria,201705,20170505,10,1,10,040,,,DOCTOR,
+32374,https://zoutpansberger.co.za/articles/news/41946/2017-05-05/streek-se-inwoners-moet-versigtig-wees-vir-malaria,201705,20170505,10,1,10,040,DOCTOR,,,
+32375,https://zoutpansberger.co.za/articles/news/45621/2018-01-20/toename-in-gevalle-van-malaria-kommerwekkend,201801,20180120,10,1,10,130,,,LIMPOPO,ZAF
+32376,https://zoutpansberger.co.za/articles/news/46435/2018-03-19/malaria-tans-groter-gevaar-as-listeriose,201803,20180319,10,1,10,040,,,RESIDENTS,
+32377,https://zoutpansberger.co.za/articles/news/46435/2018-03-19/malaria-tans-groter-gevaar-as-listeriose,201803,20180319,10,1,10,040,RESIDENTS,,,
+32378,https://zoutpansberger.co.za/articles/news/46639/2018-04-01/nicd-issues-easter-travel-malaria-alert,201804,20180401,10,1,10,040,DOCTOR,,TRAVELLER,
+32379,https://zoutpansberger.co.za/articles/news/46639/2018-04-01/nicd-issues-easter-travel-malaria-alert,201804,20180401,10,1,10,130,CITIZEN,,AFRICA,AFR
+32380,https://zoutpansberger.co.za/articles/news/46639/2018-04-01/nicd-issues-easter-travel-malaria-alert,201804,20180401,10,1,10,060,LIMPOPO,ZAF,,
+32381,https://zoutpansberger.co.za/articles/news/46639/2018-04-01/nicd-issues-easter-travel-malaria-alert,201804,20180401,10,1,10,040,TRAVELLER,,DOCTOR,
+32382,https://zw.usembassy.gov/u-s-au-collaborate-boost-zims-anti-malaria-efforts/,201703,20170327,1,1,1,013,ZIMBABWE,ZWE,DELEGATE,
+32383,https://zw.usembassy.gov/u-s-au-collaborate-boost-zims-anti-malaria-efforts/,201703,20170327,1,1,1,013,ZIMBABWE,ZWE,DELEGATE,
+32384,https://zw.usembassy.gov/u-s-au-collaborate-boost-zims-anti-malaria-efforts/,201703,20170327,5,1,5,013,UNIVERSITY,,DELEGATE,
+32385,https://zw.usembassy.gov/u-s-au-collaborate-boost-zims-anti-malaria-efforts/,200703,20070330,10,1,10,051,,,ZIMBABWE,ZWE
+32386,https://zw.usembassy.gov/u-s-au-collaborate-boost-zims-anti-malaria-efforts/,201703,20170327,10,1,10,010,AFRICA,AFR,UNITED STATES,USA
+32387,https://zw.usembassy.gov/united-states-global-fund-distribute-1-7-million-nets-prevent-malaria-zimbabwe/,201611,20161116,3,1,3,070,UNITED STATES,USA,ZIMBABWE,ZWE
+32388,https://zw.usembassy.gov/united-states-global-fund-distribute-1-7-million-nets-prevent-malaria-zimbabwe/,201611,20161116,4,1,4,070,AMERICAN,USA,ZIMBABWE,ZWE
+32389,https://zw.usembassy.gov/united-states-global-fund-distribute-1-7-million-nets-prevent-malaria-zimbabwe/,201611,20161116,7,1,7,060,AMERICAN,USA,ZIMBABWE,ZWE
+32390,https://zw.usembassy.gov/united-states-global-fund-distribute-1-7-million-nets-prevent-malaria-zimbabwe/,201611,20161116,10,1,10,060,USAID,USA,,
+32391,https://zw.usembassy.gov/united-states-global-fund-distribute-1-7-million-nets-prevent-malaria-zimbabwe/,201611,20161116,10,1,10,070,USAID,USA,,
