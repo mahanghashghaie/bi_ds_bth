@@ -1,0 +1,407 @@
+rn,SQLDATE,MonthYear,EventCode,SOURCEURL,IsRootEvent,Actor1Name,Actor1CountryCode,Actor2Name,Actor2CountryCode,NumMentions,NumSources,NumArticles
+16001,20181002,201810,010,https://www.alcalorpolitico.com/informacion/solicita-intervencion-de-la-secretaria-de-salud-para-evitar-brote-de-influenza-en-escuela-de-xalapa-272123.html,1,SCHOOL,,WEBSITE,,10,1,10
+16002,20181001,201810,010,https://www.amarujala.com/bizarre-news/weird-stories/spanish-flu-the-pandemic-influenza-that-took-millions-lives,1,SPANISH,ESP,UNITED KINGDOM,GBR,10,1,10
+16003,20181025,201810,010,https://www.aoh.dk/ritzau/gravide-og-syge-tilbydes-supervaccine-mod-influenza,1,DANISH,DNK,CITIZEN,,10,1,10
+16004,20181001,201810,010,https://www.clinicaladvisor.com/influenza-information-center/80000-americans-died-from-influenza-over-last-year/article/803294/,1,THE US,USA,THE ASSOCIATED PRESS,USA,10,1,10
+16005,20181001,201810,010,https://www.clinicaladvisor.com/influenza-information-center/80000-americans-died-from-influenza-over-last-year/article/803294/,1,UNITED STATES,USA,NASHVILLE,USA,2,1,2
+16006,20181030,201810,010,https://www.feedstuffs.com/nutrition-health/influenza-d-grant-study-how-virus-infects-cells,1,UNITED STATES,USA,,,2,1,2
+16007,20181024,201810,010,https://www.finanznachrichten.de/nachrichten-2018-10/45092808-genentech-announces-fda-approval-of-xofluza-baloxavir-marboxil-for-influenza-004.htm,0,POPULATION,,,,5,1,5
+16008,20181022,201810,010,https://www.globalmeatnews.com/Article/2018/10/22/Avian-influenza-hits-Russian-broiler,1,RUSSIA,RUS,,,4,1,4
+16009,20181005,201810,010,https://www.greatfallstribune.com/story/life/my-montana/2018/10/05/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,1,1,1
+16010,20181005,201810,010,https://www.greatfallstribune.com/story/life/my-montana/2018/10/05/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,1,1,1
+16011,20181006,201810,010,https://www.greatfallstribune.com/story/life/my-montana/2018/10/06/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,1,1,1
+16012,20181006,201810,010,https://www.greatfallstribune.com/story/life/my-montana/2018/10/06/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,3,1,3
+16013,20181015,201810,010,https://www.irishtimes.com/life-and-style/health-family/era-of-danger-of-a-catastrophic-influenza-pandemic-far-from-over-1.3649125,1,IRISH,IRL,SPANISH,ESP,7,1,7
+16014,20181031,201810,010,https://www.lavocedeltrentino.it/2018/10/31/al-via-la-campagna-di-vaccinazione-antinfluenzale/,0,COMPANY,,,,10,1,10
+16015,20181029,201810,010,https://www.nationalhogfarmer.com/animal-health/influenza-d-grant-study-how-virus-infects-cells,1,UNITED STATES,USA,,,2,1,2
+16016,20181005,201810,010,https://www.newsletter.co.uk/lifestyle/nostalgia/worldwide-influenza-pandemic-shrouded-ireland-with-post-war-sickness-and-death-1-8658238,1,PRESIDENT,,,,10,1,10
+16017,20181025,201810,010,https://www.nuovaresistenza.org/2018/10/leuroparlamento-indaga-sullinfluenza-di-casaleggio-sugli-eletti/,1,NEWSPAPER,,EUROPEAN,EUR,10,1,10
+16018,20181013,201810,010,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,1,SPANISH,ESP,,,3,1,3
+16019,20181006,201810,010,https://www.theguardian.pe.ca/community/fighting-deadly-influenza-sickness-was-claiming-victims-of-its-own-here-at-home-247853/,1,,,NORTH AMERICA,NMR,3,1,3
+16020,20181006,201810,010,https://www.theguardian.pe.ca/community/fighting-deadly-influenza-sickness-was-claiming-victims-of-its-own-here-at-home-247853/,1,,,UNITED STATES,USA,2,1,2
+16021,20181006,201810,010,https://www.theguardian.pe.ca/community/fighting-deadly-influenza-sickness-was-claiming-victims-of-its-own-here-at-home-247853/,1,,,NORTH AMERICA,NMR,1,1,1
+16022,20181006,201810,010,https://www.theguardian.pe.ca/community/fighting-deadly-influenza-sickness-was-claiming-victims-of-its-own-here-at-home-247853/,1,UNITED STATES,USA,NORTH AMERICA,NMR,2,1,2
+16023,20181024,201810,010,https://www.zazoom.it/2018-10-24/leuroparlamento-indaga-sullinfluenza-di-casaleggio-sugli-eletti/4811110/,1,NEWSPAPER,,EUROPEAN,EUR,10,1,10
+16024,20181002,201810,012,http://comminit.com/global/content/maternal-influenza-immunization-perceptions-decision-makers-health-care-providers-and-co,0,WORKER,,,,10,1,10
+16025,20181009,201810,012,https://www.dr.dk/nyheder/indland/influenza-saeson-paa-vej-faa-kronisk-syge-bliver-vaccineret,1,MALE,MDV,,,4,1,4
+16026,20181009,201810,012,https://www.dr.dk/nyheder/indland/influenza-saeson-paa-vej-faa-kronisk-syge-bliver-vaccineret,1,MALE,MDV,,,6,1,6
+16027,20181020,201810,012,https://www.forbes.com/sites/kionasmith/2018/10/19/a-century-after-1918-influenza-pandemic-we-have-work-to-do/,0,POPULATION,,GOVERNMENT,,10,1,10
+16028,20181009,201810,013,http://961theeagle.com/canine-influenza-in-cny-can-be-deadly-for-dogs/,1,UNITED STATES,USA,DOCTOR,,6,1,6
+16029,20181009,201810,013,http://961theeagle.com/canine-influenza-in-cny-can-be-deadly-for-dogs/,1,UNITED STATES,USA,UNITED STATES,USA,2,1,2
+16030,20181001,201810,013,https://www.westernadvocate.com.au/story/5674889/region-successfully-ducked-influenza-this-season-and-peaks-over/?cs=115,1,GOVERNMENT,,INDIGENOUS PEOPLE,,5,1,5
+16031,20181003,201810,017,https://www.milforddailynews.com/news/20181002/hopedale-historian-chronicles-spanish-influenza,1,SPANISH,ESP,,,2,1,2
+16032,20181003,201810,017,https://www.milforddailynews.com/news/20181002/hopedale-historian-chronicles-spanish-influenza,1,SPANISH,ESP,,,6,1,6
+16033,20181026,201810,020,http://comunicalo.it/2018/10/25/leuroparlamento-indaga-sullinfluenza-di-casaleggio-sugli-eletti/,1,,,PRESIDENT,,10,1,10
+16034,20181007,201810,020,http://messaggeroveneto.gelocal.it/udine/cronaca/2018/10/07/news/meno-vaccinazioni-contro-l-influenza-i-piu-a-rischio-sono-gli-over-65-1.17327971,1,MINISTRY,,,,10,1,10
+16035,20181027,201810,020,http://outbreaknewstoday.com/minnesota-h5n2-avian-influenza-detected-kandiyohi-county-turkey-flock-89112/,1,,,PRODUCER,,10,1,10
+16036,20181016,201810,020,http://proceso.hn/mas-noticias/32-m%C3%A1s-noticias/en-32-por-ciento-bajan-casos-de-influenza-h1n1-en-honduras.html,1,AUTHORITIES,,,,10,1,10
+16037,20181017,201810,020,http://proceso.hn/salud/5-salud-y-sociedad/en-32-por-ciento-bajan-casos-de-influenza-h1n1-en-honduras.html,1,AUTHORITIES,,,,10,1,10
+16038,20181022,201810,020,http://spectrumlocalnews.com/nys/binghamton/news/2018/10/21/canine-influenza,1,UNITED STATES,USA,,,16,1,8
+16039,20181019,201810,020,http://www.comminit.com/global/content/low-coverage-influenza-vaccination-among-chinese-children-aged-12-23-months-prevalence-a,0,GOVERNMENT,,,,5,1,5
+16040,20181025,201810,020,http://www.cpr.org/news/story/colorado-gears-up-for-another-flu-season-in-the-shadow-of-1918-influenza-pandemic,1,DOCTOR,,,,10,1,10
+16041,20181001,201810,020,http://www.diariodelistmo.com/noticias-veracruz/estatal/37062/mueren-6-personas-por-influenza-ss.html,1,SECRETARIAT,,,,10,1,10
+16042,20181020,201810,020,http://www.greensburgdailynews.com/news/local_news/myths-and-facts-about-influenza-and-seniors/article_3cdad4e2-0578-57dd-9b4e-2403928d81ad.html,1,UNITED STATES,USA,,,2,1,2
+16043,20181024,201810,020,http://www.jamestownsun.com/business/agriculture/4518127-less-dangerous-avian-influenza-strain-confirmed-minnesota-turkey-flock,1,,,PRODUCER,,20,2,20
+16044,20181006,201810,020,http://www.ladige.it/news/cronaca/2018/10/06/influenza-vaccini-80-mila-prevenzione-5-novembre,1,MINISTRY,,,,10,1,10
+16045,20181025,201810,020,http://www.siracusanews.it/siracusa-al-via-la-campagna-vaccinazione-antinfluenzale/,0,HOSPITAL,,SCHOOL,,10,1,10
+16046,20181022,201810,020,http://www.sj-r.com/news/20181021/sangamon-county-history-remembering-springfield-influenza-epidemic-of-1918,1,DOCTOR,,,,10,1,10
+16047,20181025,201810,020,http://www.smtvsanmarino.sm/attualita/2018/10/25/piu-vaccini-titano-lanciata-campagna-vaccinazione-antinfluenzale,1,DOCTOR,,,,10,1,10
+16048,20181022,201810,020,https://slate.com/technology/2018/10/spanish-flu-1918-influenza-pandemic-name-misnomer.html,0,UNITED STATES,USA,,,2,1,2
+16049,20181022,201810,020,https://slate.com/technology/2018/10/spanish-flu-1918-influenza-pandemic-name-misnomer.html,0,MAORI,,UNITED STATES,USA,2,1,2
+16050,20181022,201810,020,https://slate.com/technology/2018/10/spanish-flu-1918-influenza-pandemic-name-misnomer.html,0,NATIVE AMERICAN,,UNITED STATES,USA,4,1,4
+16051,20181022,201810,020,https://slate.com/technology/2018/10/spanish-flu-1918-influenza-pandemic-name-misnomer.html,0,MAORI,,UNITED STATES,USA,2,1,2
+16052,20181022,201810,020,https://slate.com/technology/2018/10/spanish-flu-1918-influenza-pandemic-name-misnomer.html,0,MAORI,,NATIVE AMERICAN,,2,1,2
+16053,20181022,201810,020,https://slate.com/technology/2018/10/spanish-flu-1918-influenza-pandemic-name-misnomer.html,0,UNITED STATES,USA,MAORI,,2,1,2
+16054,20181023,201810,020,https://sumedico.com/cuales-son-los-efectos-secundarios-de-la-vacuna-de-influenza/,0,,,DOCTOR,,10,1,10
+16055,20181022,201810,020,https://www.24horas.cl/noticiasbbc/gripe-espanola-gripe-porcina-influenza-h1n1-de-donde-vienen-los-nombres-de-las-enfermedades-2842802,0,THE DRC,COD,THE DRC,COD,10,1,10
+16056,20181017,201810,020,https://www.berliner-zeitung.de/gesundheit/-influenza-saison-die-symptome-fuer-grippe-oder-erkaeltung-1135572,0,DOCTOR,,,,10,1,10
+16057,20181021,201810,020,https://www.elobservador.com.uy/nota/gripe-espanola-gripe-porcina-influenza-h1n1-de-donde-vienen-los-nombres-de-las-enfermedades--201810216402,0,THE DRC,COD,THE DRC,COD,10,1,10
+16058,20181015,201810,020,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,1,UNITED STATES,USA,RESIDENTS,,4,1,4
+16059,20181015,201810,020,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,1,HEALTH OFFICIAL,,RESIDENTS,,3,1,3
+16060,20181015,201810,020,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,1,UNITED STATES,USA,,,6,1,6
+16061,20181015,201810,020,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,1,HEALTH OFFICIAL,,,,1,1,1
+16062,20181025,201810,020,https://www.greensburgdailynews.com/news/local_news/myths-and-facts-about-influenza-and-seniors/article_3cdad4e2-0578-57dd-9b4e-2403928d81ad.html,1,UNITED STATES,USA,,,2,1,2
+16063,20181001,201810,020,https://www.ktvb.com/article/news/nation-now/100-years-ago-influenza-killed-as-many-as-50-million-people-could-it-happen-again-today/465-a180eabd-6f75-484b-9ca1-b948e66bf85d,0,UNITED STATES,USA,,,12,3,12
+16064,20181027,201810,020,https://www.ledevoir.com/societe/sante/540030/la-ministre-de-la-sante-prend-en-grippe-l-avis-des-experts-sur-l-influenza,0,GOVERNMENT,,,,10,1,10
+16065,20181026,201810,020,https://www.missourinet.com/2018/10/26/missouri-medical-professional-says-temperature-change-not-the-cause-for-influenza-notes-early-outbreak/,1,NURSE,,,,6,1,6
+16066,20181019,201810,020,https://www.northweststar.com.au/story/5711132/hughenden-influenza-outbreak-causes-health-alert/?cs=191,1,RESIDENTS,,HOSPITAL,,10,1,10
+16067,20181025,201810,020,https://www.nuovaresistenza.org/2018/10/leuroparlamento-indaga-sullinfluenza-di-casaleggio-sugli-eletti/,1,,,PRESIDENT,,10,1,10
+16068,20181007,201810,020,https://www.thetimes-tribune.com/news/100-years-ago-city-health-officials-halt-sale-of-beer-and-alcohol-to-curb-influenza-1.2394690,1,NURSE,,,,20,1,10
+16069,20181026,201810,020,https://www.thetimes-tribune.com/news/100-years-ago-influenza-case-in-scranton-at-4-480-1.2402672,1,HEALTH DEPARTMENT,,RESIDENTS,,10,1,10
+16070,20181017,201810,020,https://www.wlwt.com/article/health-officials-urge-getting-flu-shots-after-80000-died-of-influenza-last-season/23871002,1,HEALTH OFFICIAL,,,,10,1,10
+16071,20181010,201810,023,https://industrytoday.co.uk/pharmaceutical/worldwide-avian-influenza-vaccines-market-to-reflect-steadfast-expansion-during-2018---2023,1,BUSINESS,,,,10,1,10
+16072,20181028,201810,030,http://www.omanobserver.om/workshop-on-seasonal-influenza/,1,DIRECTOR GENERAL,,MINIST OF HEALTH,,10,1,10
+16073,20181019,201810,035,https://www.finanznachrichten.de/nachrichten-2018-10/45054242-seqirus-cell-based-influenza-vaccine-nears-european-approval-008.htm,1,EUROPEAN COMMISSION,EUR,,,5,1,5
+16074,20181019,201810,035,https://www.perssupport.nl/persbericht/191018111/seqirus-cell-based-influenza-vaccine-nears-european-approval,1,EUROPEAN COMMISSION,EUR,EUROPE,EUR,5,1,5
+16075,20181019,201810,036,http://www.spokesman.com/stories/2018/oct/19/100-years-ago-in-spokane-growing-influenza-crisis-/,1,AUTHORITIES,,NURSE,,5,1,5
+16076,20181019,201810,036,http://www.spokesman.com/stories/2018/oct/19/100-years-ago-in-spokane-growing-influenza-crisis-/,1,NURSE,,AUTHORITIES,,5,1,5
+16077,20181029,201810,036,https://crofsblogs.typepad.com/h5n1/2018/10/outbreaks-and-rumours-of-outbreaks.html,1,BRAZILIAN,BRA,WORKER,,2,1,2
+16078,20181029,201810,036,https://crofsblogs.typepad.com/h5n1/2018/10/outbreaks-and-rumours-of-outbreaks.html,1,WORKER,,BRAZILIAN,BRA,2,1,2
+16079,20181012,201810,036,https://foreignaffairs.co.nz/2018/10/12/mil-osi-new-zealand-nz-heritage-week-uc-connect-public-lecture-black-flu-why-should-we-remember-the-1918-influenza-pandemic-in-new-zealand/,1,NEW ZEALAND,NZL,NEW ZEALAND,NZL,2,1,2
+16080,20181012,201810,036,https://foreignaffairs.co.nz/2018/10/12/mil-osi-new-zealand-nz-heritage-week-uc-connect-public-lecture-black-flu-why-should-we-remember-the-1918-influenza-pandemic-in-new-zealand/,1,PROFESSOR,,NEW ZEALAND,NZL,8,1,8
+16081,20181011,201810,036,https://livenews.co.nz/2018/10/12/new-zealand-tertiary-sector-black-flu-why-should-we-remember-the-1918-influenza-pandemic-in-new-zealand-public-lecture/,1,NEW ZEALAND,NZL,NEW ZEALAND,NZL,4,2,4
+16082,20181011,201810,036,https://livenews.co.nz/2018/10/12/new-zealand-tertiary-sector-black-flu-why-should-we-remember-the-1918-influenza-pandemic-in-new-zealand-public-lecture/,1,PROFESSOR,,NEW ZEALAND,NZL,16,2,16
+16083,20181009,201810,036,https://www.cadillacnews.com/news/today-in-history-cadillac-braces-for-coming-influenza-epidemic/article_ab5704e5-8c90-52fd-be61-44aeb9659f71.html,1,,,COMPANY,,10,1,10
+16084,20181009,201810,036,https://www.cadillacnews.com/news/today-in-history-cadillac-braces-for-coming-influenza-epidemic/article_ab5704e5-8c90-52fd-be61-44aeb9659f71.html,1,COMPANY,,,,10,1,10
+16085,20181018,201810,036,https://www.elsoldetijuana.com.mx/local/invitan-a-la-poblacion-de-riesgo-a-vacunarse-contra-la-influenza-2140811.html,1,,,POPULATION,,10,1,10
+16086,20181003,201810,036,https://www.galioninquirer.com/news/34530/influenza-flu-clinic-season-has-arrived-in-galion,1,HEALTH DEPARTMENT,,,,6,1,6
+16087,20181003,201810,036,https://www.galioninquirer.com/news/34530/influenza-flu-clinic-season-has-arrived-in-galion,1,HEALTH DEPARTMENT,,UNITED STATES,USA,4,1,4
+16088,20181003,201810,036,https://www.galioninquirer.com/news/34530/influenza-flu-clinic-season-has-arrived-in-galion,1,UNITED STATES,USA,HEALTH DEPARTMENT,,4,1,4
+16089,20181003,201810,036,https://www.galioninquirer.com/news/34530/influenza-flu-clinic-season-has-arrived-in-galion,1,,,HEALTH DEPARTMENT,,6,1,6
+16090,20181019,201810,036,https://www.kristeligt-dagblad.dk/liv-sjael/boer-vi-lade-os-influenzavaccinere-faellesskabets-skyld,0,,,POPULATION,,6,1,6
+16091,20181019,201810,036,https://www.kristeligt-dagblad.dk/liv-sjael/boer-vi-lade-os-influenzavaccinere-faellesskabets-skyld,0,DENMARK,DNK,POPULATION,,4,1,4
+16092,20181005,201810,036,https://www.readingeagle.com/life/article/flashback-friday-100-years-ago-spanish-influenza-gripped-reading,0,MAYOR,,,,10,1,10
+16093,20181002,201810,038,https://www.alcalorpolitico.com/informacion/solicita-intervencion-de-la-secretaria-de-salud-para-evitar-brote-de-influenza-en-escuela-de-xalapa-272123.html,1,AUTHORITIES,,EDUCATIONAL INSTITUTION,,10,1,10
+16094,20181026,201810,040,http://comunicalo.it/2018/10/25/leuroparlamento-indaga-sullinfluenza-di-casaleggio-sugli-eletti/,1,COMPANY,,,,10,1,10
+16095,20181026,201810,040,http://comunicalo.it/2018/10/25/leuroparlamento-indaga-sullinfluenza-di-casaleggio-sugli-eletti/,1,,,COMPANY,,10,1,10
+16096,20181010,201810,040,http://www.hermistonherald.com/hh/local-news/20181016/hermiston-history-spanish-influenza-halts-all-public-gatherings,1,SCHOOL,,UNITED STATES,USA,4,1,4
+16097,20181017,201810,040,http://www.hermistonherald.com/hh/local-news/20181016/hermiston-history-spanish-influenza-halts-all-public-gatherings,1,UNITED STATES,USA,SCHOOL,,4,1,4
+16098,20181017,201810,040,http://www.hermistonherald.com/hh/local-news/20181016/hermiston-history-spanish-influenza-halts-all-public-gatherings,1,SCHOOL,,UNITED STATES,USA,4,1,4
+16099,20181010,201810,040,http://www.hermistonherald.com/hh/local-news/20181016/hermiston-history-spanish-influenza-halts-all-public-gatherings,1,UNITED STATES,USA,SCHOOL,,4,1,4
+16100,20181010,201810,040,http://www.hermistonherald.com/hh/local-news/20181016/hermiston-history-spanish-influenza-halts-all-public-gatherings,1,SCHOOL,,,,1,1,1
+16101,20181010,201810,040,http://www.hermistonherald.com/hh/local-news/20181016/hermiston-history-spanish-influenza-halts-all-public-gatherings,1,,,SCHOOL,,1,1,1
+16102,20181017,201810,040,http://www.hermistonherald.com/hh/local-news/20181016/hermiston-history-spanish-influenza-halts-all-public-gatherings,1,,,SCHOOL,,1,1,1
+16103,20181017,201810,040,http://www.hermistonherald.com/hh/local-news/20181016/hermiston-history-spanish-influenza-halts-all-public-gatherings,1,SCHOOL,,,,1,1,1
+16104,20181005,201810,040,http://www.hoylaredo.net/destacado/dispondra-tamaulipas-de-470-mil-vacunas-anti-influenza-secretaria-de-salud/,1,,,WORLD HEALTH ORGANIZATION,,10,1,10
+16105,20181005,201810,040,http://www.hoylaredo.net/destacado/dispondra-tamaulipas-de-470-mil-vacunas-anti-influenza-secretaria-de-salud/,1,WORLD HEALTH ORGANIZATION,,,,10,1,10
+16106,20181016,201810,040,http://www.ip-watch.org/2018/10/23/members-consider-possible-changes-influenza-pandemic-framework/,1,WORLD HEALTH ORGANIZATION,,,,10,1,10
+16107,20181030,201810,040,https://denver.cbslocal.com/2018/10/30/flu-vaccine-shot-influenza/,1,UNITED STATES,USA,,,2,1,2
+16108,20181030,201810,040,https://denver.cbslocal.com/2018/10/30/flu-vaccine-shot-influenza/,1,UNITED STATES,USA,,,2,1,2
+16109,20181012,201810,040,https://www.aise.it/iic/linfluenza-della-rete-nelle-relazioni-internazionali-federico-rampini-a-zurigo-con-liic/121818/157,1,JOURNALIST,,ITALY,ITA,6,1,6
+16110,20181012,201810,040,https://www.aise.it/iic/linfluenza-della-rete-nelle-relazioni-internazionali-federico-rampini-a-zurigo-con-liic/121818/157,1,JOURNALIST,,EUROPE,EUR,24,1,24
+16111,20181012,201810,040,https://www.aise.it/iic/linfluenza-della-rete-nelle-relazioni-internazionali-federico-rampini-a-zurigo-con-liic/121818/157,1,ITALY,ITA,JOURNALIST,,4,1,4
+16112,20181012,201810,040,https://www.aise.it/iic/linfluenza-della-rete-nelle-relazioni-internazionali-federico-rampini-a-zurigo-con-liic/121818/157,1,EUROPE,EUR,JOURNALIST,,16,1,16
+16113,20181012,201810,040,https://www.aise.it/iic/linfluenza-della-rete-nelle-relazioni-internazionali-federico-rampini-a-zurigo-con-liic/121818/157,1,ITALIAN,ITA,,,4,1,4
+16114,20181012,201810,040,https://www.aise.it/notiziario-flash/linfluenza-della-rete-nelle-relazioni-internazionali-federico-rampini-a-zurigo-con-liic/121818/159,1,ITALY,ITA,JOURNALIST,,2,1,2
+16115,20181012,201810,040,https://www.aise.it/notiziario-flash/linfluenza-della-rete-nelle-relazioni-internazionali-federico-rampini-a-zurigo-con-liic/121818/159,1,EUROPE,EUR,JOURNALIST,,8,1,8
+16116,20181025,201810,040,https://www.nuovaresistenza.org/2018/10/leuroparlamento-indaga-sullinfluenza-di-casaleggio-sugli-eletti/,1,COMPANY,,,,10,1,10
+16117,20181025,201810,040,https://www.nuovaresistenza.org/2018/10/leuroparlamento-indaga-sullinfluenza-di-casaleggio-sugli-eletti/,1,,,COMPANY,,10,1,10
+16118,20181022,201810,040,https://www.quotidiano.net/blog/malpelo/arriva-linfluenza-perche-vaccinarsi-33.2799,1,CONGRESS,,MILAN,ITA,8,1,8
+16119,20181022,201810,040,https://www.quotidiano.net/blog/malpelo/arriva-linfluenza-perche-vaccinarsi-33.2799,1,MILAN,ITA,CONGRESS,,8,1,8
+16120,20181022,201810,040,https://www.quotidiano.net/blog/malpelo/arriva-linfluenza-perche-vaccinarsi-33.2799,1,MILAN,ITA,,,2,1,2
+16121,20181022,201810,040,https://www.quotidiano.net/blog/malpelo/arriva-linfluenza-perche-vaccinarsi-33.2799,1,,,MILAN,ITA,2,1,2
+16122,20181015,201810,040,https://www.tp24.it/2018/10/15/sanita/sicilia-inizia-campagna-antinfluenzale-manca-personale-ambulatori/125724,1,RAGUSA,HRV,FRENCH,FRA,10,1,10
+16123,20181015,201810,040,https://www.tp24.it/2018/10/15/sanita/sicilia-inizia-campagna-antinfluenzale-manca-personale-ambulatori/125724,1,FRENCH,FRA,RAGUSA,HRV,10,1,10
+16124,20181025,201810,041,http://www.monzatoday.it/salute/influenza-2019-vaccino-informazioni-utili.html,1,ITALY,ITA,,,8,1,8
+16125,20181025,201810,041,http://www.monzatoday.it/salute/influenza-2019-vaccino-informazioni-utili.html,1,,,ITALY,ITA,8,1,8
+16126,20181022,201810,042,http://spectrumlocalnews.com/nys/binghamton/news/2018/10/21/canine-influenza,1,UNITED STATES,USA,,,8,1,8
+16127,20181001,201810,042,http://www.e-consulta.com/nota/2018-10-01/salud/hace-100-anos-influenza-mato-mas-de-7-mil-personas-en-cdmx,1,,,MEXICO,MEX,10,1,10
+16128,20181020,201810,042,http://www.eluniversal.com.co/farandula/candidatas-al-reinado-nacional-de-belleza-se-vacunaron-contra-la-influenza-290262,1,COLOMBIA,COL,CARTAGENA,ESP,8,1,8
+16129,20181020,201810,042,http://www.eluniversal.com.co/farandula/candidatas-al-reinado-nacional-de-belleza-se-vacunaron-contra-la-influenza-290262,1,,,CARTAGENA,ESP,4,1,4
+16130,20181020,201810,042,http://www.eluniversal.com.co/farandula/candidatas-al-reinado-nacional-de-belleza-se-vacunaron-contra-la-influenza-290262,1,,,COLOMBIA,COL,8,1,8
+16131,20181004,201810,042,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,UNITED STATES,USA,SCHOOL,,1,1,1
+16132,20181004,201810,042,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,UNITED STATES,USA,SCHOOL,,1,1,1
+16133,20181004,201810,042,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,UNITED STATES,USA,,,1,1,1
+16134,20181004,201810,042,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,UNITED STATES,USA,,,1,1,1
+16135,20181012,201810,042,https://it.notizie.yahoo.com/convegno-sullinfluenza-italiana-arte-e-architettura-uruguagia-4-105828141.html,1,,,URUGUAYAN,URY,10,1,10
+16136,20181003,201810,042,https://news.uga.edu/fighting-the-flu-100-years-of-influenza-vaccine-development/,1,SPAIN,ESP,SCHOOL,,4,1,4
+16137,20181004,201810,042,https://noticiassin.com/llega-al-pais-vacuna-contra-influenza/,1,REPUBLICA DOMINICANA,DOM,MINISTRY,,10,1,10
+16138,20181003,201810,042,https://www.milforddailynews.com/news/20181002/hopedale-historian-chronicles-spanish-influenza,1,RED CROSS,,,,5,1,5
+16139,20181005,201810,042,https://www.newsletter.co.uk/lifestyle/nostalgia/worldwide-influenza-pandemic-shrouded-ireland-with-post-war-sickness-and-death-1-8658238,1,RED CROSS,,WASHINGTON,USA,2,1,2
+16140,20181014,201810,042,https://www.process-worldwide.com/jgc-to-construct-influenza-vaccine-manufacturing-facility-for-denka-seiken-a-765784/,1,,,NIIGATA,JPN,2,1,2
+16141,20181001,201810,042,https://www.radionz.co.nz/news/pacific/367677/play-based-on-1918-influenza-tragedy-in-samoa-to-premiere-in-london,1,NEW ZEALAND,NZL,APIA,WSM,10,1,10
+16142,20181030,201810,042,https://www.sanmarcosrecord.com/features-news-mobile/handle-your-health-influenza-time-again,1,,,TEXAS,USA,5,1,5
+16143,20181013,201810,042,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,0,NEW ZEALAND,NZL,,,2,1,2
+16144,20181013,201810,042,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,0,PRIME MINISTER,,,,4,1,4
+16145,20181013,201810,042,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,0,PRIME MINISTER,,,,1,1,1
+16146,20181006,201810,042,https://www.theguardian.pe.ca/community/fighting-deadly-influenza-sickness-was-claiming-victims-of-its-own-here-at-home-247853/,1,BOSTON,USA,,,5,1,5
+16147,20181022,201810,043,http://spectrumlocalnews.com/nys/binghamton/news/2018/10/21/canine-influenza,1,,,UNITED STATES,USA,6,1,6
+16148,20181022,201810,043,http://spectrumlocalnews.com/nys/binghamton/news/2018/10/21/canine-influenza,1,,,UNITED STATES,USA,2,1,2
+16149,20181001,201810,043,http://www.e-consulta.com/nota/2018-10-01/salud/hace-100-anos-influenza-mato-mas-de-7-mil-personas-en-cdmx,1,MEXICO,MEX,,,10,1,10
+16150,20181020,201810,043,http://www.eluniversal.com.co/farandula/candidatas-al-reinado-nacional-de-belleza-se-vacunaron-contra-la-influenza-290262,1,CARTAGENA,ESP,,,4,1,4
+16151,20181020,201810,043,http://www.eluniversal.com.co/farandula/candidatas-al-reinado-nacional-de-belleza-se-vacunaron-contra-la-influenza-290262,1,COLOMBIA,COL,,,4,1,4
+16152,20181020,201810,043,http://www.eluniversal.com.co/farandula/candidatas-al-reinado-nacional-de-belleza-se-vacunaron-contra-la-influenza-290262,1,COLOMBIA,COL,,,4,1,4
+16153,20181004,201810,043,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,SCHOOL,,UNITED STATES,USA,1,1,1
+16154,20181004,201810,043,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,SCHOOL,,UNITED STATES,USA,1,1,1
+16155,20181004,201810,043,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,,,UNITED STATES,USA,1,1,1
+16156,20181004,201810,043,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,,,UNITED STATES,USA,1,1,1
+16157,20181012,201810,043,https://it.notizie.yahoo.com/convegno-sullinfluenza-italiana-arte-e-architettura-uruguagia-4-105828141.html,1,URUGUAYAN,URY,,,10,1,10
+16158,20181003,201810,043,https://news.uga.edu/fighting-the-flu-100-years-of-influenza-vaccine-development/,1,SCHOOL,,SPAIN,ESP,2,1,2
+16159,20181003,201810,043,https://news.uga.edu/fighting-the-flu-100-years-of-influenza-vaccine-development/,1,SCHOOL,,SPAIN,ESP,2,1,2
+16160,20181004,201810,043,https://noticiassin.com/llega-al-pais-vacuna-contra-influenza/,1,MINISTRY,,REPUBLICA DOMINICANA,DOM,10,1,10
+16161,20181003,201810,043,https://www.milforddailynews.com/news/20181002/hopedale-historian-chronicles-spanish-influenza,1,,,RED CROSS,,5,1,5
+16162,20181005,201810,043,https://www.newsletter.co.uk/lifestyle/nostalgia/worldwide-influenza-pandemic-shrouded-ireland-with-post-war-sickness-and-death-1-8658238,1,WASHINGTON,USA,RED CROSS,,2,1,2
+16163,20181014,201810,043,https://www.process-worldwide.com/jgc-to-construct-influenza-vaccine-manufacturing-facility-for-denka-seiken-a-765784/,1,NIIGATA,JPN,,,2,1,2
+16164,20181001,201810,043,https://www.radionz.co.nz/news/pacific/367677/play-based-on-1918-influenza-tragedy-in-samoa-to-premiere-in-london,1,APIA,WSM,NEW ZEALAND,NZL,8,1,8
+16165,20181001,201810,043,https://www.radionz.co.nz/news/pacific/367677/play-based-on-1918-influenza-tragedy-in-samoa-to-premiere-in-london,1,SAMOA,WSM,NEW ZEALAND,NZL,2,1,2
+16166,20181001,201810,043,https://www.reporteindigo.com/piensa/en-plena-revolucion-mexicana-una-pandemia-de-influenza-mato-a-mas-de-7-mil-personas/,1,MEXICO,MEX,,,2,1,2
+16167,20181013,201810,043,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,0,,,PRIME MINISTER,,4,1,4
+16168,20181013,201810,043,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,0,,,PRIME MINISTER,,1,1,1
+16169,20181013,201810,043,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,0,,,NEW ZEALAND,NZL,2,1,2
+16170,20181005,201810,046,https://www.readingeagle.com/life/article/flashback-friday-100-years-ago-spanish-influenza-gripped-reading,1,CHRISTIAN,,,,10,1,10
+16171,20181005,201810,046,https://www.readingeagle.com/life/article/flashback-friday-100-years-ago-spanish-influenza-gripped-reading,1,,,CHRISTIAN,,10,1,10
+16172,20181003,201810,046,https://www.sedaliademocrat.com/opinion/spanish-influenza-strikes-sedalia/article_bf39237a-c6d6-11e8-af6f-936cce3cd5c3.html,0,,,HOSPITAL,,10,1,10
+16173,20181028,201810,046,https://www.zazoom.it/2018-10-28/che-cose-linfluenza-e-perche-va-presa-sul-serio/4824812/,1,,,MAYOR,,10,1,10
+16174,20181009,201810,050,http://www.notimex.gob.mx/ntxnotaLibre/607328/titular-de-salud-invita-a-la-poblaci%C3%B3n-a-vacunarse-contra-influenza,0,AUTHORITIES,,INDUSTRY,,10,1,10
+16175,20181009,201810,050,http://www.notimex.gob.mx/ntxnotaLibre/607328/titular-de-salud-invita-a-la-poblaci%C3%B3n-a-vacunarse-contra-influenza,0,INDUSTRY,,AUTHORITIES,,10,1,10
+16176,20181005,201810,050,https://dailytimes.com.pk/306707/shortage-of-cough-and-influenza-medicines-making-peoples-lives-miserable/,1,COMPANIES,,,,5,1,5
+16177,20181027,201810,050,https://www.ledevoir.com/societe/sante/540030/la-ministre-de-la-sante-prend-en-grippe-l-avis-des-experts-sur-l-influenza,1,CANADA,CAN,,,2,1,2
+16178,20181002,201810,051,http://comminit.com/global/content/maternal-influenza-immunization-perceptions-decision-makers-health-care-providers-and-co,0,GOVERNMENT,,MALE,MDV,10,1,10
+16179,20181002,201810,051,http://comminit.com/global/content/maternal-influenza-immunization-perceptions-decision-makers-health-care-providers-and-co,0,VILLAGE,,,,10,1,10
+16180,20181021,201810,051,http://contraparte.mx/index.php/municipios/23817-garantiza-ssa-aplicaci%C3%B3n-de-la-vacuna-de-la-influenza.html,1,,,POPULATION,,10,1,10
+16181,20181006,201810,051,http://www.knom.org/wp/blog/2018/10/05/on-nomes-west-beach-a-new-memorial-to-victims-of-a-century-old-influenza/,1,METHODIST,,,,6,1,6
+16182,20181006,201810,051,http://www.knom.org/wp/blog/2018/10/05/on-nomes-west-beach-a-new-memorial-to-victims-of-a-century-old-influenza/,1,RESIDENTS,,,,2,1,2
+16183,20181006,201810,051,http://www.knom.org/wp/blog/2018/10/05/on-nomes-west-beach-a-new-memorial-to-victims-of-a-century-old-influenza/,1,METHODIST,,UNITED STATES,USA,4,1,4
+16184,20181006,201810,051,http://www.knom.org/wp/blog/2018/10/05/on-nomes-west-beach-a-new-memorial-to-victims-of-a-century-old-influenza/,1,RESIDENTS,,UNITED STATES,USA,8,1,8
+16185,20181022,201810,051,http://www.sj-r.com/news/20181021/sangamon-county-history-remembering-springfield-influenza-epidemic-of-1918,1,STUDENT,,,,5,1,5
+16186,20181022,201810,051,http://www.sj-r.com/news/20181021/sangamon-county-history-remembering-springfield-influenza-epidemic-of-1918,1,STUDENT,,,,5,1,5
+16187,20181024,201810,051,https://www.birminghamstar.com/news/258169144/flu-hospitalized-900000-in-us-in-2017-18-influenza-season,1,FLORIDA,USA,,,36,7,36
+16188,20181010,201810,051,https://www.collective-evolution.com/2018/10/10/the-cdcs-influenza-math-doesnt-add-up-exaggerating-the-death-toll-to-sell-flu-shots/,1,HEALTH OFFICIAL,,MEDIA,,10,1,10
+16189,20181015,201810,051,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,1,UNITED STATES,USA,,,12,1,8
+16190,20181015,201810,051,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,0,UNITED STATES,USA,,,2,1,2
+16191,20181011,201810,051,https://www.lewrockwell.com/2018/10/no_author/the-cdcs-influenza-math-doesnt-add-up-exaggerating-the-death-toll-to-sell-flu-shots/,1,HEALTH OFFICIAL,,MEDIA,,10,1,10
+16192,20181004,201810,051,https://www.marketwatch.com/press-release/flugen-presents-first-in-human-phase-1a-safety-and-immunogenicity-data-with-novel-m2sr-influenza-vaccine-at-id-week-2018-10-04,1,,,SECRETARY OF DEFENSE,,20,2,20
+16193,20181001,201810,051,https://www.myhighplains.com/life-health/for-your-health/texas-influenza-awareness-day/1489961545,0,HEALTH OFFICIAL,,,,10,1,10
+16194,20181029,201810,051,https://www.penzcentrum.hu/karrier/itt-az-igazsag-tenyleg-megfertozheti-az-influenza-elleni-vedooltas-a-gyereket.1071536.html,1,DOCTOR,,,,10,1,10
+16195,20181013,201810,051,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,0,AUSTRALIA,AUS,,,7,1,7
+16196,20181017,201810,051,https://www.wlwt.com/article/health-officials-urge-getting-flu-shots-after-80000-died-of-influenza-last-season/23871002,1,DOCTOR,,,,10,1,10
+16197,20181028,201810,057,http://www.pressreleasepoint.com/signing-memorandum-clinical-development-anti-influenza-virus-drug-china,1,CORPORATION,,ZHEJIANG,CHN,10,1,10
+16198,20181028,201810,057,http://www.pressreleasepoint.com/signing-memorandum-clinical-development-anti-influenza-virus-drug-china,1,ZHEJIANG,CHN,CORPORATION,,10,1,10
+16199,20181009,201810,057,http://www.sanremonews.it/2018/10/09/leggi-notizia/argomenti/altre-notizie/articolo/influenza-20182019-in-francia-e-iniziata-la-campagna-di-vaccinazione-in-liguria-via-il-4-novembr.html,1,DOCTOR,,,,10,1,10
+16200,20181009,201810,057,http://www.sanremonews.it/2018/10/09/leggi-notizia/argomenti/altre-notizie/articolo/influenza-20182019-in-francia-e-iniziata-la-campagna-di-vaccinazione-in-liguria-via-il-4-novembr.html,1,,,DOCTOR,,10,1,10
+16201,20181009,201810,057,http://www.savonanews.it/2018/10/09/leggi-notizia/argomenti/sanita/articolo/influenza-20182019-in-francia-e-iniziata-la-campagna-di-vaccinazione-in-liguria-via-il-5-novembr.html,1,DOCTOR,,,,10,1,10
+16202,20181009,201810,057,http://www.savonanews.it/2018/10/09/leggi-notizia/argomenti/sanita/articolo/influenza-20182019-in-francia-e-iniziata-la-campagna-di-vaccinazione-in-liguria-via-il-5-novembr.html,1,,,DOCTOR,,10,1,10
+16203,20181010,201810,057,http://www.savonanews.it/it/2018/10/09/leggi-notizia/argomenti/sanita/articolo/influenza-20182019-in-francia-e-iniziata-la-campagna-di-vaccinazione-in-liguria-via-il-5-novembr.html,1,DOCTOR,,,,10,1,10
+16204,20181010,201810,057,http://www.savonanews.it/it/2018/10/09/leggi-notizia/argomenti/sanita/articolo/influenza-20182019-in-francia-e-iniziata-la-campagna-di-vaccinazione-in-liguria-via-il-5-novembr.html,1,,,DOCTOR,,10,1,10
+16205,20181016,201810,057,https://www.vivienna.it/2018/10/16/asp-enna-al-via-la-campagna-antinfluenzale-2018-2019/,1,DOCTOR,,,,20,1,20
+16206,20181016,201810,057,https://www.vivienna.it/2018/10/16/asp-enna-al-via-la-campagna-antinfluenzale-2018-2019/,1,,,DOCTOR,,20,1,20
+16207,20181025,201810,060,http://www.smtvsanmarino.sm/attualita/2018/10/25/piu-vaccini-titano-lanciata-campagna-vaccinazione-antinfluenzale,0,DOCTOR,,,,10,1,10
+16208,20181008,201810,060,http://www.swissinfo.ch/ita/pandemia_quando-l-influenza-spagnola-colp%C3%AC-la-svizzera/44442410,1,,,SWISS,CHE,10,1,10
+16209,20181022,201810,060,https://www.globalmeatnews.com/Article/2018/10/22/Avian-influenza-hits-Russian-broiler,1,RUSSIA,RUS,,,4,1,4
+16210,20181030,201810,060,https://www.ilgiorno.it/cronaca/vaccino-anitinfluenzale-1.4268658,1,DOCTOR,,,,10,1,10
+16211,20181017,201810,061,https://thechronicleindia.com/global-influenza-diagnostics-market-revenue-and-growth-rate-2018-2025/,1,,,COMPANIES,,10,1,10
+16212,20181008,201810,070,http://www.swissinfo.ch/ita/pandemia_quando-l-influenza-spagnola-colp%C3%AC-la-svizzera/44442410,0,AUTHORITIES,,,,10,1,10
+16213,20181008,201810,070,http://www.swissinfo.ch/ita/pandemia_quando-l-influenza-spagnola-colp%C3%AC-la-svizzera/44442410,1,POPULATION,,,,10,1,10
+16214,20181011,201810,070,https://www.zazoom.it/2018-10-11/influenza-quando-inizia-campagna-di-vaccinazione-ultime-notizie-da-meta-ottobre-a-fine-dicembre/4760657/,1,POPULATION,,,,10,1,10
+16215,20181025,201810,071,https://folketidende.dk/Indland/Gravide-og-syge-tilbydes-supervaccine-mod-influenza/artikel/488964,1,DANISH,DNK,,,10,1,10
+16216,20181025,201810,071,https://www.aerztezeitung.de/medizin/krankheiten/infektionskrankheiten/influenza_grippe/article/974687/rki-spahn-plaedoyer-grippe-schutz.html,1,PHYSICIAN,,,,10,1,10
+16217,20181024,201810,071,https://www.minnpost.com/glean/2018/10/avian-influenza-discovered-in-kandiyohi-county-turkey-flock/,1,MINNEAPOLIS,USA,,,6,1,6
+16218,20181024,201810,071,https://www.minnpost.com/glean/2018/10/avian-influenza-discovered-in-kandiyohi-county-turkey-flock/,1,MINNEAPOLIS,USA,,,1,1,1
+16219,20181030,201810,073,https://www.feedstuffs.com/nutrition-health/influenza-d-grant-study-how-virus-infects-cells,1,UNITED STATES,USA,,,2,1,2
+16220,20181029,201810,073,https://www.nationalhogfarmer.com/animal-health/influenza-d-grant-study-how-virus-infects-cells,1,UNITED STATES,USA,,,2,1,2
+16221,20181019,201810,080,http://lifestyle.harianjogja.com/read/2018/10/19/508/946919/ilmuwan-ingatkan-pandemi-influenza-yang-berbahaya-,1,POPULATION,,,,10,1,10
+16222,20181009,201810,080,http://www.sanremonews.it/2018/10/09/leggi-notizia/argomenti/altre-notizie/articolo/influenza-20182019-in-francia-e-iniziata-la-campagna-di-vaccinazione-in-liguria-via-il-4-novembr.html,1,FRENCH,FRA,,,10,1,10
+16223,20181009,201810,080,http://www.savonanews.it/2018/10/09/leggi-notizia/argomenti/sanita/articolo/influenza-20182019-in-francia-e-iniziata-la-campagna-di-vaccinazione-in-liguria-via-il-5-novembr.html,1,FRENCH,FRA,,,10,1,10
+16224,20181010,201810,080,http://www.savonanews.it/it/2018/10/09/leggi-notizia/argomenti/sanita/articolo/influenza-20182019-in-francia-e-iniziata-la-campagna-di-vaccinazione-in-liguria-via-il-5-novembr.html,1,FRENCH,FRA,,,10,1,10
+16225,20181018,201810,080,https://gaya.tempo.co/read/1137615/sering-diremehkan-efek-influenza-lebih-parah-dari-korban-perang,1,POPULATION,,,,10,1,10
+16226,20181017,201810,080,https://www.antaranews.com/berita/759287/ilmuwan-dunia-hadapi-bahaya-pandemi-influenza,1,POPULATION,,,,10,1,10
+16227,20181005,201810,080,https://www.greatfallstribune.com/story/life/my-montana/2018/10/05/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,SCHOOL,,SCHOOL,,3,1,3
+16228,20181005,201810,080,https://www.greatfallstribune.com/story/life/my-montana/2018/10/05/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,SCHOOL,,SCHOOL,,2,1,2
+16229,20181005,201810,080,https://www.greatfallstribune.com/story/life/my-montana/2018/10/05/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,SCHOOL,,SCHOOL,,5,1,5
+16230,20181006,201810,080,https://www.greatfallstribune.com/story/life/my-montana/2018/10/06/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,SCHOOL,,SCHOOL,,2,1,2
+16231,20181006,201810,080,https://www.greatfallstribune.com/story/life/my-montana/2018/10/06/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,SCHOOL,,SCHOOL,,5,1,5
+16232,20181006,201810,080,https://www.greatfallstribune.com/story/life/my-montana/2018/10/06/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,SCHOOL,,SCHOOL,,3,1,3
+16233,20181023,201810,090,http://outbreaknewstoday.com/rheumatoid-arthritis-high-dose-influenza-vaccination-improves-immune-responses-against-flu-94266/,1,MONTREAL,CAN,,,10,1,10
+16234,20181011,201810,090,http://www.eldeber.com.bo/bbc/3-lecciones-que-dejo-el-peor-brote-de-influenza-de-la-historia-20181011-13421.html,1,MELBOURNE,AUS,AUSTRALIA,AUS,6,1,6
+16235,20181011,201810,090,http://www.eldeber.com.bo/bbc/3-lecciones-que-dejo-el-peor-brote-de-influenza-de-la-historia-20181011-13421.html,1,MELBOURNE,AUS,AUSTRALIA,AUS,4,1,4
+16236,20181008,201810,090,http://www.swissinfo.ch/ita/pandemia_quando-l-influenza-spagnola-colp%C3%AC-la-svizzera/44442410,1,SWISS,CHE,,,10,1,10
+16237,20181011,201810,090,http://www.who.int/features/qa/influenza-preparedness/en/,1,AFRICA,AFR,,,10,1,10
+16238,20181013,201810,090,https://acento.com.do/2018/bbcmundo/8614507-3-lecciones-que-dejo-el-peor-brote-de-influenza-de-la-historia-la-pandemia-de-gripe-espanola-de-hace-100-anos/,1,MELBOURNE,AUS,AUSTRALIA,AUS,4,1,4
+16239,20181013,201810,090,https://acento.com.do/2018/bbcmundo/8614507-3-lecciones-que-dejo-el-peor-brote-de-influenza-de-la-historia-la-pandemia-de-gripe-espanola-de-hace-100-anos/,1,MELBOURNE,AUS,AUSTRALIA,AUS,6,1,6
+16240,20181029,201810,090,https://crofsblogs.typepad.com/h5n1/2018/10/outbreaks-and-rumours-of-outbreaks.html,1,BRAZILIAN,BRA,WORKER,,2,1,2
+16241,20181029,201810,090,https://crofsblogs.typepad.com/h5n1/2018/10/outbreaks-and-rumours-of-outbreaks.html,1,SUDAN,SDN,WEBSITE,,10,1,10
+16242,20181012,201810,090,https://laopinion.com/2018/10/11/3-lecciones-que-dejo-el-peor-brote-de-influenza-de-la-historia-la-pandemia-de-gripe-espanola-de-hace-100-anos/,1,MELBOURNE,AUS,AUSTRALIA,AUS,6,1,6
+16243,20181012,201810,090,https://laopinion.com/2018/10/11/3-lecciones-que-dejo-el-peor-brote-de-influenza-de-la-historia-la-pandemia-de-gripe-espanola-de-hace-100-anos/,1,MELBOURNE,AUS,AUSTRALIA,AUS,4,1,4
+16244,20181018,201810,090,https://medicalxpress.com/news/2018-10-dna-vaccine-broad-influenza-a-h3n2.html,1,INOVIO PHARMACEUTICALS,USA,UNITED STATES,USA,4,1,4
+16245,20181018,201810,090,https://medicalxpress.com/news/2018-10-dna-vaccine-broad-influenza-a-h3n2.html,1,UNITED STATES,USA,,,2,1,2
+16246,20181018,201810,090,https://medicalxpress.com/news/2018-10-dna-vaccine-broad-influenza-a-h3n2.html,1,INOVIO PHARMACEUTICALS,USA,,,4,1,4
+16247,20181024,201810,090,https://www.minnpost.com/glean/2018/10/avian-influenza-discovered-in-kandiyohi-county-turkey-flock/,1,MINNEAPOLIS,USA,,,8,1,8
+16248,20181006,201810,100,https://pagina24.com.mx/2018/10/06/local/issea-inicia-campana-de-vacunacion-contra-la-influenza-en-personal-medico/,1,BURUNDI,BDI,POPULATION,,4,1,4
+16249,20181009,201810,100,https://www.dailyrecordnews.com/scrapbook/looking-back-spanish-influenza-tv-schedule-trans-am-enthusiast/article_e8ab37ee-cb29-5075-9bf7-2426d2ffc010.html,0,PRESIDENT,,CIVILIAN,,10,1,10
+16250,20181024,201810,100,https://www.dr.dk/nyheder/regionale/trekanten/kun-101000-doser-af-ny-influenzavaccine-laeger-tvinges-til-vaelge-mellem,1,DOCTOR,,,,10,1,10
+16251,20181015,201810,100,https://www.nyoooz.com/news/coimbatore/1236060/a-h1n1-influenza-not-a-cause-for-alarm-in-tamil-nadu/,1,TAMIL NADU,IND,HINDU,,10,1,10
+16252,20181029,201810,110,http://notiziaoggi.it/attualita/vaccino-anti-influenzale-al-via-il-13-la-distribuzione/,1,,,PIEDMONT,ITA,10,1,10
+16253,20181019,201810,110,https://notizie.tiscali.it/scienza/articoli/geni-influenzano-scelta-andare-universita/,1,UNIVERSITY,,,,10,1,10
+16254,20181020,201810,110,https://www.forbes.com/sites/kionasmith/2018/10/19/a-century-after-1918-influenza-pandemic-we-have-work-to-do/,0,SCIENTIST,,,,10,1,10
+16255,20181005,201810,110,https://www.greatfallstribune.com/story/life/my-montana/2018/10/05/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,3,1,3
+16256,20181005,201810,110,https://www.greatfallstribune.com/story/life/my-montana/2018/10/05/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,1,1,1
+16257,20181005,201810,110,https://www.greatfallstribune.com/story/life/my-montana/2018/10/05/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,1,1,1
+16258,20181006,201810,110,https://www.greatfallstribune.com/story/life/my-montana/2018/10/06/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,1,1,1
+16259,20181006,201810,110,https://www.greatfallstribune.com/story/life/my-montana/2018/10/06/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,1,1,1
+16260,20181006,201810,110,https://www.greatfallstribune.com/story/life/my-montana/2018/10/06/montana-album-spanish-influenza-epidemic-proclaimed-great-falls/38048841/,0,PRESIDENT,,GERMAN,DEU,3,1,3
+16261,20181018,201810,110,https://www.newsrimini.it/2018/10/arriva-il-vaccino-contro-linfluenza-lo-scorso-anno-in-regione-48-decessi/,1,,,UPRISING,,10,1,10
+16262,20181025,201810,111,http://novedadesdetabasco.com.mx/2018/10/25/inicia-vacunacion-contra-la-influenza/,1,SECRETARIAT,,TABASCO,MEX,10,1,10
+16263,20181001,201810,111,https://www.marketwatch.com/press-release/gc-pharma-receives-koreas-mfds-approval-of-gcflu-quadrivalent-influenza-vaccine-for-persons-6-months-and-older-2018-10-01,1,CORPORATION,,,,10,1,10
+16264,20181006,201810,111,https://www.theguardian.pe.ca/community/fighting-deadly-influenza-sickness-was-claiming-victims-of-its-own-here-at-home-247853/,1,UNITED STATES,USA,SPANISH,ESP,3,1,3
+16265,20181011,201810,111,https://www.tribuna.com.mx/hermosillo/Inicia-campana-de-vacunacion-contra-la-influenza-en-Hermosillo-20181011-0039.html,1,HERMOSILLO,MEX,,,10,1,10
+16266,20181031,201810,120,http://www.ilgiornale.it/news/politica/merkel-calma-acque-anche-se-mi-ritiro-mia-influenza-rimane-1595123.html,1,CHANCELLOR,,,,10,1,10
+16267,20181001,201810,120,https://dailyindustryreports.com/influenza-vaccine-market-is-expected-to-witness-a-steady-growth-by-2025/350601/,0,UNITED STATES,USA,SOUTHEAST ASIA,SEA,2,1,2
+16268,20181001,201810,120,https://dailyindustryreports.com/influenza-vaccine-market-is-expected-to-witness-a-steady-growth-by-2025/350601/,0,NORTH AMERICA,NMR,SOUTHEAST ASIA,SEA,1,1,1
+16269,20181024,201810,120,https://www.dr.dk/nyheder/regionale/trekanten/kun-101000-doser-af-ny-influenzavaccine-laeger-tvinges-til-vaelge-mellem,1,MINIST,,,,10,1,10
+16270,20181017,201810,130,http://crofsblogs.typepad.com/h5n1/2018/10/life-expectancy-is-rising-in-finland-unlike-in-the-uk-whats-going-right.html,1,,,UNITED KINGDOM,GBR,10,1,10
+16271,20181017,201810,130,https://elmercurio.com.mx/internacional/muere-nino-victima-de-influenza-b-en-florida,1,AUTHORITIES,,,,10,1,10
+16272,20181005,201810,141,https://www.newsletter.co.uk/lifestyle/nostalgia/worldwide-influenza-pandemic-shrouded-ireland-with-post-war-sickness-and-death-1-8658238,1,RED CROSS,,WASHINGTON,USA,2,1,2
+16273,20181005,201810,172,http://crofsblogs.typepad.com/h5n1/2018/10/who-cholera-niger.html,1,NIGER,NER,BENIN,BEN,2,1,2
+16274,20181005,201810,172,http://crofsblogs.typepad.com/h5n1/2018/10/who-cholera-niger.html,1,NIGER,NER,BENIN,BEN,6,1,6
+16275,20181005,201810,172,http://crofsblogs.typepad.com/h5n1/2018/10/who-cholera-niger.html,1,NIGERIA,NGA,BENIN,BEN,2,1,2
+16276,20181003,201810,172,https://news.uga.edu/fighting-the-flu-100-years-of-influenza-vaccine-development/,0,ATLANTA,USA,,,4,1,4
+16277,20181003,201810,172,https://news.uga.edu/fighting-the-flu-100-years-of-influenza-vaccine-development/,0,UNITED STATES,USA,,,2,1,2
+16278,20181003,201810,172,https://www.sedaliademocrat.com/opinion/spanish-influenza-strikes-sedalia/article_bf39237a-c6d6-11e8-af6f-936cce3cd5c3.html,0,MAYOR,,,,5,1,5
+16279,20181013,201810,172,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,0,SCHOOL,,,,10,1,10
+16280,20181007,201810,172,https://www.thetimes-tribune.com/news/100-years-ago-city-health-officials-halt-sale-of-beer-and-alcohol-to-curb-influenza-1.2394690,1,SCHOOL,,,,5,1,5
+16281,20181019,201810,1721,http://www.elhorizonte.mx/local/advierten-de-posible-brote-de-influenza-para-principios-de-2019/2333336,1,SCHOOL,,,,10,1,10
+16282,20181022,201810,1721,https://www.24horas.cl/noticiasbbc/gripe-espanola-gripe-porcina-influenza-h1n1-de-donde-vienen-los-nombres-de-las-enfermedades-2842802,0,SPANIARD,ESP,,,6,1,6
+16283,20181022,201810,1721,https://www.24horas.cl/noticiasbbc/gripe-espanola-gripe-porcina-influenza-h1n1-de-donde-vienen-los-nombres-de-las-enfermedades-2842802,0,SPANIARD,ESP,,,2,1,2
+16284,20181022,201810,1721,https://www.24horas.cl/noticiasbbc/gripe-espanola-gripe-porcina-influenza-h1n1-de-donde-vienen-los-nombres-de-las-enfermedades-2842802,0,SPANIARD,ESP,,,2,1,2
+16285,20181021,201810,1721,https://www.elobservador.com.uy/nota/gripe-espanola-gripe-porcina-influenza-h1n1-de-donde-vienen-los-nombres-de-las-enfermedades--201810216402,0,SPANIARD,ESP,,,6,1,6
+16286,20181021,201810,1721,https://www.elobservador.com.uy/nota/gripe-espanola-gripe-porcina-influenza-h1n1-de-donde-vienen-los-nombres-de-las-enfermedades--201810216402,0,SPANIARD,ESP,,,2,1,2
+16287,20181021,201810,1721,https://www.elobservador.com.uy/nota/gripe-espanola-gripe-porcina-influenza-h1n1-de-donde-vienen-los-nombres-de-las-enfermedades--201810216402,0,SPANIARD,ESP,,,2,1,2
+16288,20181013,201810,1721,https://www.summitdaily.com/news/twih-precautions-being-taken-against-influenza/,1,STUDENT,,,,10,1,10
+16289,20181030,201810,173,https://marketjournal24.com/research-deliver-insight-into-influenza-vaccine-market/,1,POPULATION,,,,10,1,10
+16290,20181004,201810,190,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,FRANCE,FRA,UNITED STATES,USA,4,1,4
+16291,20181004,201810,190,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,FRANCE,FRA,UNITED STATES,USA,1,1,1
+16292,20181004,201810,190,http://www.galesburg.com/news/20181004/influenza-pandemic-overtakes-war-news,0,FRANCE,FRA,UNITED STATES,USA,1,1,1
+16293,20181022,201810,190,http://www.sj-r.com/news/20181021/sangamon-county-history-remembering-springfield-influenza-epidemic-of-1918,1,,,ILLINOIS,USA,5,1,5
+16294,20181030,201810,190,https://marketjournal24.com/research-deliver-insight-into-influenza-vaccine-market/,1,UNITED KINGDOM,GBR,GERMANY,DEU,10,1,10
+16295,20181030,201810,190,https://marketjournal24.com/research-deliver-insight-into-influenza-vaccine-market/,1,GERMANY,DEU,UNITED KINGDOM,GBR,2,1,2
+16296,20181030,201810,190,https://marketjournal24.com/research-deliver-insight-into-influenza-vaccine-market/,1,GERMANY,DEU,UNITED KINGDOM,GBR,8,1,8
+16297,20181019,201810,190,https://www.finanznachrichten.de/nachrichten-2018-10/45054242-seqirus-cell-based-influenza-vaccine-nears-european-approval-008.htm,0,NORTH CAROLINA,USA,THE US,USA,5,1,5
+16298,20181019,201810,190,https://www.finanznachrichten.de/nachrichten-2018-10/45054242-seqirus-cell-based-influenza-vaccine-nears-european-approval-008.htm,0,NORTH CAROLINA,USA,THE US,USA,5,1,5
+16299,20181015,201810,190,https://www.irishtimes.com/life-and-style/health-family/era-of-danger-of-a-catastrophic-influenza-pandemic-far-from-over-1.3649125,1,POPULATION,,,,3,1,3
+16300,20181015,201810,190,https://www.irishtimes.com/life-and-style/health-family/era-of-danger-of-a-catastrophic-influenza-pandemic-far-from-over-1.3649125,1,POPULATION,,,,7,1,7
+16301,20181001,201810,190,https://www.ktvb.com/article/news/nation-now/100-years-ago-influenza-killed-as-many-as-50-million-people-could-it-happen-again-today/465-a180eabd-6f75-484b-9ca1-b948e66bf85d,1,AMERICAN TROOPS,USA,,,3,3,3
+16302,20181001,201810,190,https://www.ktvb.com/article/news/nation-now/100-years-ago-influenza-killed-as-many-as-50-million-people-could-it-happen-again-today/465-a180eabd-6f75-484b-9ca1-b948e66bf85d,1,UNITED STATES,USA,,,12,3,12
+16303,20181001,201810,190,https://www.ktvb.com/article/news/nation-now/100-years-ago-influenza-killed-as-many-as-50-million-people-could-it-happen-again-today/465-a180eabd-6f75-484b-9ca1-b948e66bf85d,1,UNITED STATES,USA,,,12,3,12
+16304,20181001,201810,190,https://www.ktvb.com/article/news/nation-now/100-years-ago-influenza-killed-as-many-as-50-million-people-could-it-happen-again-today/465-a180eabd-6f75-484b-9ca1-b948e66bf85d,1,,,AMERICAN TROOPS,USA,3,3,3
+16305,20181001,201810,190,https://www.ktvb.com/article/news/nation-now/100-years-ago-influenza-killed-as-many-as-50-million-people-could-it-happen-again-today/465-a180eabd-6f75-484b-9ca1-b948e66bf85d,1,,,UNITED STATES,USA,24,3,24
+16306,20181019,201810,190,https://www.perssupport.nl/persbericht/191018111/seqirus-cell-based-influenza-vaccine-nears-european-approval,0,NORTH CAROLINA,USA,THE US,USA,5,1,5
+16307,20181003,201810,190,https://www.sedaliademocrat.com/opinion/spanish-influenza-strikes-sedalia/article_bf39237a-c6d6-11e8-af6f-936cce3cd5c3.html,1,NEWSPAPER,,,,10,1,10
+16308,20181003,201810,190,https://www.sedaliademocrat.com/opinion/spanish-influenza-strikes-sedalia/article_bf39237a-c6d6-11e8-af6f-936cce3cd5c3.html,1,,,NEWSPAPER,,10,1,10
+16309,20181013,201810,190,https://www.stuff.co.nz/national/health/107298823/New-Zealands-worst-disease-disaster-100-years-since-the-1918-influenza-pandemic,0,,,NEW ZEALAND,NZL,2,1,2
+16310,20181026,201810,190,https://www.thetimes-tribune.com/news/100-years-ago-influenza-case-in-scranton-at-4-480-1.2402672,1,HEALTH DEPARTMENT,,RESIDENTS,,10,1,10
+16311,20181010,201810,193,http://pulsoslp.com.mx/2018/10/10/narro-llama-a-la-poblacion-a-vacunarse-contra-la-influenza/,1,ADMINISTRATION,,,,10,1,10
+16312,20181022,201810,193,http://spectrumlocalnews.com/nys/binghamton/news/2018/10/21/canine-influenza,1,UNITED STATES,USA,,,4,1,4
+16313,20181019,201810,193,http://www.promenad.hu/2018/10/19/megerkeztek-az-influenza-elleni-oltoanyagok-es-mukodik-a-figyeloszolgalat/,1,HOSPITAL,,,,10,1,10
+16314,20181024,201810,193,https://www.birminghamstar.com/news/258169144/flu-hospitalized-900000-in-us-in-2017-18-influenza-season,0,FLORIDA,USA,,,30,6,30
+16315,20181018,201810,193,https://www.cochraneeagle.com/article/respect-influenza-health-officer-says-20181018,1,ALBERTA,CAN,,,10,1,10
+16316,20181009,201810,193,https://www.eluniversal.com.mx/nacion/sociedad/jose-narro-llama-la-poblacion-vacunarse-contra-la-influenza,1,ADMINISTRATION,,,,10,1,10
+16317,20181020,201810,193,https://www.forbes.com/sites/kionasmith/2018/10/19/a-century-after-1918-influenza-pandemic-we-have-work-to-do/,0,POPULATION,,GOVERNMENT,,10,1,10
+16318,20181003,201810,193,https://www.galioninquirer.com/news/34530/influenza-flu-clinic-season-has-arrived-in-galion,1,NURSE,,,,18,1,6
+16319,20181003,201810,193,https://www.galioninquirer.com/news/34530/influenza-flu-clinic-season-has-arrived-in-galion,1,NURSE,,UNITED STATES,USA,6,1,2
+16320,20181003,201810,193,https://www.galioninquirer.com/news/34530/influenza-flu-clinic-season-has-arrived-in-galion,1,UNITED STATES,USA,UNITED STATES,USA,6,1,2
+16321,20181015,201810,193,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,1,HEALTH OFFICIAL,,,,1,1,1
+16322,20181015,201810,193,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,1,UNITED STATES,USA,,,4,1,4
+16323,20181015,201810,193,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,1,AMERICAN,USA,,,3,1,3
+16324,20181015,201810,193,https://www.greenbaypressgazette.com/story/news/2018/10/15/flu-season-brown-county-health-officials-say-get-shots-now-influenza/1618563002/,1,AMERICAN,USA,,,23,1,9
+16325,20181001,201810,193,https://www.myhighplains.com/life-health/for-your-health/texas-influenza-awareness-day/1489961545,1,CAREGIVER,,,,4,1,4
+16326,20181001,201810,193,https://www.myhighplains.com/life-health/for-your-health/texas-influenza-awareness-day/1489961545,1,CAREGIVER,,,,6,1,6
+16327,20181017,201810,193,https://www.wlwt.com/article/health-officials-urge-getting-flu-shots-after-80000-died-of-influenza-last-season/23871002,1,HEALTH OFFICIAL,,,,10,1,10
+16328,20181017,201810,193,https://www.wlwt.com/article/health-officials-urge-getting-flu-shots-after-80000-died-of-influenza-last-season/23871002,1,DOCTOR,,,,10,1,10
+16329,20181017,201810,193,https://www.wlwt.com/article/health-officials-urge-getting-flu-shots-after-80000-died-of-influenza-last-season/23871002,1,CINCINNATI,USA,,,10,1,10
+16330,20181103,201811,010,http://en.mercopress.com/2018/11/03/llama-antibodies-good-for-influenza-treatment-research-shows,1,SCIENTIST,,,,5,1,5
+16331,20181102,201811,010,https://ici.radio-canada.ca/nouvelle/1133476/influenza-vaccin-haute-dose-65-ans-penurie-cout-efficacite,1,ONTARIO,CAN,,,10,1,10
+16332,20181101,201811,010,https://www.cadillacnews.com/news/there-is-local-concern-regarding-canine-influenza/article_885ea9ac-8d89-543e-ab19-b9ff8c378bdf.html,1,MICHIGAN,USA,,,10,1,10
+16333,20181104,201811,010,https://www.precisionvaccinations.com/thailand-travel-vaccinations-include-mmr-dtap-varicella-polio-and-influenza,1,THAILAND,THA,,,2,1,2
+16334,20181103,201811,010,https://www.tvnz.co.nz/one-news/new-zealand/century-influenza-pandemic-killed-9-000-kiwis-we-ready-next-one.html,0,NEW ZEALAND,NZL,,,2,1,2
+16335,20181101,201811,012,https://www.cadillacnews.com/news/there-is-local-concern-regarding-canine-influenza/article_885ea9ac-8d89-543e-ab19-b9ff8c378bdf.html,0,TEXAS,USA,,,4,1,4
+16336,20181101,201811,012,https://www.cadillacnews.com/news/there-is-local-concern-regarding-canine-influenza/article_885ea9ac-8d89-543e-ab19-b9ff8c378bdf.html,1,DEPARTMENT OF AGRICULTURE,,COMMUNITY,,3,1,3
+16337,20181101,201811,012,https://www.cadillacnews.com/news/there-is-local-concern-regarding-canine-influenza/article_885ea9ac-8d89-543e-ab19-b9ff8c378bdf.html,1,DEPARTMENT OF AGRICULTURE,,COMMUNITY,,2,1,2
+16338,20181101,201811,012,https://www.cadillacnews.com/news/there-is-local-concern-regarding-canine-influenza/article_885ea9ac-8d89-543e-ab19-b9ff8c378bdf.html,0,UNITED STATES,USA,,,6,1,6
+16339,20181103,201811,014,https://www.cadillacnews.com/news/today-in-history-influenza-conditions-much-better-in-cadillac/article_f8f3f533-7392-514e-bcc7-93d514169e33.html,1,VOTER,,MAYOR,,10,1,10
+16340,20181101,201811,016,https://www.globalmeatnews.com/Article/2018/11/01/Human-case-of-avian-influenza-in-China,1,HOSPITAL,,,,10,1,10
+16341,20181103,201811,017,https://www.commercial-news.com/opinion/letters_to_the_editor/my-turn-influenza-epidemic-devastated-families/article_b8cd3464-3fa7-5710-bb2f-43dbcb745f2d.html,1,SMALL TOWN,,,,10,1,10
+16342,20181103,201811,020,http://grandforksherald.com/agriculture/4518127-less-dangerous-avian-influenza-strain-confirmed-minnesota-turkey-flock,1,,,PRODUCER,,10,1,10
+16343,20181104,201811,020,https://www.thenews.com.pk/print/389439-nih-role-needed-in-educating-about-influenza-cure-and-prevention,0,PHYSICIAN,,,,3,1,3
+16344,20181104,201811,020,https://www.thenews.com.pk/print/389439-nih-role-needed-in-educating-about-influenza-cure-and-prevention,0,PAKISTAN,PAK,PHYSICIAN,,2,1,2
+16345,20181101,201811,033,https://www.news-medical.net/news/20181101/New-study-to-evaluate-human-immune-systems-response-to-influenza.aspx,0,MANUFACTURER,,UNIVERSITY,,5,1,5
+16346,20181105,201811,036,https://nepszava.hu:443/tag/influenza/,0,,,HOSPITAL,,10,1,10
+16347,20181105,201811,036,https://nepszava.hu:443/tag/influenza/,0,HOSPITAL,,,,10,1,10
+16348,20181103,201811,042,https://www.ilsussidiario.net/news/salute-e-benessere/2018/11/2/vaccino-antinfluenzali-57mila-dosi-pronte-lasl-della-toscana-lancia-la-campagna-tutti-i-consigli/1798991/,1,,,POPULATION,,10,1,10
+16349,20181104,201811,042,https://www.precisionvaccinations.com/thailand-travel-vaccinations-include-mmr-dtap-varicella-polio-and-influenza,1,,,THAILAND,THA,10,1,10
+16350,20181104,201811,042,https://www.precisionvaccinations.com/thailand-travel-vaccinations-include-mmr-dtap-varicella-polio-and-influenza,1,CHINA,CHN,THAILAND,THA,1,1,1
+16351,20181104,201811,042,https://www.precisionvaccinations.com/thailand-travel-vaccinations-include-mmr-dtap-varicella-polio-and-influenza,1,CHINA,CHN,THAILAND,THA,4,1,4
+16352,20181104,201811,042,https://www.radionz.co.nz/international/pacific-news/370225/holiday-to-mark-100-years-since-start-of-influenza-pandemic-in-samoa,1,,,APIA,WSM,8,1,8
+16353,20181103,201811,043,https://www.ilsussidiario.net/news/salute-e-benessere/2018/11/2/vaccino-antinfluenzali-57mila-dosi-pronte-lasl-della-toscana-lancia-la-campagna-tutti-i-consigli/1798991/,1,POPULATION,,,,10,1,10
+16354,20181104,201811,043,https://www.precisionvaccinations.com/thailand-travel-vaccinations-include-mmr-dtap-varicella-polio-and-influenza,1,THAILAND,THA,CHINA,CHN,1,1,1
+16355,20181104,201811,043,https://www.precisionvaccinations.com/thailand-travel-vaccinations-include-mmr-dtap-varicella-polio-and-influenza,1,THAILAND,THA,,,10,1,10
+16356,20181104,201811,043,https://www.precisionvaccinations.com/thailand-travel-vaccinations-include-mmr-dtap-varicella-polio-and-influenza,1,THAILAND,THA,CHINA,CHN,4,1,4
+16357,20181104,201811,043,https://www.radionz.co.nz/international/pacific-news/370225/holiday-to-mark-100-years-since-start-of-influenza-pandemic-in-samoa,1,APIA,WSM,,,8,1,8
+16358,20181102,201811,043,https://www.scientificamerican.com/article/november-1918-peace-arrives-but-influenza-sweeps-the-world/,1,,,GERMAN,DEU,5,1,5
+16359,20181102,201811,046,http://www.sassuolo2000.it/2018/11/02/al-via-la-campagna-della-regione-per-la-vaccinazione-anti-influenzale-gratuita/,0,CITIZEN,,COMPANY,,10,1,10
+16360,20181105,201811,046,https://notizie.tiscali.it/regioni/emilia-romagna/articoli/Non-farti-influenzare-proteggi-la-tua-salute/,0,CITIZEN,,COMPANY,,10,1,10
+16361,20181103,201811,046,https://www.cadillacnews.com/news/today-in-history-influenza-conditions-much-better-in-cadillac/article_f8f3f533-7392-514e-bcc7-93d514169e33.html,1,PRESIDENT,,,,6,1,6
+16362,20181103,201811,046,https://www.cadillacnews.com/news/today-in-history-influenza-conditions-much-better-in-cadillac/article_f8f3f533-7392-514e-bcc7-93d514169e33.html,1,,,PRESIDENT,,6,1,6
+16363,20181103,201811,046,https://www.cadillacnews.com/news/today-in-history-influenza-conditions-much-better-in-cadillac/article_f8f3f533-7392-514e-bcc7-93d514169e33.html,1,PRESIDENT,,UNITED STATES,USA,4,1,4
+16364,20181103,201811,046,https://www.cadillacnews.com/news/today-in-history-influenza-conditions-much-better-in-cadillac/article_f8f3f533-7392-514e-bcc7-93d514169e33.html,1,UNITED STATES,USA,PRESIDENT,,4,1,4
+16365,20181103,201811,046,https://www.ilrestodelcarlino.it/cronaca/influenza-2018-vaccino-1.4274897,1,CITIZEN,,COMPANY,,10,1,10
+16366,20181102,201811,046,https://www.ticinonews.ch/ticino/473711/influenza-e-tempo-di-vaccinarsi,1,TICINO,CHE,POPULATION,,10,1,10
+16367,20181102,201811,046,https://www.ticinonews.ch/ticino/473711/influenza-e-tempo-di-vaccinarsi,1,,,POPULATION,,10,1,10
+16368,20181103,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,UNITED STATES,USA,CHAD,TCD,2,1,2
+16369,20181103,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,STUDENT,,CHAD,TCD,2,1,2
+16370,20181103,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,UNITED STATES,USA,CHAD,TCD,2,1,2
+16371,20181103,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,STUDENT,,CHAD,TCD,2,1,2
+16372,20181103,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,CHAD,TCD,UNITED STATES,USA,2,1,2
+16373,20181103,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,CHAD,TCD,STUDENT,,8,1,8
+16374,20181103,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,CHAD,TCD,UNITED STATES,USA,2,1,2
+16375,20181103,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,STUDENT,,CHAD,TCD,4,1,4
+16376,20181102,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,UNITED STATES,USA,CHAD,TCD,2,1,2
+16377,20181102,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,UNITED STATES,USA,CHAD,TCD,2,1,2
+16378,20181102,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,STUDENT,,CHAD,TCD,4,1,4
+16379,20181102,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,STUDENT,,CHAD,TCD,2,1,2
+16380,20181102,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,STUDENT,,CHAD,TCD,2,1,2
+16381,20181102,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,CHAD,TCD,UNITED STATES,USA,2,1,2
+16382,20181102,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,CHAD,TCD,STUDENT,,8,1,8
+16383,20181102,201811,046,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,CHAD,TCD,UNITED STATES,USA,2,1,2
+16384,20181105,201811,051,http://www.clarksvilleonline.com/2018/11/04/101st-airborne-division-lifeliner-medical-team-administers-influenza-vaccination-to-soldiers-d-a-civilians-and-sister-services-in-afghanistan/print/,0,AFGHANISTAN,AFG,,,2,1,2
+16385,20181101,201811,051,https://www.dvidshub.net/news/298452/101st-lifeliner-medical-team-mobilizes-administer-influenza-vaccination-soldiers-da-civilians-and-sister-services-bagram-afghanistan,0,AFGHANISTAN,AFG,,,2,1,2
+16386,20181101,201811,051,https://www.kcrg.com/content/news/Cedar-Rapids-family-encourages-everyone-to-get-flu-shot-after-their-son-almost-died-from-influenza-499209791.html,1,UNITED STATES,USA,,,2,1,2
+16387,20181104,201811,071,https://www.nugget.ca/news/local-news/influenza-season-underway-in-nipissing-province,0,ONTARIO,CAN,,,10,1,10
+16388,20181105,201811,072,http://www.clarksvilleonline.com/2018/11/04/101st-airborne-division-lifeliner-medical-team-administers-influenza-vaccination-to-soldiers-d-a-civilians-and-sister-services-in-afghanistan/print/,1,CIVILIAN,,AFGHANISTAN,AFG,2,1,2
+16389,20181101,201811,072,https://www.dvidshub.net/news/298452/101st-lifeliner-medical-team-mobilizes-administer-influenza-vaccination-soldiers-da-civilians-and-sister-services-bagram-afghanistan,1,CIVILIAN,,AFGHANISTAN,AFG,2,1,2
+16390,20181101,201811,075,https://www.cadillacnews.com/news/there-is-local-concern-regarding-canine-influenza/article_885ea9ac-8d89-543e-ab19-b9ff8c378bdf.html,1,COMMUNITY,,DEPARTMENT OF AGRICULTURE,,3,1,3
+16391,20181101,201811,075,https://www.cadillacnews.com/news/there-is-local-concern-regarding-canine-influenza/article_885ea9ac-8d89-543e-ab19-b9ff8c378bdf.html,1,COMMUNITY,,DEPARTMENT OF AGRICULTURE,,1,1,1
+16392,20181101,201811,075,https://www.cadillacnews.com/news/there-is-local-concern-regarding-canine-influenza/article_885ea9ac-8d89-543e-ab19-b9ff8c378bdf.html,1,COMMUNITY,,DEPARTMENT OF AGRICULTURE,,1,1,1
+16393,20181104,201811,100,https://www.thenews.com.pk/print/389439-nih-role-needed-in-educating-about-influenza-cure-and-prevention,0,GOVERNMENT,,CITIZEN,,10,1,10
+16394,20181103,201811,110,https://www.ilrestodelcarlino.it/cronaca/influenza-2018-vaccino-1.4274897,0,,,UPRISING,,10,1,10
+16395,20181102,201811,110,https://www.zazoom.it/2018-11-02/influenza-lo-studio-da-lama-e-cammelli-un-possibile-vaccino-universale/4842578/,1,SWISS,CHE,SWITZERLAND,CHE,4,1,4
+16396,20181102,201811,110,https://www.zazoom.it/2018-11-02/influenza-lo-studio-da-lama-e-cammelli-un-possibile-vaccino-universale/4842578/,1,SWISS,CHE,,,6,1,6
+16397,20181105,201811,154,http://www.clarksvilleonline.com/2018/11/04/101st-airborne-division-lifeliner-medical-team-administers-influenza-vaccination-to-soldiers-d-a-civilians-and-sister-services-in-afghanistan/print/,0,AFGHANISTAN,AFG,,,6,1,6
+16398,20181105,201811,154,http://www.clarksvilleonline.com/2018/11/04/101st-airborne-division-lifeliner-medical-team-administers-influenza-vaccination-to-soldiers-d-a-civilians-and-sister-services-in-afghanistan/print/,0,AFGHANISTAN,AFG,,,4,1,4
+16399,20181101,201811,154,https://www.dvidshub.net/news/298452/101st-lifeliner-medical-team-mobilizes-administer-influenza-vaccination-soldiers-da-civilians-and-sister-services-bagram-afghanistan,0,AFGHANISTAN,AFG,,,10,1,10
+16400,20181105,201811,190,http://www.clarksvilleonline.com/2018/11/04/101st-airborne-division-lifeliner-medical-team-administers-influenza-vaccination-to-soldiers-d-a-civilians-and-sister-services-in-afghanistan/print/,1,A US,USA,AFGHANISTAN,AFG,6,1,6
+16401,20181103,201811,190,https://www.commercial-news.com/opinion/letters_to_the_editor/my-turn-influenza-epidemic-devastated-families/article_b8cd3464-3fa7-5710-bb2f-43dbcb745f2d.html,1,SMALL TOWN,,,,10,1,10
+16402,20181103,201811,190,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,,,CHINESE,CHN,2,1,2
+16403,20181103,201811,190,https://www.uab.edu/news/research/item/9911-molecular-virologists-fight-influenza-at-the-molecular-level,1,,,CHINESE,CHN,8,1,8
+16404,20181102,201811,190,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,,,CHINESE,CHN,8,1,8
+16405,20181102,201811,190,https://www.uab.edu/news/research/item/9911-molecular-virologists-fights-influenza-at-the-molecular-level,1,,,CHINESE,CHN,2,1,2
+16406,20181101,201811,193,https://www.kcrg.com/content/news/Cedar-Rapids-family-encourages-everyone-to-get-flu-shot-after-their-son-almost-died-from-influenza-499209791.html,1,UNITED STATES,USA,,,6,1,6
