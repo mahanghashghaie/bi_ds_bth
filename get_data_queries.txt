@@ -1,0 +1,21 @@
+SELECT * FROM `gdelt-bq.gdeltv2.events`
+where SOURCEURL like '%zika%';
+
+SELECT * FROM `gdelt-bq.gdeltv2.events`
+where SOURCEURL like '%malaria%';
+
+SELECT * FROM `gdelt-bq.gdeltv2.events`
+where SOURCEURL like '%h5n1%' or SOURCEURL like '%influenza%';
+
+SELECT * FROM `gdelt-bq.gdeltv2.events`
+where SOURCEURL like '%lgbt%' or
+      SOURCEURL like '%pride_parade%' or
+      SOURCEURL like '%pride-parade%' or
+      SOURCEURL like '%gay%' or
+      SOURCEURL like '%lesbian%' or
+      SOURCEURL like '%transgender%';
+
+SELECT * FROM `gdelt-bq.gdeltv2.events`
+where SOURCEURL like '%cancer%';
+
+
