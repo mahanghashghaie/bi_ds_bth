@@ -1,0 +1,44 @@
+-- This script:
+--    CREATES/recreates the dimension and fact tables
+--    POPULATES the tables with data
+
+
+-- You have to:
+--    get the files from our github repository (DiseaseDim.csv & LocationDim.csv //under construction)
+--    replace <file_path> in the import statements with your path to the files
+--    run the script in/from exasol console
+
+
+-- TIME Dimension
+-- copy TimeDim from AOL
+drop table if exists BI_TASKS.Time_Dim;
+create table BI_TASKS.Time_Dim as
+(
+  select * from AOL_SCHEMA.TIMEDIM
+);
+
+
+-- DISEASE Dimension
+drop table if exists BI_TASKS.DISEASE_DIM;
+create table BI_TASKS.Disease_Dim
+(
+  disease_ID integer primary key ,
+  disease_category nvarchar(200),
+  disease_sub_category nvarchar(200),
+  disease_type nvarchar(200),
+  disease nvarchar(200)
+);
+
+
+IMPORT INTO BI_TASKS.DISEASE_DIM
+FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/DiseaseDim.csv'
+ENCODING = 'UTF-8'
+ROW SEPARATOR = 'LF'
+COLUMN SEPARATOR = ','
+COLUMN DELIMITER = '"'
+SKIP = 1
+REJECT LIMIT 0;
+
+
+-- LOCATION Dimension
+-- //under construction
