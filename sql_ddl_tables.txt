@@ -1,6 +1,45 @@
--- ZIKA
+-- This script:
+--    DROPS any tables with mentioned names from the aol schema (in order not to have a mess)
+--    CREATES the schema 'BI_Tasks' (in order to have all the task related tables together)
+--    CREATES the tables for raw data files
+--    POPULATES the tables with data
+
+
+-- You have to:
+--    get the files from our github repository (rupali-datasets.zip)
+--    replace <file_path> in the import statements with your path to the files
+--    run the script in/from exasol console
+
+
+-- Note: you may see repeated drop statements for the same tables. They're there just in order to
+-- execute a code snippet without having to search for its counterparts in the whole script ;)
+
+
+-- drop the tasks related tables from the aol_schema if any
 drop table if exists AOL_SCHEMA.zika;
-create table AOL_SCHEMA.zika
+drop table if exists AOL_SCHEMA.malaria;
+drop table if exists AOL_SCHEMA.h5n1;
+drop table if exists AOL_SCHEMA.lgbt;
+drop table if exists AOL_SCHEMA.cancer;
+
+
+-- create a new schema in the exasol database for our BI tasks
+-- in order to drop a non-empty schema we NEED to first drop all its contents
+drop table if exists BI_Tasks.zika;
+drop table if exists BI_Tasks.malaria;
+drop table if exists BI_Tasks.h5n1;
+drop table if exists BI_Tasks.lgbt;
+drop table if exists BI_Tasks.cancer;
+
+drop schema if exists BI_Tasks;
+create schema BI_Tasks;
+
+
+-- create & populate all the tables
+
+-- ZIKA
+drop table if exists BI_Tasks.zika;
+create table BI_Tasks.zika
 (
   GLOBALEVENTID DECIMAL(18),
   SQLDATE DECIMAL(18),
@@ -65,8 +104,8 @@ create table AOL_SCHEMA.zika
   SOURCEURL VARCHAR(2000000) UTF8
 );
 
-IMPORT INTO AOL_SCHEMA.zika
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/zika.csv'
+IMPORT INTO BI_Tasks.zika
+FROM LOCAL CSV FILE '<file_path>/zika.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -76,8 +115,8 @@ REJECT LIMIT 0;
 
 
 -- MALARIA
-drop table if exists AOL_SCHEMA.malaria;
-create table AOL_SCHEMA.malaria
+drop table if exists BI_Tasks.malaria;
+create table BI_Tasks.malaria
 (
   GLOBALEVENTID DECIMAL(18),
   SQLDATE DECIMAL(18),
@@ -142,8 +181,8 @@ create table AOL_SCHEMA.malaria
   SOURCEURL VARCHAR(2000000) UTF8
 );
 
-IMPORT INTO AOL_SCHEMA.malaria
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/malaria.csv'
+IMPORT INTO BI_Tasks.malaria
+FROM LOCAL CSV FILE '<file_path>/malaria.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -153,8 +192,8 @@ REJECT LIMIT 0;
 
 
 -- H5N1
-drop table if exists AOL_SCHEMA.h5n1;
-create table AOL_SCHEMA.h5n1
+drop table if exists BI_Tasks.h5n1;
+create table BI_Tasks.h5n1
 (
   GLOBALEVENTID DECIMAL(18),
   SQLDATE DECIMAL(18),
@@ -219,8 +258,8 @@ create table AOL_SCHEMA.h5n1
   SOURCEURL VARCHAR(2000000) UTF8
 );
 
-IMPORT INTO AOL_SCHEMA.h5n1
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/influenza.csv'
+IMPORT INTO BI_Tasks.h5n1
+FROM LOCAL CSV FILE '<file_path>/influenza.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -230,8 +269,8 @@ REJECT LIMIT 0;
 
 
 -- LGBT
-drop table if exists AOL_SCHEMA.lgbt;
-create table AOL_SCHEMA.lgbt
+drop table if exists BI_Tasks.lgbt;
+create table BI_Tasks.lgbt
 (
   GLOBALEVENTID DECIMAL(18),
   SQLDATE DECIMAL(18),
@@ -296,8 +335,8 @@ create table AOL_SCHEMA.lgbt
   SOURCEURL VARCHAR(2000000) UTF8
 );
 
-IMPORT INTO AOL_SCHEMA.lgbt
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/lgbt.csv'
+IMPORT INTO BI_Tasks.lgbt
+FROM LOCAL CSV FILE '<file_path>/lgbt.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -307,8 +346,8 @@ REJECT LIMIT 0;
 
 
 -- CANCER
-drop table if exists AOL_SCHEMA.cancer;
-create table AOL_SCHEMA.cancer
+drop table if exists BI_Tasks.cancer;
+create table BI_Tasks.cancer
 (
   GLOBALEVENTID DECIMAL(18),
   SQLDATE DECIMAL(18),
@@ -373,13 +412,15 @@ create table AOL_SCHEMA.cancer
   SOURCEURL VARCHAR(2000000) UTF8
 );
 
-IMPORT INTO AOL_SCHEMA.cancer
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/cancer.csv'
+IMPORT INTO BI_Tasks.cancer
+FROM LOCAL CSV FILE '<file_path>/cancer.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
 COLUMN DELIMITER = '"'
 SKIP = 1
 REJECT LIMIT 0;
+
+
 
 
