@@ -1,0 +1,172 @@
+DiseaseID,DiseaseCategory,DiseaseSubCategory,DiseaseType,Disease
+1,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,,Tuberculosis
+2,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,STDs excluding HIV,Syphilis
+3,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,STDs excluding HIV,Chlamydia
+4,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,STDs excluding HIV,Gonorrhoea
+5,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,STDs excluding HIV,Trichomoniasis
+6,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,STDs excluding HIV,Genital herpes
+7,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,STDs excluding HIV,Other STDs
+8,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,,HIV/AIDS
+9,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,,Diarrhoeal diseases
+10,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Childhood-cluster diseases,Whooping cough
+11,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Childhood-cluster diseases,Diphtheria
+12,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Childhood-cluster diseases,Measles
+13,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Childhood-cluster diseases,Tetanus
+14,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,,Meningitis
+15,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,,Encephalitis
+16,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Hepatitis,Acute hepatitis A
+17,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Hepatitis,Acute hepatitis B
+18,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Hepatitis,Acute hepatitis C
+19,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Hepatitis,Acute hepatitis E
+20,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,H5N1
+21,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Zika
+22,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Malaria
+23,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,African Trypanosomiasis
+24,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Chagas disease
+25,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Schistosomiasis
+26,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Leishmaniasis
+27,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Lymphatic filariasis
+28,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Onchocerciasis
+29,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Cysticercosis
+30,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Echinococcosis
+31,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Dengue
+32,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Trachoma
+33,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Yellow fever
+34,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Parasitic and vector diseases,Rabies
+35,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Intestinal nematode infections,Ascariasis
+36,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Intestinal nematode infections,Trichuriasis
+37,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Intestinal nematode infections,Hookworm disease
+38,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,Intestinal nematode infections,Food-bourne trematodes
+39,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,,Leprosy
+40,"Communicable, maternal, perinatal and nutritional conditions",Infectious and parasitic diseases,,Other infectious diseases
+41,"Communicable, maternal, perinatal and nutritional conditions",Respiratory Infectious ,,Lower respiratory infections
+42,"Communicable, maternal, perinatal and nutritional conditions",Respiratory Infectious ,,Upper respiratory infections
+43,"Communicable, maternal, perinatal and nutritional conditions",Respiratory Infectious ,,Otitis media
+44,"Communicable, maternal, perinatal and nutritional conditions",,,Maternal conditions
+45,"Communicable, maternal, perinatal and nutritional conditions",Neonatal conditions,,Preterm birth complications
+46,"Communicable, maternal, perinatal and nutritional conditions",Neonatal conditions,,Birth asphyxia and birth trauma
+47,"Communicable, maternal, perinatal and nutritional conditions",Neonatal conditions,,Neonatal sepsis and infections
+48,"Communicable, maternal, perinatal and nutritional conditions",Neonatal conditions,,Other neonatal conditions
+49,"Communicable, maternal, perinatal and nutritional conditions",Nutritional deficiencies,,Protein-energy malnutrition
+50,"Communicable, maternal, perinatal and nutritional conditions",Nutritional deficiencies,,Iodine deficiency
+51,"Communicable, maternal, perinatal and nutritional conditions",Nutritional deficiencies,,Vitamin A deficiency
+52,"Communicable, maternal, perinatal and nutritional conditions",Nutritional deficiencies,,Iron-deficiency anaemia
+53,"Communicable, maternal, perinatal and nutritional conditions",Nutritional deficiencies,,Other nutritional deficiencies
+54,Noncommunicable diseases,Malignant neoplasms,Mouth and oropharynx cancers,Lip and oral cavity
+55,Noncommunicable diseases,Malignant neoplasms,Mouth and oropharynx cancers,Nasopharynx
+56,Noncommunicable diseases,Malignant neoplasms,Mouth and oropharynx cancers,Other pharynx
+57,Noncommunicable diseases,Malignant neoplasms,,Oesophagus cancer
+58,Noncommunicable diseases,Malignant neoplasms,,Stomach cancer
+59,Noncommunicable diseases,Malignant neoplasms,,Colon and rectum cancers
+60,Noncommunicable diseases,Malignant neoplasms,Liver cancer,Liver cancer secondary to hepatitis B
+61,Noncommunicable diseases,Malignant neoplasms,Liver cancer,Liver cancer secondary to hepatitis C
+62,Noncommunicable diseases,Malignant neoplasms,Liver cancer,Liver cancer secondary to alcohol use
+63,Noncommunicable diseases,Malignant neoplasms,Liver cancer,Other liver cancer
+64,Noncommunicable diseases,Malignant neoplasms,,Pancreas cancer
+65,Noncommunicable diseases,Malignant neoplasms,,"Trachea, bronchus, lung cancers"
+66,Noncommunicable diseases,Malignant neoplasms,Melanoma and other skin cancers,Malignant skin melanoma
+67,Noncommunicable diseases,Malignant neoplasms,Melanoma and other skin cancers,Non-melanoma skin cancer
+68,Noncommunicable diseases,Malignant neoplasms,,Breast cancer
+69,Noncommunicable diseases,Malignant neoplasms,,Cervix uteri cancer
+70,Noncommunicable diseases,Malignant neoplasms,,Corpus uteri cancer
+71,Noncommunicable diseases,Malignant neoplasms,,Ovary cancer
+72,Noncommunicable diseases,Malignant neoplasms,,Prostate cancer
+73,Noncommunicable diseases,Malignant neoplasms,,Testicular cancer
+74,Noncommunicable diseases,Malignant neoplasms,,Kidney cancer
+75,Noncommunicable diseases,Malignant neoplasms,,Bladder cancer
+76,Noncommunicable diseases,Malignant neoplasms,,Brain and nervous system cancers
+77,Noncommunicable diseases,Malignant neoplasms,,Gallbladder and biliary tract cancer
+78,Noncommunicable diseases,Malignant neoplasms,,Larynx cancer
+79,Noncommunicable diseases,Malignant neoplasms,,Thyroid cancer
+80,Noncommunicable diseases,Malignant neoplasms,,Mesothelioma
+81,Noncommunicable diseases,Malignant neoplasms,"Lymphomas, multiple myeloma",Hodgkin lymphoma
+82,Noncommunicable diseases,Malignant neoplasms,"Lymphomas, multiple myeloma",Non-Hodgkin lymphoma
+83,Noncommunicable diseases,Malignant neoplasms,"Lymphomas, multiple myeloma",Multiple myeloma
+84,Noncommunicable diseases,Malignant neoplasms,,Leukaemia
+85,Noncommunicable diseases,Malignant neoplasms,,Other malignant neoplasms
+86,Noncommunicable diseases,,,Other neoplasms
+87,Noncommunicable diseases,,,Diabetes mellitus
+88,Noncommunicable diseases,"Endocrine, blood, immune disorders",,Thalassaemias
+89,Noncommunicable diseases,"Endocrine, blood, immune disorders",,Sickle cell disorders and trait
+90,Noncommunicable diseases,"Endocrine, blood, immune disorders",,Other haemoglobinopathies and haemolytic anaemias
+91,Noncommunicable diseases,"Endocrine, blood, immune disorders",,"Other endocrine, blood and immune disorders"
+92,Noncommunicable diseases,Mental and substance use disorders,Depressive disorders,Major depressive disorder
+93,Noncommunicable diseases,Mental and substance use disorders,Depressive disorders,Dysthymia
+94,Noncommunicable diseases,Mental and substance use disorders,,Bipolar disorder
+95,Noncommunicable diseases,Mental and substance use disorders,,Schizophrenia
+96,Noncommunicable diseases,Mental and substance use disorders,,Alcohol use disorders
+97,Noncommunicable diseases,Mental and substance use disorders,Drug use disorders,Opioid use disorders
+98,Noncommunicable diseases,Mental and substance use disorders,Drug use disorders,Cocaine use disorders
+99,Noncommunicable diseases,Mental and substance use disorders,Drug use disorders,Amphetamine use disorders
+100,Noncommunicable diseases,Mental and substance use disorders,Drug use disorders,Cannabis use disorders
+101,Noncommunicable diseases,Mental and substance use disorders,Drug use disorders,Other drug use disorders
+102,Noncommunicable diseases,Mental and substance use disorders,,Anxiety disorders
+103,Noncommunicable diseases,Mental and substance use disorders,,Eating disorders
+104,Noncommunicable diseases,Mental and substance use disorders,,Autism and Asperger syndrome
+105,Noncommunicable diseases,Mental and substance use disorders,Childhood behavioural disorders,Attention deficit/hyperactivity syndrome
+106,Noncommunicable diseases,Mental and substance use disorders,Childhood behavioural disorders,Conduct disorder
+107,Noncommunicable diseases,Mental and substance use disorders,,Idiopathic intellectual disability
+108,Noncommunicable diseases,Mental and substance use disorders,,Other mental and behavioural disorders
+109,Noncommunicable diseases,Neurological conditions,,Alzheimer disease and other dementias
+110,Noncommunicable diseases,Neurological conditions,,Parkinson disease
+111,Noncommunicable diseases,Neurological conditions,,Epilepsy
+112,Noncommunicable diseases,Neurological conditions,,Multiple sclerosis
+113,Noncommunicable diseases,Neurological conditions,,Migraine
+114,Noncommunicable diseases,Neurological conditions,,Non-migraine headache
+115,Noncommunicable diseases,Neurological conditions,,Other neurological conditions
+116,Noncommunicable diseases,,,Sense organ diseases
+117,Noncommunicable diseases,Cardiovascular diseases,,Rheumatic heart disease
+118,Noncommunicable diseases,Cardiovascular diseases,,Hypertensive heart disease
+119,Noncommunicable diseases,Cardiovascular diseases,,Ischaemic heart disease
+120,Noncommunicable diseases,Cardiovascular diseases,Stroke,Ischaemic stroke
+121,Noncommunicable diseases,Cardiovascular diseases,Stroke,Haemorrhagic stroke
+122,Noncommunicable diseases,Cardiovascular diseases,,"Cardiomyopathy, myocarditis, endocarditis"
+123,Noncommunicable diseases,Cardiovascular diseases,,Other circulatory diseases
+124,Noncommunicable diseases,Respiratory diseases,,Chronic obstructive pulmonary disease
+125,Noncommunicable diseases,Respiratory diseases,,Asthma
+126,Noncommunicable diseases,Respiratory diseases,,Other respiratory diseases
+127,Noncommunicable diseases,Digestive diseases,,Peptic ulcer disease
+128,Noncommunicable diseases,Digestive diseases,Cirrhosis of the liver,Cirrhosis due to hepatitis B
+129,Noncommunicable diseases,Digestive diseases,Cirrhosis of the liver,Cirrhosis due to hepatitis C
+130,Noncommunicable diseases,Digestive diseases,Cirrhosis of the liver,Cirrhosis due to alcohol use
+131,Noncommunicable diseases,Digestive diseases,Cirrhosis of the liver,Other liver cirrhosis
+132,Noncommunicable diseases,Digestive diseases,,Appendicitis
+133,Noncommunicable diseases,Digestive diseases,,Gastritis and duodenitis
+134,Noncommunicable diseases,Digestive diseases,,Paralytic ileus and intestinal obstruction
+135,Noncommunicable diseases,Digestive diseases,,Inflammatory bowel disease
+136,Noncommunicable diseases,Digestive diseases,,Gallbladder and biliary diseases
+137,Noncommunicable diseases,Digestive diseases,,Pancreatitis
+138,Noncommunicable diseases,Digestive diseases,,Other digestive diseases
+139,Noncommunicable diseases,Genitourinary diseases,Kidney diseases,Acute glomerulonephritis
+140,Noncommunicable diseases,Genitourinary diseases,Kidney diseases,Chronic kidney disease due to diabetes
+141,Noncommunicable diseases,Genitourinary diseases,Kidney diseases,Other chronic kidney disease
+142,Noncommunicable diseases,Genitourinary diseases,,Benign prostatic hyperplasia
+143,Noncommunicable diseases,Genitourinary diseases,,Urolithiasis
+144,Noncommunicable diseases,Genitourinary diseases,,Other urinary diseases
+145,Noncommunicable diseases,Genitourinary diseases,,Infertility
+146,Noncommunicable diseases,Genitourinary diseases,,Gynecological diseases
+147,Noncommunicable diseases,,,Skin diseases
+148,Noncommunicable diseases,Musculoskeletal diseases,,Rheumatoid arthritis
+149,Noncommunicable diseases,Musculoskeletal diseases,,Osteoarthritis
+150,Noncommunicable diseases,Musculoskeletal diseases,,Gout
+151,Noncommunicable diseases,Musculoskeletal diseases,,Back and neck pain
+152,Noncommunicable diseases,Musculoskeletal diseases,,Other musculoskeletal disorders
+153,Noncommunicable diseases,Congenital anomalies,,Neural tube defects
+154,Noncommunicable diseases,Congenital anomalies,,Cleft lip and cleft palate
+155,Noncommunicable diseases,Congenital anomalies,,Down syndrome
+156,Noncommunicable diseases,Congenital anomalies,,Congenital heart anomalies
+157,Noncommunicable diseases,Congenital anomalies,,Other chromosomal anomalies
+158,Noncommunicable diseases,Congenital anomalies,,Other congenital anomalies
+159,Noncommunicable diseases,,,Oral conditions
+160,Noncommunicable diseases,,,Sudden infant death syndrome
+161,Injuries,Unintentional injuries,,Road injury
+162,Injuries,Unintentional injuries,,Poisonings
+163,Injuries,Unintentional injuries,,Falls
+164,Injuries,Unintentional injuries,,"Fire, heat and hot substances"
+165,Injuries,Unintentional injuries,,Drowning
+166,Injuries,Unintentional injuries,,Exposure to mechanical forces
+167,Injuries,Unintentional injuries,,Natural disasters
+168,Injuries,Unintentional injuries,,Other unintentional injuries
+169,Injuries,Intentional injuries,,Self-harm
+170,Injuries,Intentional injuries,,Interpersonal violence
+171,Injuries,Intentional injuries,,Collective violence and legal intervention
