@@ -1,7 +1,7 @@
 -- This script:
 --    DROPS any tables with mentioned names from the aol schema (in order not to have a mess)
---    CREATES the schema 'BI_Tasks' (in order to have all the task related tables together)
---    CREATES the tables for raw data files
+--    CREATES/recreates the schema 'BI_Tasks' (in order to have all the task related tables together)
+--    CREATES/recreates the tables for raw data files
 --    POPULATES the tables with data
 
 
