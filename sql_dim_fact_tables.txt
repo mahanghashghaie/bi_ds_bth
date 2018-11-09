@@ -4,7 +4,7 @@
 
 
 -- You have to:
---    get the files from our github repository (DiseaseDim.csv & LocationDim.csv //under construction)
+--    get the files from our github repository (DiseaseDim.csv & LocationDim.csv)
 --    replace <file_path> in the import statements with your path to the files
 --    run the script in/from exasol console
 
@@ -41,7 +41,10 @@ REJECT LIMIT 0;
 
 -- LOCATION Dimension
 
-drop table if exists BI_TASKS.country_region; -- foreign key references need to be dropped first
+-- foreign key references need to be dropped first
+drop table if exists BI_TASKS.location_dim;
+drop table if exists BI_TASKS.country_region;
+
 drop table if exists BI_TASKS.country_code;
 create table BI_TASKS.country_code
 (
@@ -51,6 +54,24 @@ create table BI_TASKS.country_code
 
 IMPORT INTO BI_TASKS.country_code
 FROM LOCAL CSV FILE '<file_path>/country_code.csv'
+ENCODING = 'UTF-8'
+ROW SEPARATOR = 'LF'
+COLUMN SEPARATOR = ','
+COLUMN DELIMITER = '"'
+SKIP = 1
+REJECT LIMIT 0;
+
+
+drop table if exists BI_TASKS.country_code_iso3;
+create table BI_TASKS.country_code_iso3
+(
+  country_code nvarchar(10) primary key,
+  country_code_iso3 nvarchar(10),
+  name nvarchar(200)
+);
+
+IMPORT INTO BI_TASKS.country_code_iso3
+FROM LOCAL CSV FILE '<file_path>/country_code_iso3.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -77,3 +98,16 @@ COLUMN SEPARATOR = ','
 COLUMN DELIMITER = '"'
 SKIP = 1
 REJECT LIMIT 0;
+
+
+drop table if exists BI_TASKS.location_dim;
+create table BI_TASKS.location_dim as
+  (
+    select code.COUNTRY_CODE, COUNTRY_CODE_ISO3, code.NAME, REGION_CODE, REGION_NAME, REGION_TYPE
+    from BI_TASKS.country_code code
+           inner join BI_TASKS.country_code_iso3 iso3
+             on code.country_code = iso3.country_code
+           left join BI_TASKS.country_region region
+             on code.country_code = region.COUNTRY_CODE
+  );
+alter table BI_TASKS.location_dim add constraint foreign key (COUNTRY_CODE) references BI_TASKS.COUNTRY_CODE(COUNTRY_CODE);
