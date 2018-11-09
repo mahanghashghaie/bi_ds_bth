@@ -29,9 +29,28 @@ create table BI_TASKS.Disease_Dim
   disease nvarchar(200)
 );
 
-
 IMPORT INTO BI_TASKS.DISEASE_DIM
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/DiseaseDim.csv'
+FROM LOCAL CSV FILE '<file_path>/DiseaseDim.csv'
+ENCODING = 'UTF-8'
+ROW SEPARATOR = 'CRLF'
+COLUMN SEPARATOR = ','
+COLUMN DELIMITER = '"'
+SKIP = 1
+REJECT LIMIT 0;
+
+
+-- LOCATION Dimension
+
+drop table if exists BI_TASKS.country_region; -- foreign key references need to be dropped first
+drop table if exists BI_TASKS.country_code;
+create table BI_TASKS.country_code
+(
+  country_code nvarchar(10) primary key,
+  name nvarchar(200)
+);
+
+IMPORT INTO BI_TASKS.country_code
+FROM LOCAL CSV FILE '<file_path>/country_code.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -40,5 +59,21 @@ SKIP = 1
 REJECT LIMIT 0;
 
 
--- LOCATION Dimension
--- //under construction
+drop table if exists BI_TASKS.country_region;
+create table BI_TASKS.country_region
+(
+  country_code nvarchar(10),
+  constraint country_code foreign key (country_code) references BI_TASKS.country_code(country_code),
+  region_code nvarchar(10),
+  region_name nvarchar(200),
+  region_type nvarchar(200)
+);
+
+IMPORT INTO BI_TASKS.country_region
+FROM LOCAL CSV FILE '<file_path>/country_region.csv'
+ENCODING = 'UTF-8'
+ROW SEPARATOR = 'LF'
+COLUMN SEPARATOR = ','
+COLUMN DELIMITER = '"'
+SKIP = 1
+REJECT LIMIT 0;
