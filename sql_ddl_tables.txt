@@ -122,23 +122,23 @@ drop table if exists BI_Tasks.cdc;
 create table BI_Tasks.cdc
 (
   YEAR_                                    DECIMAL(18),
-  STATES                                   VARCHAR(2000000) UTF8,
+  REGION_NAME                              VARCHAR(2000000) UTF8,
   SYMPTOMATIC_DISEASE_CASES_NO             DECIMAL(18),
   SYMPTOMATIC_DISEASE_CASES_PERCENT        DECIMAL(18),
   PRESUMPTIVE_VIREMIC_BLOOD_DONORS_NO      DECIMAL(18),
   PRESUMPTIVE_VIREMIC_BLOOD_DONORS_PERCENT DECIMAL(18)
-)
+);
 
 IMPORT INTO BI_Tasks.cdc
-FROM LOCAL CSV FILE '<file_path>/cdc.csv'
+FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/cdc.csv'
 ENCODING = 'UTF-8'
-ROW SEPARATOR = 'LF'
+ROW SEPARATOR = 'CRLF'
 COLUMN SEPARATOR = ','
 COLUMN DELIMITER = '"'
 SKIP = 1
 REJECT LIMIT 0;
 
--- ECDC data for zika 
+-- ECDC data for zika
 
 ## create table
 
@@ -472,7 +472,3 @@ COLUMN SEPARATOR = ','
 COLUMN DELIMITER = '"'
 SKIP = 1
 REJECT LIMIT 0;
-
-
-
-
