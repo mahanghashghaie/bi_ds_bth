@@ -42,17 +42,17 @@ REJECT LIMIT 0;
 -- LOCATION Dimension
 
 -- foreign key references need to be dropped first
-drop table if exists BI_TASKS.location_dim;
+drop table if exists BI_TASKS.location_dim_ext;
 drop table if exists BI_TASKS.country_region;
 
-drop table if exists BI_TASKS.country_code;
-create table BI_TASKS.country_code
+drop table if exists BI_TASKS.location_dim;
+create table BI_TASKS.location_dim
 (
   country_code nvarchar(10) primary key,
   name nvarchar(200)
 );
 
-IMPORT INTO BI_TASKS.country_code
+IMPORT INTO BI_TASKS.location_dim
 FROM LOCAL CSV FILE '<file_path>/country_code.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
@@ -84,7 +84,7 @@ drop table if exists BI_TASKS.country_region;
 create table BI_TASKS.country_region
 (
   country_code nvarchar(10),
-  constraint country_code foreign key (country_code) references BI_TASKS.country_code(country_code),
+  constraint country_code foreign key (country_code) references BI_TASKS.location_dim(country_code),
   region_code nvarchar(10),
   region_name nvarchar(200),
   region_type nvarchar(200)
@@ -100,14 +100,17 @@ SKIP = 1
 REJECT LIMIT 0;
 
 
-drop table if exists BI_TASKS.location_dim;
-create table BI_TASKS.location_dim as
+drop table if exists BI_TASKS.location_dim_ext;
+create table BI_TASKS.location_dim_ext as
   (
     select code.COUNTRY_CODE, COUNTRY_CODE_ISO3, code.NAME, REGION_CODE, REGION_NAME, REGION_TYPE
-    from BI_TASKS.country_code code
+    from BI_TASKS.location_dim code
            inner join BI_TASKS.country_code_iso3 iso3
              on code.country_code = iso3.country_code
            left join BI_TASKS.country_region region
              on code.country_code = region.COUNTRY_CODE
   );
-alter table BI_TASKS.location_dim add constraint foreign key (COUNTRY_CODE) references BI_TASKS.COUNTRY_CODE(COUNTRY_CODE);
+alter table BI_TASKS.location_dim_ext add constraint foreign key (COUNTRY_CODE) references BI_TASKS.location_dim(COUNTRY_CODE);
+
+drop table BI_TASKS.country_code_iso3;
+drop table BI_TASKS.country_region;
