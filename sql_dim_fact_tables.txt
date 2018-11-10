@@ -1,5 +1,6 @@
 -- This script:
---    CREATES/recreates the dimension and fact tables
+--    CREATES/recreates the Dimensions: Time, Location, & Location
+--    CREATES/recreates the Fact table(s) // under construction
 --    POPULATES the tables with data
 
 
@@ -10,15 +11,45 @@
 
 
 -- TIME Dimension
--- copy TimeDim from AOL
+
+drop table if exists BI_TASKS.dates;
+create table BI_TASKS.dates
+(
+  sqldate integer
+);
+
+IMPORT INTO BI_TASKS.dates
+FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/dates.csv'
+ENCODING = 'UTF-8'
+ROW SEPARATOR = 'LF'
+COLUMN SEPARATOR = ','
+COLUMN DELIMITER = '"'
+SKIP = 1
+REJECT LIMIT 0;
+
 drop table if exists BI_TASKS.Time_Dim;
 create table BI_TASKS.Time_Dim as
 (
-  select * from AOL_SCHEMA.TIMEDIM
+  select date_id, SQLDATE, date_,
+         year(date_) as year_,
+         month(date_) as month_,
+         day(date_) as day_,
+         week(date_) as week_,
+         hour(date_) as hour_,
+         minute(date_) as minute_,
+         second(date_) as second_
+  from (
+          select row_number() over (order by SQLDATE) as date_id, SQLDATE, cast(substr(SQLDATE, 1, 4) || '-' || substr(SQLDATE, 5, 2) || '-' || substr(SQLDATE, 7, 2) as date) as date_
+          from BI_TASKS.DATES
+      ) aa
 );
+alter table BI_TASKS.Time_Dim add constraint primary key (date_id);
+
+drop table BI_TASKS.dates;
 
 
 -- DISEASE Dimension
+
 drop table if exists BI_TASKS.DISEASE_DIM;
 create table BI_TASKS.Disease_Dim
 (
@@ -30,7 +61,7 @@ create table BI_TASKS.Disease_Dim
 );
 
 IMPORT INTO BI_TASKS.DISEASE_DIM
-FROM LOCAL CSV FILE '<file_path>/DiseaseDim.csv'
+FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/DiseaseDim.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'CRLF'
 COLUMN SEPARATOR = ','
@@ -53,7 +84,7 @@ create table BI_TASKS.location_dim
 );
 
 IMPORT INTO BI_TASKS.location_dim
-FROM LOCAL CSV FILE '<file_path>/country_code.csv'
+FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/country_code.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -71,7 +102,7 @@ create table BI_TASKS.country_code_iso3
 );
 
 IMPORT INTO BI_TASKS.country_code_iso3
-FROM LOCAL CSV FILE '<file_path>/country_code_iso3.csv'
+FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/country_code_iso3.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -91,7 +122,7 @@ create table BI_TASKS.country_region
 );
 
 IMPORT INTO BI_TASKS.country_region
-FROM LOCAL CSV FILE '<file_path>/country_region.csv'
+FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/country_region.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -114,3 +145,15 @@ alter table BI_TASKS.location_dim_ext add constraint foreign key (COUNTRY_CODE) 
 
 drop table BI_TASKS.country_code_iso3;
 drop table BI_TASKS.country_region;
+
+
+
+
+
+
+
+-- facts
+-- foreign keys:
+--    time dim: ID
+--    location dim: country_code
+--    disease dim: disease_id
