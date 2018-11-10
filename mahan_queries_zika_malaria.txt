@@ -1,0 +1,132 @@
+------ ZIKA START
+
+
+select region_name, z_year, z_month, SUM(NUMMENTIONS) as sumofmentions
+from (select SUBSTR(CAST(SQLDATE as VARCHAR(200)), 1, 4) as z_year,
+             SUBSTR(CAST(SQLDATE as VARCHAR(200)), 5, 2) as z_month,
+             ACTOR1NAME,
+             SOURCEURL,
+             ACTOR1COUNTRYCODE,
+             NUMMENTIONS
+      from zika
+      where ACTOR1COUNTRYCODE like 'USA'
+         ) zika
+       inner join (select distinct country_code_iso3, region_name
+                   from location_dim
+                   where COUNTRY_CODE_ISO3 like 'USA') loc on lower(zika.ACTOR1NAME) = lower(loc.REGION_NAME)
+group by rollup (REGION_NAME, z_year, z_month)
+having sum(NUMMENTIONS) > 100
+   and cast(z_year as INTEGER) > 2015
+   and cast(z_year as INTEGER) < 2018
+order by sumofmentions desc;
+
+
+select z_year, z_month, sum(NUMMENTIONS) as sum_of_mentions
+from (select SUBSTR(CAST(SQLDATE as VARCHAR(200)), 1, 4) as z_year,
+             SUBSTR(CAST(SQLDATE as VARCHAR(200)), 5, 2) as z_month,
+             ACTOR1COUNTRYCODE,
+             NUMMENTIONS
+      from zika
+      where ACTOR1COUNTRYCODE like 'USA'
+         ) zika
+group by cube (z_year, z_month)
+having cast(z_year as INTEGER) > 2015
+   and cast(z_year as INTEGER) < 2018
+order by sum_of_mentions;
+
+select name, z_year, z_month, SUM(NUMMENTIONS) as sumofmentions
+from (select SUBSTR(CAST(SQLDATE as VARCHAR(200)), 1, 4) as z_year,
+             SUBSTR(CAST(SQLDATE as VARCHAR(200)), 5, 2) as z_month,
+             ACTOR1NAME,
+             SOURCEURL,
+             ACTOR1COUNTRYCODE,
+             NUMMENTIONS
+      from zika
+      where ACTOR1COUNTRYCODE like 'DEU'
+         or ACTOR1COUNTRYCODE like 'ITA'
+         or ACTOR1COUNTRYCODE like 'GBR'
+         or ACTOR1COUNTRYCODE like 'NLD'
+         or ACTOR1COUNTRYCODE like 'FRA'
+         ) zika
+       inner join (select distinct country_code_iso3, name
+                   from location_dim
+                   where COUNTRY_CODE_ISO3 like 'DEU'
+                      or COUNTRY_CODE_ISO3 like 'ITA'
+                      or COUNTRY_CODE_ISO3 like 'GBR'
+                      or COUNTRY_CODE_ISO3 like 'NLD'
+                      or COUNTRY_CODE_ISO3 like 'FRA') loc
+         on lower(zika.ACTOR1COUNTRYCODE) = lower(loc.COUNTRY_CODE_ISO3)
+group by rollup (name, z_year, z_month)
+having sum(NUMMENTIONS) > 100
+   and cast(z_year as INTEGER) > 2015
+   and cast(z_year as INTEGER) < 2018
+order by sumofmentions desc;
+
+------ ZIKA END
+
+
+--- MALARIA START
+
+select region_name, z_year, z_month, SUM(NUMMENTIONS) as sumofmentions
+from (select SUBSTR(CAST(SQLDATE as VARCHAR(200)), 1, 4) as z_year,
+             SUBSTR(CAST(SQLDATE as VARCHAR(200)), 5, 2) as z_month,
+             ACTOR1NAME,
+             SOURCEURL,
+             ACTOR1COUNTRYCODE,
+             NUMMENTIONS
+      from malaria
+      where ACTOR1COUNTRYCODE like 'USA'
+         ) malaria
+       inner join (select distinct country_code_iso3, region_name
+                   from location_dim
+                   where COUNTRY_CODE_ISO3 like 'USA') loc on lower(malaria.ACTOR1NAME) = lower(loc.REGION_NAME)
+group by rollup (REGION_NAME, z_year, z_month)
+having sum(NUMMENTIONS) > 50
+   and cast(z_year as INTEGER) > 2015
+   and cast(z_year as INTEGER) < 2018
+order by sumofmentions desc;
+
+
+select usa, z_year, z_month, sum(NUMMENTIONS) as sum_of_mentions
+from (select SUBSTR(CAST(SQLDATE as VARCHAR(200)), 1, 4) as z_year,
+             SUBSTR(CAST(SQLDATE as VARCHAR(200)), 5, 2) as z_month,
+             ACTOR1COUNTRYCODE as usa,
+             NUMMENTIONS
+      from malaria
+      where ACTOR1COUNTRYCODE like 'USA'
+         ) malaria
+group by cube (usa,z_year, z_month)
+having sum(nummentions) > 50
+   and cast(z_year as INTEGER) > 2015
+   and cast(z_year as INTEGER) < 2018
+order by sum_of_mentions;
+
+select name, z_year, z_month, SUM(NUMMENTIONS) as sumofmentions
+from (select SUBSTR(CAST(SQLDATE as VARCHAR(200)), 1, 4) as z_year,
+             SUBSTR(CAST(SQLDATE as VARCHAR(200)), 5, 2) as z_month,
+             ACTOR1NAME,
+             SOURCEURL,
+             ACTOR1COUNTRYCODE,
+             NUMMENTIONS
+      from malaria
+      where ACTOR1COUNTRYCODE like 'DEU'
+         or ACTOR1COUNTRYCODE like 'ITA'
+         or ACTOR1COUNTRYCODE like 'GBR'
+         or ACTOR1COUNTRYCODE like 'NLD'
+         or ACTOR1COUNTRYCODE like 'FRA'
+         ) malaria
+       inner join (select distinct country_code_iso3, name
+                   from location_dim
+                   where COUNTRY_CODE_ISO3 like 'DEU'
+                      or COUNTRY_CODE_ISO3 like 'ITA'
+                      or COUNTRY_CODE_ISO3 like 'GBR'
+                      or COUNTRY_CODE_ISO3 like 'NLD'
+                      or COUNTRY_CODE_ISO3 like 'FRA') loc
+         on lower(malaria.ACTOR1COUNTRYCODE) = lower(loc.COUNTRY_CODE_ISO3)
+group by cube (name, z_year, z_month)
+having sum(NUMMENTIONS) > 50
+   and cast(z_year as INTEGER) > 2015
+   and cast(z_year as INTEGER) < 2018
+order by sumofmentions desc;
+
+---- MALARIA END
