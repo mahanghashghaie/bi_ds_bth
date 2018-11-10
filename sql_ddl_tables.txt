@@ -30,6 +30,7 @@ drop table if exists BI_Tasks.malaria;
 drop table if exists BI_Tasks.h5n1;
 drop table if exists BI_Tasks.lgbt;
 drop table if exists BI_Tasks.cancer;
+drop table if exists BI_Tasks.cdc;
 
 drop schema if exists BI_Tasks;
 create schema BI_Tasks;
@@ -113,6 +114,57 @@ COLUMN DELIMITER = '"'
 SKIP = 1
 REJECT LIMIT 0;
 
+-- CDC data for zika
+
+## create table
+
+drop table if exists BI_Tasks.cdc;
+create table BI_Tasks.cdc
+(
+  YEAR_                                    DECIMAL(18),
+  STATES                                   VARCHAR(2000000) UTF8,
+  SYMPTOMATIC_DISEASE_CASES_NO             DECIMAL(18),
+  SYMPTOMATIC_DISEASE_CASES_PERCENT        DECIMAL(18),
+  PRESUMPTIVE_VIREMIC_BLOOD_DONORS_NO      DECIMAL(18),
+  PRESUMPTIVE_VIREMIC_BLOOD_DONORS_PERCENT DECIMAL(18)
+)
+
+IMPORT INTO BI_Tasks.cdc
+FROM LOCAL CSV FILE '<file_path>/cdc.csv'
+ENCODING = 'UTF-8'
+ROW SEPARATOR = 'LF'
+COLUMN SEPARATOR = ','
+COLUMN DELIMITER = '"'
+SKIP = 1
+REJECT LIMIT 0;
+
+-- ECDC data for zika 
+
+## create table
+
+drop table if exists BI_Tasks.ecdc;
+create table BI_Tasks.ecdc
+(
+  HEALTHTOPIC VARCHAR(2000000) UTF8,
+  POPULATION  VARCHAR(2000000) UTF8,
+  INDICATOR_  VARCHAR(2000000) UTF8,
+  UNIT        VARCHAR(2000000) UTF8,
+  TIME_       VARCHAR(2000000) UTF8,
+  REGIONCODE  VARCHAR(2000000) UTF8,
+  REGIONNAME  VARCHAR(2000000) UTF8,
+  NUMVALUE    VARCHAR(2000000) UTF8,
+  TXTVALUE    VARCHAR(2000000) UTF8
+)
+
+
+IMPORT INTO BI_Tasks.ecdc
+FROM LOCAL CSV FILE '<file_path>/ecdc.csv'
+ENCODING = 'UTF-8'
+ROW SEPARATOR = 'LF'
+COLUMN SEPARATOR = ','
+COLUMN DELIMITER = '"'
+SKIP = 1
+REJECT LIMIT 0;
 
 -- MALARIA
 drop table if exists BI_Tasks.malaria;
