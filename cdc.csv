@@ -1,431 +1,213 @@
-Year,States,symptomatic_disease_cases_no,symptomatic_disease_cases_percent,presumptive_viremic_blood_donors_no,presumptive_viremic_blood_donors_percent
-
-2018,Alabama,2,4,4,57
-
-2018,California,21,40,0,0
-
-2018,Florida,8,15,2,29
-
-2018,Illinois,2,4,0,0
-
-2018,Maryland,1,2,0,0
-
-2018,Massachusetts,1,2,0,0
-
-2018,Minnesota,1,2,1,14
-
-2018,New Jersey,3,6,0,0
-
-2018,New York,6,12,0,0
-
-2018,North Carolina,1,2,0,0
-
-2018,Oregon,1,2,0,0
-
-2018,Texas,3,6,0,0
-
-2018,Utah,1,2,0,0
-
-2018,Virginia,1,2,0,0Alabama,3,1,4,13
-
-2017,Alaska,2,1,0,0
-
-2017,Arizona,3,1,0,0
-
-2017,Arkansas,0,0,0,0
-
-2017,California,49,11,4,13
-
-2017,Colorado,6,1,0,0
-
-2017,Connecticut,8,2,0,0
-
-2017,Delaware,0,0,0,0
-
-2017,District of Columbia,3,1,0,0
-
-2017,Florida‡,110,24,5,16
-
-2017,Georgia,2,1,5,16
-
-2017,Hawaii,6,1,1,3
-
-2017,Idaho,0,0,0,0
-
-2017,Illinois,7,2,0,0
-
-2017,Indiana,3,1,0,0
-
-2017,Iowa,1,1,0,0
-
-2017,Kansas,2,1,0,0
-
-2017,Kentucky,2,1,0,0
-
-2017,Louisiana,1,1,5,16
-
-2017,Maine,1,1,0,0
-
-2017,Maryland,11,2,1,3
-
-2017,Massachusetts,12,3,0,0
-
-2017,Michigan,7,2,0,0
-
-2017,Minnesota,8,2,0,0
-
-2017,Mississippi,2,1,0,0
-
-2017,Missouri,2,1,0,0
-
-2017,Montana,0,0,0,0
-
-2017,Nebraska,2,1,0,0
-
-2017,Nevada,1,1,1,3
-
-2017,New Hampshire,0,0,0,0
-
-2017,New Jersey,12,3,0,0
-
-2017,New Mexico,0,0,0,0
-
-2017,New York,64,14,1,3
-
-2017,North Carolina,8,2,0,0
-
-2017,North Dakota,0,0,0,0
-
-2017,Ohio,3,1,0,0
-
-2017,Oklahoma,1,1,0,0
-
-2017,Oregon,5,1,0,0
-
-2017,Pennsylvania,7,2,1,3
-
-2017,Rhode Island,3,1,0,0
-
-2017,South Carolina,2,1,0,0
-
-2017,South Dakota,0,0,0,0
-
-2017,Tennessee,2,1,0,0
-
-2017,Texas,54,12,2,6
-
-2017,Utah,4,1,0,0
-
-2017,Vermont,4,1,0,0
-
-2017,Virginia,7,2,0,0
-
-2017,Washington,15,3,1,3
-
-2017,West Virginia,1,1,1,3
-
-2017,Wisconsin,4,1,0,0
-
-2017,Wyoming,2,1,0,0
-
-2017,Alabama,3,1,4,13
-
-2017,Alaska,2,1,0,0
-
-2017,Arizona,3,1,0,0
-
-2017,Arkansas,0,0,0,0
-
-2017,California,49,11,4,13
-
-2017,Colorado,6,1,0,0
-
-2017,Connecticut,8,2,0,0
-
-2017,Delaware,0,0,0,0
-
-2017,District of Columbia,3,1,0,0
-
-2017,Florida‡,110,24,5,16
-
-2017,Georgia,2,1,5,16
-
-2017,Hawaii,6,1,1,3
-
-2017,Idaho,0,0,0,0
-
-2017,Illinois,7,2,0,0
-
-2017,Indiana,3,1,0,0
-
-2017,Iowa,1,1,0,0
-
-2017,Kansas,2,1,0,0
-
-2017,Kentucky,2,1,0,0
-
-2017,Louisiana,1,1,5,16
-
-2017,Maine,1,1,0,0
-
-2017,Maryland,11,2,1,3
-
-2017,Massachusetts,12,3,0,0
-
-2017,Michigan,7,2,0,0
-
-2017,Minnesota,8,2,0,0
-
-2017,Mississippi,2,1,0,0
-
-2017,Missouri,2,1,0,0
-
-2017,Montana,0,0,0,0
-
-2017,Nebraska,2,1,0,0
-
-2017,Nevada,1,1,1,3
-
-2017,New Hampshire,0,0,0,0
-
-2017,New Jersey,12,3,0,0
-
-2017,New Mexico,0,0,0,0
-
-2017,New York,64,14,1,3
-
-2017,North Carolina,8,2,0,0
-
-2017,North Dakota,0,0,0,0
-
-2017,Ohio,3,1,0,0
-
-2017,Oklahoma,1,1,0,0
-
-2017,Oregon,5,1,0,0
-
-2017,Pennsylvania,7,2,1,3
-
-2017,Rhode Island,3,1,0,0
-
-2017,South Carolina,2,1,0,0
-
-2017,South Dakota,0,0,0,0
-
-2017,Tennessee,2,1,0,0
-
-2017,Texas‡,54,12,2,6
-
-2017,Utah,4,1,0,0
-
-2017,Vermont,4,1,0,0
-
-2017,Virginia,7,2,0,0
-
-2017,Washington,15,3,1,3
-
-2017,West Virginia,1,1,1,3
-
-2017,Wisconsin,4,1,0,0
-
-2017,Wyoming,2,1,0,0
-
-2016,Alabama,37,1,1,3
-
-2016,Arizona,54,1,1,3
-
-2016,Arkansas,13,1,0,0
-
-2016,California,421,8,4,11
-
-2016,Colorado,55,1,0,0
-
-2016,Connecticut,118,2,0,0
-
-2016,Delaware,17,1,0,0
-
-2016,District of Columbia,41,1,0,0
-
-2016,Florida‡,1,107,21,23,61
-
-2016,Georgia,107,2,0,0
-
-2016,Hawaii,11,1,0,0
-
-2016,Idaho,5,1,0,0
-
-2016,Illinois,105,2,0,0
-
-2016,Indiana,49,1,0,0
-
-2016,Iowa,26,1,1,3
-
-2016,Kansas,20,1,0,0
-
-2016,Kentucky,31,1,0,0
-
-2016,Louisiana,38,1,0,0
-
-2016,Maine,12,1,0,0
-
-2016,Maryland,130,3,0,0
-
-2016,Massachusetts,119,2,1,3
-
-2016,Michigan,67,1,0,0
-
-2016,Minnesota,66,1,0,0
-
-2016,Mississippi,23,1,0,0
-
-2016,Missouri,37,1,0,0
-
-2016,Montana,9,1,0,0
-
-2016,Nebraska,13,1,0,0
-
-2016,Nevada,22,1,1,3
-
-2016,New Hampshire,11,1,0,0
-
-2016,New Jersey,180,3,0,0
-
-2016,New Mexico,10,1,0,0
-
-2016,New York,1,002,19,2,5
-
-2016,North Carolina,100,2,0,0
-
-2016,North Dakota,3,1,0,0
-
-2016,Ohio,83,2,0,0
-
-2016,Oklahoma,29,1,0,0
-
-2016,Oregon,47,1,0,0
-
-2016,Pennsylvania,175,3,0,0
-
-2016,Rhode Island,55,1,0,0
-
-2016,South Carolina,61,1,0,0
-
-2016,South Dakota,3,1,0,0
-
-2016,Tennessee,61,1,0,0
-
-2016,Texas,312,6,4,11
-
-2016,Utah,21,1,0,0
-
-2016,Vermont,11,1,0,0
-
-2016,Virginia,108,2,0,0
-
-2016,Washington,69,1,0,0
-
-2016,West Virginia,11,1,0,0
-
-2016,Wisconsin,60,1,0,0
-
-2016,Wyoming,3,1,0,0
-
-2015,Alabama,0,0,0,0
-
-2015,Arizona,0,0,0,0
-
-2015,Arkansas,2,3,0,0
-
-2015,California,13,21,0,0
-
-2015,Colorado,0,0,0,0
-
-2015,Connecticut,0,0,0,0
-
-2015,Delaware,0,0,0,0
-
-2015,District of Columbia,4,6,0,0
-
-2015,Florida,6,10,0,0
-
-2015,Georgia,1,2,0,0
-
-2015,Hawaii,4,6,0,0
-
-2015,Idaho,0,0,0,0
-
-2015,Illinois,0,0,0,0
-
-2015,Indiana,1,2,0,0
-
-2015,Iowa,0,0,0,0
-
-2015,Kansas,0,0,0,0
-
-2015,Kentucky,2,3,0,0
-
-2015,Louisiana,0,0,0,0
-
-2015,Maine,0,0,0,0
-
-2015,Maryland,2,3,0,0
-
-2015,Massachusetts,3,5,0,0
-
-2015,Michigan,0,0,0,0
-
-2015,Minnesota,2,3,0,0
-
-2015,Mississippi,0,0,0,0
-
-2015,Missouri,1,2,0,0
-
-2015,Montana,0,0,0,0
-
-2015,Nebraska,0,0,0,0
-
-2015,Nevada,0,0,0,0
-
-2015,New Hampshire,1,2,0,0
-
-2015,New Jersey,1,2,0,0
-
-2015,New Mexico,0,0,0,0
-
-2015,New York,3,5,0,0
-
-2015,North Carolina,0,0,0,0
-
-2015,North Dakota,0,0,0,0
-
-2015,Ohio,0,0,0,0
-
-2015,Oklahoma,0,0,0,0
-
-2015,Oregon,0,0,0,0
-
-2015,Pennsylvania,1,2,0,0
-
-2015,Rhode Island,1,2,0,0
-
-2015,South Carolina,0,0,0,0
-
-2015,South Dakota,0,0,0,0
-
-2015,Tennessee,0,0,0,0
-
-2015,Texas,8,13,0,0
-
-2015,Utah,1,2,0,0
-
-2015,Vermont,0,0,0,0
-
-2015,Virginia,5,8,0,0
-
-2015,Washington,0,0,0,0
-
-2015,West Virginia,0,0,0,0
-
-2015,Wisconsin,0,0,0,0
-
-2015,Wyoming,0,0,0,0
+Year,Region_name,No.,(%),No.,(%)
+2016,Alabama,37.00,-1,1,-3
+2016,Arizona,54.00,-1,1,-3
+2016,Arkansas,13.00,0,0,0
+2016,California,421.00,-8,4,-11
+2016,Colorado,55.00,-1,0,0
+2016,Connecticut,118.00,-2,0,0
+2016,Delaware,17.00,0,0,0
+2016,District of Columbia,41.00,-1,0,0
+2016,Florida,1107.00,-21,23,-61
+2016,Georgia,107.00,-2,0,0
+2016,Hawaii,11.00,0,0,0
+2016,Idaho,5.00,0,0,0
+2016,Illinois,105.00,-2,0,0
+2016,Indiana,49.00,-1,0,0
+2016,Iowa,26.00,-1,1,-3
+2016,Kansas,20.00,0,0,0
+2016,Kentucky,31.00,-1,0,0
+2016,Louisiana,38.00,-1,0,0
+2016,Maine,12.00,0,0,0
+2016,Maryland,130.00,-3,0,0
+2016,Massachusetts,119.00,-2,1,-3
+2016,Michigan,67.00,-1,0,0
+2016,Minnesota,66.00,-1,0,0
+2016,Mississippi,23.00,0,0,0
+2016,Missouri,37.00,-1,0,0
+2016,Montana,9.00,0,0,0
+2016,Nebraska,13.00,0,0,0
+2016,Nevada,22.00,0,1,-3
+2016,New Hampshire,11.00,0,0,0
+2016,New Jersey,180.00,-3,0,0
+2016,New Mexico,10.00,0,0,0
+2016,New York,1002.00,-19,2,-5
+2016,North Carolina,100.00,-2,0,0
+2016,North Dakota,3.00,0,0,0
+2016,Ohio,83.00,-2,0,0
+2016,Oklahoma,29.00,-1,0,0
+2016,Oregon,47.00,-1,0,0
+2016,Pennsylvania,175.00,-3,0,0
+2016,Rhode Island,55.00,-1,0,0
+2016,South Carolina,61.00,-1,0,0
+2016,South Dakota,3.00,0,0,0
+2016,Tennessee,61.00,-1,0,0
+2016,Texas,312.00,-6,4,-11
+2016,Utah,21.00,0,0,0
+2016,Vermont,11.00,0,0,0
+2016,Virginia,108.00,-2,0,0
+2016,Washington,69.00,-1,0,0
+2016,West Virginia,11.00,0,0,0
+2016,Wisconsin,60.00,-1,0,0
+2016,Wyoming,3.00,0,0,0
+2016,American Samoa,131.00,0,0,0
+2016,Puerto Rico,35395.00,-97,325,-100
+2016,U.S. Virgin Islands,986.00,-3,0,0
+2017,Alabama,37.00,-1,1,-3
+2017,Arizona,54.00,-1,1,-3
+2017,Arkansas,13.00,0,0,0
+2017,California,421.00,-8,4,-11
+2017,Colorado,55.00,-1,0,0
+2017,Connecticut,118.00,-2,0,0
+2017,Delaware,17.00,0,0,0
+2017,District of Columbia,41.00,-1,0,0
+2017,Florida,1107.00,-21,23,-61
+2017,Georgia,107.00,-2,0,0
+2017,Hawaii,11.00,0,0,0
+2017,Idaho,5.00,0,0,0
+2017,Illinois,105.00,-2,0,0
+2017,Indiana,49.00,-1,0,0
+2017,Iowa,26.00,-1,1,-3
+2017,Kansas,20.00,0,0,0
+2017,Kentucky,31.00,-1,0,0
+2017,Louisiana,38.00,-1,0,0
+2017,Maine,12.00,0,0,0
+2017,Maryland,130.00,-3,0,0
+2017,Massachusetts,119.00,-2,1,-3
+2017,Michigan,67.00,-1,0,0
+2017,Minnesota,66.00,-1,0,0
+2017,Mississippi,23.00,0,0,0
+2017,Missouri,37.00,-1,0,0
+2017,Montana,9.00,0,0,0
+2017,Nebraska,13.00,0,0,0
+2017,Nevada,22.00,0,1,-3
+2017,New Hampshire,11.00,0,0,0
+2017,New Jersey,180.00,-3,0,0
+2017,New Mexico,10.00,0,0,0
+2017,New York,1002.00,-19,2,-5
+2017,North Carolina,100.00,-2,0,0
+2017,North Dakota,3.00,0,0,0
+2017,Ohio,83.00,-2,0,0
+2017,Oklahoma,29.00,-1,0,0
+2017,Oregon,47.00,-1,0,0
+2017,Pennsylvania,175.00,-3,0,0
+2017,Rhode Island,55.00,-1,0,0
+2017,South Carolina,61.00,-1,0,0
+2017,South Dakota,3.00,0,0,0
+2017,Tennessee,61.00,-1,0,0
+2017,Texas,312.00,-6,4,-11
+2017,Utah,21.00,0,0,0
+2017,Vermont,11.00,0,0,0
+2017,Virginia,108.00,-2,0,0
+2017,Washington,69.00,-1,0,0
+2017,West Virginia,11.00,0,0,0
+2017,Wisconsin,60.00,-1,0,0
+2017,Wyoming,3.00,0,0,0
+2017,American Samoa,131.00,0,0,0
+2017,Puerto Rico,35395.00,-97,325,-100
+2017,U.S. Virgin Islands,986.00,-3,0,0
+2018,Alabama,37.00,-1,1,-3
+2018,Arizona,54.00,-1,1,-3
+2018,Arkansas,13.00,0,0,0
+2018,California,421.00,-8,4,-11
+2018,Colorado,55.00,-1,0,0
+2018,Connecticut,118.00,-2,0,0
+2018,Delaware,17.00,0,0,0
+2018,District of Columbia,41.00,-1,0,0
+2018,Florida,1107.00,-21,23,-61
+2018,Georgia,107.00,-2,0,0
+2018,Hawaii,11.00,0,0,0
+2018,Idaho,5.00,0,0,0
+2018,Illinois,105.00,-2,0,0
+2018,Indiana,49.00,-1,0,0
+2018,Iowa,26.00,-1,1,-3
+2018,Kansas,20.00,0,0,0
+2018,Kentucky,31.00,-1,0,0
+2018,Louisiana,38.00,-1,0,0
+2018,Maine,12.00,0,0,0
+2018,Maryland,130.00,-3,0,0
+2018,Massachusetts,119.00,-2,1,-3
+2018,Michigan,67.00,-1,0,0
+2018,Minnesota,66.00,-1,0,0
+2018,Mississippi,23.00,0,0,0
+2018,Missouri,37.00,-1,0,0
+2018,Montana,9.00,0,0,0
+2018,Nebraska,13.00,0,0,0
+2018,Nevada,22.00,0,1,-3
+2018,New Hampshire,11.00,0,0,0
+2018,New Jersey,180.00,-3,0,0
+2018,New Mexico,10.00,0,0,0
+2018,New York,1002.00,-19,2,-5
+2018,North Carolina,100.00,-2,0,0
+2018,North Dakota,3.00,0,0,0
+2018,Ohio,83.00,-2,0,0
+2018,Oklahoma,29.00,-1,0,0
+2018,Oregon,47.00,-1,0,0
+2018,Pennsylvania,175.00,-3,0,0
+2018,Rhode Island,55.00,-1,0,0
+2018,South Carolina,61.00,-1,0,0
+2018,South Dakota,3.00,0,0,0
+2018,Tennessee,61.00,-1,0,0
+2018,Texas,312.00,-6,4,-11
+2018,Utah,21.00,0,0,0
+2018,Vermont,11.00,0,0,0
+2018,Virginia,108.00,-2,0,0
+2018,Washington,69.00,-1,0,0
+2018,West Virginia,11.00,0,0,0
+2018,Wisconsin,60.00,-1,0,0
+2018,Wyoming,3.00,0,0,0
+2018,American Samoa,131.00,0,0,0
+2018,Puerto Rico,35395.00,-97,325,-100
+2018,U.S. Virgin Islands,986.00,-3,0,0
+2015,Alabama,37.00,-1,1,-3
+2015,Arizona,54.00,-1,1,-3
+2015,Arkansas,13.00,0,0,0
+2015,California,421.00,-8,4,-11
+2015,Colorado,55.00,-1,0,0
+2015,Connecticut,118.00,-2,0,0
+2015,Delaware,17.00,0,0,0
+2015,District of Columbia,41.00,-1,0,0
+2015,Florida,1107.00,-21,23,-61
+2015,Georgia,107.00,-2,0,0
+2015,Hawaii,11.00,0,0,0
+2015,Idaho,5.00,0,0,0
+2015,Illinois,105.00,-2,0,0
+2015,Indiana,49.00,-1,0,0
+2015,Iowa,26.00,-1,1,-3
+2015,Kansas,20.00,0,0,0
+2015,Kentucky,31.00,-1,0,0
+2015,Louisiana,38.00,-1,0,0
+2015,Maine,12.00,0,0,0
+2015,Maryland,130.00,-3,0,0
+2015,Massachusetts,119.00,-2,1,-3
+2015,Michigan,67.00,-1,0,0
+2015,Minnesota,66.00,-1,0,0
+2015,Mississippi,23.00,0,0,0
+2015,Missouri,37.00,-1,0,0
+2015,Montana,9.00,0,0,0
+2015,Nebraska,13.00,0,0,0
+2015,Nevada,22.00,0,1,-3
+2015,New Hampshire,11.00,0,0,0
+2015,New Jersey,180.00,-3,0,0
+2015,New Mexico,10.00,0,0,0
+2015,New York,1002.00,-19,2,-5
+2015,North Carolina,100.00,-2,0,0
+2015,North Dakota,3.00,0,0,0
+2015,Ohio,83.00,-2,0,0
+2015,Oklahoma,29.00,-1,0,0
+2015,Oregon,47.00,-1,0,0
+2015,Pennsylvania,175.00,-3,0,0
+2015,Rhode Island,55.00,-1,0,0
+2015,South Carolina,61.00,-1,0,0
+2015,South Dakota,3.00,0,0,0
+2015,Tennessee,61.00,-1,0,0
+2015,Texas,312.00,-6,4,-11
+2015,Utah,21.00,0,0,0
+2015,Vermont,11.00,0,0,0
+2015,Virginia,108.00,-2,0,0
+2015,Washington,69.00,-1,0,0
+2015,West Virginia,11.00,0,0,0
+2015,Wisconsin,60.00,-1,0,0
+2015,Wyoming,3.00,0,0,0
+2015,American Samoa,131.00,0,0,0
+2015,Puerto Rico,35395.00,-97,325,-100
+2015,U.S. Virgin Islands,986.00,-3,0,0
