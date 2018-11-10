@@ -19,7 +19,7 @@ create table BI_TASKS.dates
 );
 
 IMPORT INTO BI_TASKS.dates
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/dates.csv'
+FROM LOCAL CSV FILE '<file_path>/bi_ds_bth/dates.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -61,7 +61,7 @@ create table BI_TASKS.Disease_Dim
 );
 
 IMPORT INTO BI_TASKS.DISEASE_DIM
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/DiseaseDim.csv'
+FROM LOCAL CSV FILE '<file_path>/bi_ds_bth/DiseaseDim.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'CRLF'
 COLUMN SEPARATOR = ','
@@ -84,7 +84,7 @@ create table BI_TASKS.location_dim
 );
 
 IMPORT INTO BI_TASKS.location_dim
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/country_code.csv'
+FROM LOCAL CSV FILE '<file_path>/bi_ds_bth/country_code.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -102,7 +102,7 @@ create table BI_TASKS.country_code_iso3
 );
 
 IMPORT INTO BI_TASKS.country_code_iso3
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/country_code_iso3.csv'
+FROM LOCAL CSV FILE '<file_path>/bi_ds_bth/country_code_iso3.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
@@ -122,7 +122,7 @@ create table BI_TASKS.country_region
 );
 
 IMPORT INTO BI_TASKS.country_region
-FROM LOCAL CSV FILE 'C:/Users/rupal/Google Drive/Beuth Uni/BI/bi_ds_bth/country_region.csv'
+FROM LOCAL CSV FILE '<file_path>/bi_ds_bth/country_region.csv'
 ENCODING = 'UTF-8'
 ROW SEPARATOR = 'LF'
 COLUMN SEPARATOR = ','
