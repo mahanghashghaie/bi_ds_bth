@@ -1,0 +1,227 @@
+-- exasol see if there is a detectable trend for the pride parade ( rising interest leading up to june ?)
+-- we can notice the number of articles or mentions always increases in the month of may, june because the pride parade in US is held sometime in June, hence the numbers
+
+
+-- trends of queries for 2006 march - june
+-- lgbt exasol
+
+
+-- mentions exasol
+-- done
+with cte as
+    (
+    select distinct times."year", times."month",
+                    regexp_replace(facts.IRANK, 'null', 0) as numIrank
+    from (select distinct ID, query
+          from AOL_SCHEMA.QUERYDIM
+          where lower(QUERY) like '%lgbt%' or
+                lower(QUERY) like '%pride_parade%' or
+                lower(QUERY) like '%pride-parade%' or
+                lower(QUERY) like '%gay%' or
+                lower(QUERY) like '%lesbian%' or
+                lower(QUERY) like '%transgender%') query
+           inner join AOL_SCHEMA.FACTS facts
+             on query.ID = facts.QUERYID
+           inner join AOL_SCHEMA.TIMEDIM times
+             on facts.TIMEID = times.ID
+    )
+select "year", "month", sum(numIrank) as irank
+from cte
+group by "year", "month"
+order by "year";
+
+
+-- sources exasol
+-- done
+with cte as
+    (
+    select distinct times."year", times."month", URLID,
+                    regexp_replace(f.IRANK, 'null', 0) as numIrank
+    from (select distinct ID
+          from AOL_SCHEMA.URLDIM
+          where URL like '%lgbt%' or URL like '%pride_parade%' or
+                URL like '%pride-parade%' or URL like '%gay%' or
+                URL like '%lesbian%' or URL like '%transgender%'
+             or TITLE like '%lgbt%' or TITLE like '%pride_parade%' or
+                TITLE like '%pride-parade%' or TITLE like '%gay%' or
+                TITLE like '%lesbian%' or TITLE like '%transgender%'
+             or DESCRIPTION like '%lgbt%' or DESCRIPTION like '%pride_parade%' or
+                DESCRIPTION like '%pride-parade%' or DESCRIPTION like '%gay%' or
+                DESCRIPTION like '%lesbian%' or DESCRIPTION like '%transgender%'
+             ) url
+           inner join AOL_SCHEMA.FACTS f
+             on url.ID = f.URLID
+           inner join AOL_SCHEMA.TIMEDIM times
+             on f.TIMEID = times.ID
+    )
+select "year", "month", sum(numIrank) as irank
+from cte
+group by "year", "month"
+order by "year";
+
+
+-- trends of articles for lgbt terms 20.xx - present
+-- lgbt bigquery articles
+-- done
+with cte as
+    (
+    select YEAR_, substr(SQLDATE, 5,2) as month_, sum(NUMARTICLES) as numArt
+    from BI_TASKS.LGBT
+    where YEAR_ > 2005
+    group by YEAR_, substr(SQLDATE, 5,2)
+    )
+select YEAR_, sum(numArt) as numArts
+from cte
+group by YEAR_
+order by YEAR_;
+
+
+-- particular cases 2015, 2016 leading to increase in searches about the time of pride events
+-- done
+select YEAR_, substr(SQLDATE, 5,2) as month_, sum(NUMMENTIONS) as numMent
+from BI_TASKS.LGBT
+where YEAR_ in (2015, 2016)
+group by YEAR_, substr(SQLDATE, 5,2)--rollup (YEAR_, substr(SQLDATE, 5,2))
+order by YEAR_, month_;
+
+
+
+-- gdelt try to find trend of lgbt queries in relation to pride parade 2014-2018
+-- done
+select YEAR_, month_, loc.REGION_NAME, sum(NUMMENTIONS) as numMent
+from (select YEAR_, substr(SQLDATE, 5,2) as month_, ACTOR1COUNTRYCODE, ACTOR1NAME, NUMMENTIONS
+      from BI_TASKS.LGBT where ACTOR1COUNTRYCODE like 'USA') lgbt
+       inner join (select distinct COUNTRY_CODE_ISO3, REGION_NAME
+                   from LOCATION_DIM_EXT
+                   where COUNTRY_CODE_ISO3 like 'USA') loc
+         on lower(ACTOR1NAME) = lower(loc.REGION_NAME)
+where loc.COUNTRY_CODE_ISO3 like 'USA' and YEAR_ between 2014 and 2018
+group by cube (YEAR_, month_, loc.REGION_NAME)
+order by REGION_NAME, YEAR_, month_;
+
+
+-- max month per year per region -- to get the idea of the peak months
+-- done
+with cte as
+    (
+    select YEAR_, month_, loc.REGION_NAME, sum(NUMMENTIONS) as numMent
+    from (select YEAR_, substr(SQLDATE, 5,2) as month_, ACTOR1COUNTRYCODE, ACTOR1NAME, NUMMENTIONS
+          from BI_TASKS.LGBT where ACTOR1COUNTRYCODE like 'USA') lgbt
+           inner join (select distinct COUNTRY_CODE_ISO3, REGION_NAME
+                       from LOCATION_DIM_EXT where COUNTRY_CODE_ISO3 like 'USA') loc
+             on lower(ACTOR1NAME) = lower(loc.REGION_NAME)
+    where loc.COUNTRY_CODE_ISO3 like 'USA' and YEAR_ between 2014 and 2018
+    group by YEAR_, month_, loc.REGION_NAME
+    order by REGION_NAME, YEAR_, month_
+    ),
+     cte1 as
+    (
+    select REGION_NAME, YEAR_, numMent
+    from cte
+    where (YEAR_,REGION_NAME, numMent) in (select YEAR_, REGION_NAME, max(numMent)
+                                           from cte group by YEAR_, REGION_NAME)
+    )
+select REGION_NAME, numMent
+from cte1
+where YEAR_ in (2015, 2016, 2017) and
+      REGION_NAME in ('New York', 'Chicago', 'Columbus', 'Denver',
+                      'Houston', 'Los Angeles', 'Miami', 'Minneapolis',
+                      'San Francisco', 'St. Petersburg')
+order by REGION_NAME, YEAR_;
+
+
+----- H5N1
+
+-- trends 2006
+-- gdelt
+-- exasol
+
+-- mentions exasol
+-- done
+with cte as
+    (
+    select distinct times."year", times."month", regexp_replace(facts.IRANK, 'null', 0) as numIrank
+    from (select distinct ID, query
+          from AOL_SCHEMA.QUERYDIM
+          where lower(QUERY) like '%flu %' or
+                lower(QUERY) like '%h5n1%' or
+                lower(QUERY) like '%h1n1%' or
+                lower(QUERY) like '%influenza%') query
+           inner join AOL_SCHEMA.FACTS facts
+             on query.ID = facts.QUERYID
+           inner join AOL_SCHEMA.TIMEDIM times
+             on facts.TIMEID = times.ID
+    )
+select "year", "month", sum(numIrank)
+from cte
+group by "year", "month" --rollup ("year", "month") SAME RESULT because of less data
+order by "year", "month";
+
+-- sources exasol
+-- done
+with cte as
+    (
+    select distinct times."year", times."month", URLID,
+                    regexp_replace(f.IRANK, 'null', 0) as numIrank
+    from (select distinct ID
+          from AOL_SCHEMA.URLDIM
+          where URL like '%flu %' or URL like '%h5n1%' or
+                URL like '%h1n1%' or URL like '%influenza%'
+             or TITLE like '%flu %' or TITLE like '%h5n1%' or
+                TITLE like '%h1n1%' or TITLE like '%influenza%'
+             or DESCRIPTION like '%flu %' or DESCRIPTION like '%h5n1%' or
+                DESCRIPTION like '%h1n1%' or DESCRIPTION like '%influenza%'
+             ) url
+           inner join AOL_SCHEMA.FACTS f
+             on url.ID = f.URLID
+           inner join AOL_SCHEMA.TIMEDIM times
+             on f.TIMEID = times.ID
+    )
+select "year", "month", sum(numIrank) as irank
+from cte
+group by "year", "month"
+order by "year";
+
+
+-- trends queries 2006 upwards
+-- done
+select YEAR_, sum(NUMMENTIONS) as numMent
+from BI_TASKS.H5N1
+group by YEAR_
+order by YEAR_;
+
+
+-- bigquery  articles, mentions
+select YEAR_, substr(SQLDATE, 5,2) as month_, sum(NUMMENTIONS) as numMent
+from BI_TASKS.H5N1
+group by rollup (YEAR_, substr(SQLDATE, 5,2))
+order by YEAR_, month_;
+
+-- hikes per year when certain cases were recorded
+-- done
+with cte as
+    (
+    select YEAR_, substr(SQLDATE, 5,2) as month_, sum(NUMMENTIONS) as numMent
+    from BI_TASKS.H5N1
+    group by YEAR_, substr(SQLDATE, 5,2)
+    order by YEAR_, month_
+    )
+select * from cte
+where (YEAR_, numMent) in (select YEAR_, max(numMent) from cte group by YEAR_)
+order by YEAR_;
+-- http://www.emro.who.int/pandemic-epidemic-diseases/influenza/influenza-update-january-2017.html
+-- http://www.who.int/csr/don/18-january-2017-ah7n9-china/en/
+-- http://www.emro.who.int/pandemic-epidemic-diseases/influenza/influenza-monthly-update-january-2018.html
+
+
+-- number of mentions in gdelt and compare with exasol ( maybe check if gdelt sourceurls also appeared in exasol )
+--   can't really do that, there's no way to join urldim and h5n1...
+-- done
+select *
+from BI_TASKS.H5N1
+where lower(SOURCEURL) in (select distinct lower(URL)
+                           from AOL_SCHEMA.URLDIM
+                           where URL like '%flu %' or URL like '%h5n1%' or URL like '%h1n1%' or URL like '%influenza%'
+                              or TITLE like '%flu %' or TITLE like '%h5n1%' or TITLE like '%h1n1%' or TITLE like '%influenza%'
+                              or DESCRIPTION like '%flu %' or DESCRIPTION like '%h5n1%' or DESCRIPTION like '%h1n1%' or DESCRIPTION like '%influenza%'
+                          )
