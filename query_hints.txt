@@ -2,24 +2,24 @@
 	- Types of cancer over 2006-present
 	- deaths by cancer type over 2006 - present
 	- drilldown to months for 2006 march-june
-	- compare query behaviour to most dominant cancer ( deaths ) to see if 
+	- compare query behaviour to most dominant cancer ( deaths ) to see if
 	the cancer type with most deaths is also the most queried one or not?
 
 ## LGBT
-	
-	- trends of queries for 2006 march - june
+
+	- trends of queries/sources for 2006 march - june
 	- trends of articles for lgbt terms 20.xx - present
 	- exasol see if there is a detectable trend for the pride parade ( rising interest leading up to june ?)
 	- gdelt try to find trend of lgbt queries in relation to pride parade ( use country code ? )
 
 ## ZIKA
-	
+
 	- trends of zika 2015 - 2018
 	- compare zika with cdc and ecdc data
 	- try to use country code to see if ecdc/cdc data correlates to num of articles
 
 ## MALARIA
-	
+
 	- trends of malaria 2015 - 2018
 	- correlation between zika and malaria?
 
@@ -29,3 +29,4 @@
 	-- gdelt
 	-- exasol
 	- number of mentions in gdelt and compare with exasol ( maybe check if gdelt sourceurls also appeared in exasol )
+				- can't really do that, there's no way to join urldim and h5n1 + gdelt is only available for 2014-2018 for this one
